@@ -1,0 +1,45 @@
+{
+  "cleanUrls": true,
+  "redirects": [
+    {
+      "source": "/hightide-capital",
+      "destination": "/alex-prince/",
+      "permanent": true
+    },
+    {
+      "source": "/hightide-capital/(.*)",
+      "destination": "/alex-prince/",
+      "permanent": true
+    },
+    {
+      "source": "/robby-prochnow",
+      "destination": "/robert-prochnow/",
+      "permanent": true
+    },
+    {
+      "source": "/robby-prochnow/(.*)",
+      "destination": "/robert-prochnow/",
+      "permanent": true
+    },
+    {
+      "source": "/work/builder-scaled",
+      "destination": "/work/ae-preconstruction-partner/",
+      "statusCode": 301
+    },
+    {
+      "source": "/work/builder-scaled/(.*)",
+      "destination": "/work/ae-preconstruction-partner/",
+      "statusCode": 301
+    },
+    {
+      "source": "/work/builder-scaled-questions",
+      "destination": "/work/ae-preconstruction-partner-questions/",
+      "statusCode": 301
+    },
+    {
+      "source": "/work/builder-scaled-questions/(.*)",
+      "destination": "/work/ae-preconstruction-partner-questions/",
+      "statusCode": 301
+    }
+  ]
+}

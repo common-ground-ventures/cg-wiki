@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The formula that was quietly underpricing framing by six and a half times · Common Ground Wiki</title>
+<meta name="description" content="We ran an audit crossing dozens of the estimating engine&#x27;s pricing formulas against a corpus of real bids. Found two live bugs and a pile of rates that had never actually been checked against a built cost. The framing lumber formula alone was underpredicting real cost on a real h">
+<link rel="canonical" href="https://wiki.commonground.ventures/stories/the-formula-that-was-quietly-underpricing-framing-by-six-and-a-half-ti/">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="The formula that was quietly underpricing framing by six and a half times · Common Ground Wiki">
+<meta property="og:description" content="We ran an audit crossing dozens of the estimating engine&#x27;s pricing formulas against a corpus of real bids. Found two live bugs and a pile of rates that had never actually been checked against a built cost. The framing lumber formula alone was underpredicting real cost on a real h">
+<meta property="og:image" content="https://wiki.commonground.ventures/assets/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://wiki.commonground.ventures/stories/the-formula-that-was-quietly-underpricing-framing-by-six-and-a-half-ti/">
+<meta property="og:site_name" content="Common Ground">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="The formula that was quietly underpricing framing by six and a half times · Common Ground Wiki">
+<meta name="twitter:image" content="https://wiki.commonground.ventures/assets/og-image.jpg">
+<meta name="theme-color" content="#161310">
+
+<link rel="stylesheet" href="https://use.typekit.net/iss1gfi.css">
+<link rel="stylesheet" href="/style.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "WebPage",
+ "@id": "https://wiki.commonground.ventures/stories/the-formula-that-was-quietly-underpricing-framing-by-six-and-a-half-ti/#webpage",
+ "url": "https://wiki.commonground.ventures/stories/the-formula-that-was-quietly-underpricing-framing-by-six-and-a-half-ti/",
+ "name": "The formula that was quietly underpricing framing by six and a half times",
+ "description": "We ran an audit crossing dozens of the estimating engine's pricing formulas against a corpus of real bids. Found two live bugs and a pile of rates that had never actually been checked against a built cost. The framing lumber formula alone was underpredicting real cost on a real h",
+ "inLanguage": "en",
+ "dateModified": "2026-10-01",
+ "isPartOf": {
+  "@type": "WebSite",
+  "@id": "https://wiki.commonground.ventures/#website",
+  "name": "Common Ground Wiki",
+  "url": "https://wiki.commonground.ventures/"
+ },
+ "creator": {
+  "@type": "Organization",
+  "@id": "https://www.commonground.ventures/#org",
+  "name": "Common Ground",
+  "url": "https://commonground.ventures"
+ },
+ "publisher": {
+  "@id": "https://www.commonground.ventures/#org"
+ },
+ "about": {
+  "@id": "https://wiki.commonground.ventures/stories/the-formula-that-was-quietly-underpricing-framing-by-six-and-a-half-ti/#story"
+ }
+}
+</script>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "Article",
+ "@id": "https://wiki.commonground.ventures/stories/the-formula-that-was-quietly-underpricing-framing-by-six-and-a-half-ti/#story",
+ "headline": "The formula that was quietly underpricing framing by six and a half times",
+ "url": "https://wiki.commonground.ventures/stories/the-formula-that-was-quietly-underpricing-framing-by-six-and-a-half-ti/",
+ "articleBody": "We ran an audit crossing dozens of the estimating engine's pricing formulas against a corpus of real bids. Found two live bugs and a pile of rates that had never actually been checked against a built cost. The framing lumber formula alone was underpredicting real cost on a real house by roughly six and a half times. That's a swing of about ninety thousand dollars on a mid sized home.\n\nI ruled that any formula without real evidence behind it gets left alone. We don't patch it with a guess. Of everything we reviewed, eighteen formulas got flagged as uncalibratable from what evidence we actually had, and we left them untouched instead of quietly fixing them with an invented number.\n\nThe standing rule is blunt: no corpus evidence, no calibration, no invented numbers. And the engine's own generated outputs don't count as evidence, that would be circular. Two of the rate changes we did make turned out to be accidental duplicates that would have silently overridden real pricing tiers. We caught those and fixed them in place instead of applying them blind.\n\nThe one project where we actually had a real built cost on file moved from fourteen percent off actual before the patch to four percent off actual after. Test suite held a full pass the whole way through.\n\nThe honest fix to a broken formula isn't a better guess, it's admitting which parts you can't fix yet.\n\nThe engine had been silently wrong for a while. The fix treats that as a system that needed real evidence, not a person who needed blame.",
+ "author": {
+  "@type": "Person",
+  "@id": "https://wiki.commonground.ventures/jesse-fowler/#person",
+  "name": "Jesse Fowler",
+  "url": "https://wiki.commonground.ventures/jesse-fowler/"
+ },
+ "publisher": {
+  "@type": "Organization",
+  "@id": "https://www.commonground.ventures/#org",
+  "name": "Common Ground",
+  "url": "https://commonground.ventures"
+ },
+ "creator": {
+  "@id": "https://www.commonground.ventures/#org"
+ },
+ "dateModified": "2026-10-01",
+ "genre": "Mistake and repair",
+ "inLanguage": "en",
+ "about": {
+  "@id": "https://wiki.commonground.ventures/work/kanopi-estimating-engine/#work"
+ },
+ "sameAs": "https://www.jfowler.io/wiki/stories/the-formula-that-was-quietly-underpricing-framing-by-six-and-a-half-ti/"
+}
+</script>
+</head>
+<body class="cg-theme">
+<header class="topbar topbar-workspace">
+  <div class="wrap-wide">
+    <a class="brand" href="/">
+      <img class="cg-logo" src="/assets/cg-logo-vapor.png" alt="Common Ground">
+      <span class="meta">Updated September 2026</span></a>
+    <nav class="nav">
+      <a href="/">Index</a>
+      <a href="/work/">Work</a>
+      <a href="/record/">Record</a>
+      <a href="/stories/" class="active">Stories</a>
+      <a href="/common-ground/">About</a>
+    </nav>
+  </div>
+</header>
+
+<section class="page-header"><div class="wrap">
+  <h1>The formula that was quietly underpricing framing by six and a half times</h1>
+  <p class="cat">Common Ground &middot; Stories</p>
+  <p>We ran an audit crossing dozens of the estimating engine&#x27;s pricing formulas against a corpus of real bids.</p>
+</div></section>
+
+<main class="content"><div class="wrap">
+<div class="breadcrumb"><a href="/">Wiki</a><span class="sep">/</span><a href="/stories/">Stories</a><span class="sep">/</span>The formula that was quietly underpricing framing by six and a half times</div>
+<div class="story-body">
+<p>We ran an audit crossing dozens of the estimating engine&#x27;s pricing formulas against a corpus of real bids. Found two live bugs and a pile of rates that had never actually been checked against a built cost. The framing lumber formula alone was underpredicting real cost on a real house by roughly six and a half times. That&#x27;s a swing of about ninety thousand dollars on a mid sized home.</p>
+<p>I ruled that any formula without real evidence behind it gets left alone. We don&#x27;t patch it with a guess. Of everything we reviewed, eighteen formulas got flagged as uncalibratable from what evidence we actually had, and we left them untouched instead of quietly fixing them with an invented number.</p>
+<p>The standing rule is blunt: no corpus evidence, no calibration, no invented numbers. And the engine&#x27;s own generated outputs don&#x27;t count as evidence, that would be circular. Two of the rate changes we did make turned out to be accidental duplicates that would have silently overridden real pricing tiers. We caught those and fixed them in place instead of applying them blind.</p>
+<p>The one project where we actually had a real built cost on file moved from fourteen percent off actual before the patch to four percent off actual after. Test suite held a full pass the whole way through.</p>
+<p>The honest fix to a broken formula isn&#x27;t a better guess, it&#x27;s admitting which parts you can&#x27;t fix yet.</p>
+<p>The engine had been silently wrong for a while. The fix treats that as a system that needed real evidence, not a person who needed blame.</p>
+</div>
+<h2>About this story</h2><table class="facts"><tbody>
+    <tr><th>When</th><td>2026</td></tr>
+    <tr><th>Kind of story</th><td>Mistake and repair</td></tr>
+    <tr><th>The work</th><td><a href="/work/kanopi-estimating-engine/">Kanopi</a></td></tr>
+    <tr><th>Told by</th><td><a href="/jesse-fowler/">Jesse Fowler</a>, in his own voice</td></tr>
+    <tr><th>Full record</th><td><a href="https://www.jfowler.io/wiki/stories/the-formula-that-was-quietly-underpricing-framing-by-six-and-a-half-ti/">The story in Jesse Fowler's own record</a></td></tr>
+    <tr><th>Credit</th><td>Created by <a href="/common-ground/">Common Ground</a></td></tr>
+  </tbody></table>
+<div class="page-bottom-nav">
+  <a class="card" href="/stories/"><span class="eyebrow">Back to</span><br>All stories</a>
+  <a class="card" href="/work/kanopi-estimating-engine/"><span class="eyebrow">The work</span><br>Kanopi</a>
+</div>
+</div></main>
+
+<footer class="footer"><div class="wrap-wide">
+  <div class="footer-grid footer-grid-wiki">
+    <div><a class="foot-logo" href="https://commonground.ventures" aria-label="Common Ground"><span class="mark" aria-hidden="true"></span></a></div>
+    <div><p>Updated October 1, 2026</p></div>
+  </div>
+  <div class="credits"><a class="cg-credit" href="https://commonground.ventures">Created by Common Ground</a></div>
+</div></footer>
+</body>
+</html>

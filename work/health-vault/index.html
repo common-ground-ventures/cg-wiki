@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ground Control: six months of building what happens when you own your own data · Common Ground Wiki</title>
+<meta name="description" content="A private health command center built because every consumer app optimizes for the platform that runs it; labs, imaging, genetics, training and protocols in one system the owner controls, hardened through five security rounds over 391 commits.">
+<link rel="canonical" href="https://wiki.commonground.ventures/work/health-vault/">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Ground Control: six months of building what happens when you own your own data · Common Ground Wiki">
+<meta property="og:description" content="A private health command center built because every consumer app optimizes for the platform that runs it; labs, imaging, genetics, training and protocols in one system the owner controls, hardened through five security rounds over 391 commits.">
+<meta property="og:image" content="https://wiki.commonground.ventures/assets/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://wiki.commonground.ventures/work/health-vault/">
+<meta property="og:site_name" content="Common Ground">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Ground Control: six months of building what happens when you own your own data · Common Ground Wiki">
+<meta name="twitter:image" content="https://wiki.commonground.ventures/assets/og-image.jpg">
+<meta name="theme-color" content="#161310">
+
+<link rel="stylesheet" href="https://use.typekit.net/iss1gfi.css">
+<link rel="stylesheet" href="/style.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "WebPage",
+ "@id": "https://wiki.commonground.ventures/work/health-vault/#webpage",
+ "url": "https://wiki.commonground.ventures/work/health-vault/",
+ "name": "Ground Control: six months of building what happens when you own your own data",
+ "description": "A private health command center built because every consumer app optimizes for the platform that runs it; labs, imaging, genetics, training and protocols in one system the owner controls, hardened through five security rounds over 391 commits.",
+ "inLanguage": "en",
+ "dateModified": "2026-10-01",
+ "isPartOf": {
+  "@type": "WebSite",
+  "@id": "https://wiki.commonground.ventures/#website",
+  "name": "Common Ground Wiki",
+  "url": "https://wiki.commonground.ventures/"
+ },
+ "creator": {
+  "@type": "Organization",
+  "@id": "https://www.commonground.ventures/#org",
+  "name": "Common Ground",
+  "url": "https://commonground.ventures"
+ },
+ "publisher": {
+  "@id": "https://www.commonground.ventures/#org"
+ },
+ "about": {
+  "@id": "https://wiki.commonground.ventures/work/health-vault/#work"
+ }
+}
+</script>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "CreativeWork",
+ "@id": "https://wiki.commonground.ventures/work/health-vault/#work",
+ "name": "Ground Control: six months of building what happens when you own your own data",
+ "url": "https://wiki.commonground.ventures/work/health-vault/",
+ "description": "A private health command center built because every consumer app optimizes for the platform that runs it; labs, imaging, genetics, training and protocols in one system the owner controls, hardened through five security rounds over 391 commits.",
+ "creator": {
+  "@type": "Organization",
+  "@id": "https://www.commonground.ventures/#org",
+  "name": "Common Ground",
+  "url": "https://commonground.ventures"
+ },
+ "contributor": {
+  "@type": "Person",
+  "@id": "https://wiki.commonground.ventures/jesse-fowler/#person",
+  "name": "Jesse Fowler",
+  "url": "https://wiki.commonground.ventures/jesse-fowler/"
+ },
+ "temporalCoverage": "March 2026 to present",
+ "genre": "Software product build",
+ "keywords": "Health and wellness, Health technology",
+ "dateModified": "2026-10-01",
+ "sameAs": "https://www.jfowler.io/wiki/health-vault/",
+ "citation": [
+  "https://health.jfowler.io/login",
+  "https://rooted-in-health.commonground.ventures/story/#health-vault"
+ ]
+}
+</script>
+</head>
+<body class="cg-theme">
+<header class="topbar topbar-workspace">
+  <div class="wrap-wide">
+    <a class="brand" href="/">
+      <img class="cg-logo" src="/assets/cg-logo-vapor.png" alt="Common Ground">
+      <span class="meta">Updated September 2026</span></a>
+    <nav class="nav">
+      <a href="/">Index</a>
+      <a href="/work/" class="active">Work</a>
+      <a href="/record/">Record</a>
+      <a href="/stories/">Stories</a>
+      <a href="/common-ground/">About</a>
+    </nav>
+  </div>
+</header>
+
+<section class="page-header"><div class="wrap">
+  <h1>Ground Control: six months of building what happens when you own your own data</h1>
+  <p class="cat">Work &middot; Health and wellness</p>
+  <p>A private health command center built because every consumer app optimizes for the platform that runs it; labs, imaging, genetics, training and protocols in one system the owner controls, hardened through five security rounds over 391 commits.</p>
+</div></section>
+
+<main class="content"><div class="wrap">
+<div class="breadcrumb"><a href="/">Wiki</a><span class="sep">/</span><a href="/work/">Work</a><span class="sep">/</span>Ground Control</div>
+<h2>What it is</h2>
+<p>Most people with a serious interest in their health end up with the same pile: blood panels in one portal, body scans as PDFs in email, a wearable keeping its own score, glucose exports in a spreadsheet, a consumer genome file nobody has opened since the day it arrived. Each tool is fine at its own job. Nothing reads the whole pile together, and nothing remembers what was decided last month and why.</p>
+<p>Jesse Fowler had that pile and a sharper objection: every consumer app optimized for the platform that ran it, not for him. He had already decided to build a small set of personal systems where he owns the data and does the filtering himself. Health was the one he opened every day. On March 22, 2026 he started a Next.js project. By the end of that day it had eleven pages and a login. Six months later it is 391 commits, 58 pages, 32 API route files and the screen he opens when he wakes up.</p>
+<p>The project grew out of the Matt Zanis engagement. Zanis, a Duke-trained doctor of physical therapy and fellowship-trained manual therapist (FAAOMPT) and the founder of Rooted in MVMNT, needed a place where some of his clients could track their own data alongside their coaching. His five-pillar framework, Movement, Vitality, Mindset, Nutrition, Training, is encoded in the app as a module two pages draw on. One line from it sets the tone for the whole system: the app is the witness, not the dictator.</p>
+<h2>What Common Ground did</h2>
+<ul class="work-list">
+  <li>Built a full-stack personal health platform from a Next.js starter: 391 commits across 91 days over 196 calendar days, 341 of them co-authored with Claude, 58 page routes, 32 API route files with 53 handlers, 30 database tables declared in SQL, and 78,737 lines of TypeScript.</li>
+  <li>Established single sources of truth for every fact that matters: one canon file holds each peptide&#x27;s vial size and draw volume, and the dose is calculated from it, never hand-typed. A self-check runs at load and throws if the calculated dose disagrees with the expected one. A bad edit, from any session, fails the build instead of shipping a wrong number.</li>
+  <li>Built fail-closed security from the start: the app refuses to run without a real signing secret; all writes go through server routes using the service key; the browser holds no write access. Across five distinct hardening rounds: rotated the signing secret and proved the old token rejected in production; moved 23 blood, scan and insurance PDFs behind an authenticated route that checks the session inside the handler (middleware&#x27;s own rules skip image files); enforced the guest role in middleware across all 13 routes that change data without checking the login themselves; dropped all 24 permissive public-read database policies, confirmed by a control probe where a bad key returned 401 and the anonymous key returned rows before the fix and zero rows after.</li>
+  <li>Fixed the most repeated bug class: the same fact in two places. A dose in eight files. A schedule hard-coded in a suggester that disagreed with the day card. A tick on one screen writing to a key the weekly count read from a different one. Each was traced to a root cause and fixed with a single owner per fact.</li>
+  <li>Built a serialized client-write queue so rapid taps cannot overwrite each other, a server-side merge by id with newer-wins for the capture list, deletions stored as tombstones, and an eight-deep revision ring so any earlier version can be recovered.</li>
+  <li>Added request deadlines across every network call (10 seconds in the service worker, 12 on writes, 20 as a system default) to replace the pattern where a stalled cellular request hangs forever. Switched from CDN-cached static rendering to fully dynamic so the Today page never shows yesterday.</li>
+  <li>Hosted a 1.9 GB practice video privately: compressed to 44.3 MB, stored in a private bucket, served only via a session-checked route that mints a signed URL when the play button is tapped. No public URL exists.</li>
+  <li>Built two scheduled agents that run outside the app on the owner&#x27;s machines: a daily voice-journal synthesis that turns recorded notes into a movement recommendation, and a weekly read-only drift check across six measures that emails the owner a numbered list of questions and routes nowhere else.</li>
+</ul>
+<h2>Results</h2>
+<ul class="work-list results">
+  <li>Live and in daily use at health.jfowler.io. Private by design: unauthenticated visits redirect to the login page. The robots file says the site is not for indexing.</li>
+  <li>The Today page, rebuilt September 27 to run in the order the day is actually done, shows the day&#x27;s lifts with last weight and a set logger, this week&#x27;s owed practices with a running count, dose rows that never hide, and a quick weight entry that starts blank. Around it: a stack screen, PR board, trend charts, body measurements, lab and scan viewer, raw genome analysis, glucose view, movement and recovery view, a weekly emailed report and a voice-journal pipeline.</li>
+  <li>Every record lives in the owner&#x27;s own database, behind his own login, on his own domain. No third-party tracking. No anonymous read access since September 15, 2026, confirmed by a control probe.</li>
+  <li>391 commits; the busiest day had 33; the June peak month had 143. One automated test file covers the 78,737 lines. The system was checked by running it and probing production, not by a suite, and adding one is on the open list.</li>
+</ul>
+<h2>Where we use it</h2>
+<p>Jesse Fowler is user zero. Ground Control is the screen he opens when he wakes up: the day&#x27;s lifts, the doses, the labs and scans, in one system he owns. Running his own day on it is how we met the failure a health app cannot afford, a dose shown at four times its true value because one number lived in eight files, and why every fact now has one owner and the build refuses to disagree with itself. That is the rule we bring to any client whose software holds numbers people act on, and we bring it because it happened to us first. Its peptide tracker and dose canon came first and became the seed of Ground Truth.</p>
+<ul class="link-list">
+  <li><a href="/work/ground-truth-peptides/" rel="noopener">Ground Truth Peptides, wiki page</a></li>
+  <li><a href="https://rooted-in-health.commonground.ventures/groundtruth/" rel="noopener">Ground Truth, Rooted in Health data room</a></li>
+  <li><a href="https://rooted-in-health.commonground.ventures/health-vault/" rel="noopener">Ground Control, Rooted in Health data room</a></li>
+</ul>
+<h2>External links</h2>
+<ul class="link-list">
+  <li>Official website: <a href="https://health.jfowler.io/login" rel="noopener">health.jfowler.io (private app; opens on its sign-in page)</a></li>
+  <li>Public data room: <a href="https://rooted-in-health.commonground.ventures/story/#health-vault" rel="noopener">Rooted in Health data room, Ground Control section</a></li>
+</ul>
+<h2>At a glance</h2>
+<table class="facts"><tbody>
+    <tr><th>Project type</th><td>Software product build</td></tr>
+    <tr><th>Industry</th><td>Health technology</td></tr>
+    <tr><th>Seat</th><td>Builder and founder</td></tr>
+    <tr><th>Ran through</th><td>Common Ground</td></tr>
+    <tr><th>Dates</th><td>March 2026 to present</td></tr>
+    <tr><th>Duration</th><td>Ongoing from March 22, 2026</td></tr>
+    <tr><th>Official website</th><td><a href="https://health.jfowler.io/login" rel="noopener">health.jfowler.io (private app; opens on its sign-in page)</a></td></tr>
+    <tr><th>Public data room</th><td><a href="https://rooted-in-health.commonground.ventures/story/#health-vault" rel="noopener">Rooted in Health data room, Ground Control section</a></td></tr>
+    <tr><th>Related pages</th><td><a href="/common-ground/">Common Ground</a>, <a href="/jesse-fowler/">Jesse Fowler</a></td></tr>
+    <tr><th>Credit</th><td>Created by <a href="/common-ground/">Common Ground</a></td></tr>
+    <tr><th>Full record</th><td><a href="https://www.jfowler.io/wiki/health-vault/">Jesse Fowler's own record of this work</a></td></tr>
+  </tbody></table>
+<div class="page-bottom-nav">
+  <a class="card" href="/work/"><span class="eyebrow">Back to</span><br>All work on record</a>
+  <a class="card" href="/common-ground/"><span class="eyebrow">About</span><br>Common Ground</a>
+</div>
+</div></main>
+
+<footer class="footer"><div class="wrap-wide">
+  <div class="footer-grid footer-grid-wiki">
+    <div><a class="foot-logo" href="https://commonground.ventures" aria-label="Common Ground"><span class="mark" aria-hidden="true"></span></a></div>
+    <div><p>Updated October 1, 2026</p></div>
+  </div>
+  <div class="credits"><a class="cg-credit" href="https://commonground.ventures">Created by Common Ground</a></div>
+</div></footer>
+</body>
+</html>

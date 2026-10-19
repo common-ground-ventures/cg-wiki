@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+  OG image source for wiki.commonground.ventures, 1200 x 630.
+  CG palette: Tobacco-to-Ink gradient, Sage accent bar, Freight title.
+-->
+<head>
+<meta charset="UTF-8">
+<style>
+  :root { --dark: #161310; --darker: #0c0c0c; --accent: #6F7C61; }
+  * { margin: 0; box-sizing: border-box; }
+  body {
+    width: 1200px; height: 630px; overflow: hidden;
+    background: linear-gradient(135deg, var(--dark) 0%, var(--darker) 100%);
+    font-family: 'aktiv-grotesk', 'Inter', system-ui, sans-serif;
+    color: #f3f2ef; position: relative;
+    padding: 64px 72px; display: flex; flex-direction: column; justify-content: space-between;
+  }
+  body::after { content: ""; position: absolute; bottom: 0; left: 0; right: 0; height: 16px;
+    background: linear-gradient(90deg, var(--accent) 0%, var(--accent) 28%, transparent 28%); }
+  .eyebrow { font-size: 20px; letter-spacing: 0.22em; text-transform: uppercase; color: var(--accent); font-weight: 700; }
+  .pill { display: inline-block; margin-top: 14px; padding: 7px 16px; border: 1px solid var(--accent);
+    border-radius: 100px; font-size: 16px; letter-spacing: 0.14em; text-transform: uppercase; font-weight: 700; }
+  .title { font-family: 'freight-display-pro', 'Source Serif 4', Georgia, serif; font-size: 110px; line-height: 0.96; font-weight: 700; letter-spacing: -0.02em; }
+  .subtitle { font-family: 'freight-display-pro', Georgia, serif; font-size: 38px; color: #c9d1bf; margin-top: 10px; }
+  .tagline { font-size: 22px; line-height: 1.4; color: rgba(243,242,239,0.82); max-width: 880px; margin-top: 20px; }
+  .tagline strong { color: #faf9f7; }
+  .stats { display: flex; gap: 44px; }
+  .stat .num { font-family: 'freight-display-pro', Georgia, serif; font-size: 40px; font-weight: 700; }
+  .stat .lbl { font-size: 14px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent); margin-top: 2px; }
+  .src { text-align: right; font-size: 16px; color: rgba(243,242,239,0.6); line-height: 1.5; }
+  .src .url { color: var(--accent); font-weight: 700; }
+  .row { display: flex; justify-content: space-between; align-items: flex-end; }
+</style>
+</head>
+<body>
+  <div class="row">
+    <div class="eyebrow">Common Ground · Wiki</div>
+    <div class="pill">Reference pages</div>
+  </div>
+  <div>
+    <div class="title">Common Ground</div>
+    <div class="subtitle">Reference pages: the collective, its principals, its ventures</div>
+    <div class="tagline">Five principals, one playbook. <strong>We Build.</strong> Plain facts on the group and the fourteen ventures in its portfolio and its work on record.</div>
+  </div>
+  <div class="row">
+    <div class="stats">
+      <div class="stat"><div class="num">5</div><div class="lbl">Principals</div></div>
+      <div class="stat"><div class="num">14</div><div class="lbl">Ventures</div></div>
+      <div class="stat"><div class="num">63</div><div class="lbl">Engagements on record</div></div>
+    </div>
+    <div class="src">September 2026 · Maintained by the team<br><span class="url">commonground.ventures</span></div>
+  </div>
+</body>
+</html>
