@@ -1,0 +1,15 @@
+# Legacy names, copied from vercel.json (status codes match live: 308 for the first group, 301 for the second).
+/hightide-capital /alex-prince/ 308
+/hightide-capital/* /alex-prince/ 308
+/robby-prochnow /robert-prochnow/ 308
+/robby-prochnow/* /robert-prochnow/ 308
+/work/builder-scaled /work/ae-preconstruction-partner/ 301
+/work/builder-scaled/* /work/ae-preconstruction-partner/ 301
+/work/builder-scaled-questions /work/ae-preconstruction-partner-questions/ 301
+/work/builder-scaled-questions/* /work/ae-preconstruction-partner-questions/ 301
+
+# Vercel cleanUrls sends a permanent 308 for index.html and .html URLs; Workers html_handling alone sends 307.
+/index.html / 308
+/assets/og-image.html /assets/og-image 308
+/*/index.html /:splat/ 308
+/*.html /:splat/ 308

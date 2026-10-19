@@ -1,0 +1,483 @@
+Parity: live https://wiki.commonground.ventures (Vercel) vs local `npx wrangler@4.147.0 dev` on 127.0.0.1:8791
+Date: 2026-10-19. Branch cf-workers-static. Tool: http_parity.py (status, Location, content-type, cache-control, x-robots-tag, x-frame-options, sha1 of 200 bodies; redirects not followed).
+Path list: receipts/parity-paths.txt (464 paths: every one of the 394 pages as /dir/, every other file, plus index.html and .html and no-slash variants, 3 HEAD requests, the 8 legacy redirects with sub-paths, repo-only files that must 404, 3 unknown paths, query strings).
+
+RESULT: 410 of 464 identical. 54 differ. All 394 pages and every asset/sitemap/robots/llms file match on status, content-type and body sha1 (no body differs). Nothing in the 54 is a content difference.
+
+THE 54, BY CAUSE
+1. 12 paths, no trailing slash (e.g. /work, /alex-prince, /xtrata, 3 deep pages, ?x=1 variant) and /assets/og-image/: live answers 200 for both /x and /x/ (Vercel cleanUrls, no trailingSlash setting). Workers html_handling allows only one 200 form. We chose auto-trailing-slash, so /x/ is 200 and /x answers 307 to /x/. Reason: every canonical tag, sitemap loc, internal link and the legacy-redirect targets in vercel.json use the slash form, so the slash form is the one that must be 200 with no hop. Only the other (non-canonical) form differs. The og-image.html asset is the reverse (the file is /assets/og-image, so /assets/og-image/ redirects to it).
+2. 21 paths, /x/index.html, /x.html, /404.html (7 sections plus the deep-page samples): status matches (308 permanent, forced by _redirects) but Location differs. Live sends /x (no slash); we send /x/ (the canonical form, one hop to a 200). Same cause as 1.
+3. 20 paths, redirects and 404s where status and Location match but live also sends content-type text/plain and cache-control public, max-age=0, must-revalidate, which Vercel attaches to its own redirect and error responses. Workers sends an empty body and neither header. Covers the 8 legacy redirect rules (and sub-path samples), /index.html, /assets/og-image.html, the repo-only files that must 404 (/_redirects, /SITE.md, /vercel.json, /.git/config), and the 404s for /nonexistent, /nonexistent/, /work/does-not-exist/. Not fixable in config; harmless to browsers and crawlers.
+4. 1 path, //alex-prince (double slash): live 308 to /alex-prince, local 307 to /alex-prince/. Same cause as 1; no real link has a double slash.
+
+NOT COMPARED BY THE TOOL
+- 404 body: live returns Vercel's plain text "The page could not be found / NOT_FOUND / <request id>". Workers returns an empty 404. Status matches. A custom 404.html with not_found_handling 404-page would be a new page on the live site, so it is left as a decision for Jesse and Jimmy.
+- Live also sends access-control-allow-origin: * and strict-transport-security (max-age=63072000). Not replicated; HSTS can be enabled as a zone setting later. Nothing on the wiki needs CORS.
+- 307 vs 308 on the trailing-slash redirect (cause 1): Workers sends 307 for html_handling redirects and it cannot be changed from config. A _redirects 200 rewrite per page does work in wrangler dev (tested on /xtrata) and would make /x answer 200 like live, but it is untested in production and means 394 extra rules, so it is not included.
+
+RAW OUTPUT
+ok   / 200 a027dc1a3478
+ok   /alex-prince/ 200 6e75e43aa48a
+ok   /apexx-ai/ 200 ea9bc600d194
+ok   /assets/cg-logo-obsidian.png 200 8d2f5e5917a3
+ok   /assets/cg-logo-vapor.png 200 3e0d2c55e6ef
+ok   /assets/og-image 200 0c8fb0a8d657
+ok   /assets/og-image.jpg 200 bd0c9451e3bc
+ok   /assets/og-image.png 200 0f504f91182b
+ok   /assets/speckle.png 200 b68361f93a72
+ok   /bridgepoint-aviation/ 200 63fc71781677
+ok   /chronicle-news/ 200 bb1dea27708e
+ok   /common-ground/ 200 1cfb4155d532
+ok   /data-rooms/ 200 03fa0fc59f57
+ok   /dossiers/silver-mountain-ranches/Silver-Mountain-Ranches-Common-Ground-project-dossier.pdf 200 4e1504c77668
+ok   /dossiers/silver-mountain-ranches/Silver-Mountain-Ranches-Common-Ground-two-page-summary.pdf 200 d4baa529707b
+ok   /drive-for-the-dream/ 200 98c2c06a7039
+ok   /fluidmapper/ 200 6199c6cb93ec
+ok   /jasper-properties/ 200 95f486f886b4
+ok   /jesse-fowler/ 200 13b9d27e2e72
+ok   /jimmy-khounlavong/ 200 ef4706139415
+ok   /kinetic-ml/ 200 1095d2963868
+ok   /kinwork/ 200 ed0364e67b83
+ok   /lief-development/ 200 4e0f86fa8299
+ok   /lip-loi-creative/ 200 777aa806ae2d
+ok   /llms.txt 200 120bf20f6914
+ok   /news/ 200 70b97aabb862
+ok   /news/2026-01-13-common-ground-contracted-to-build-proprietary-construction-e/ 200 798fa6d81ad6
+ok   /news/2026-01-27-common-ground-launches-apexx-ai-an-automation-advisory-for-1/ 200 b70182d15501
+ok   /news/2026-02-19-kanopi-estimating-engine-passes-36-000-lines-of-code-and-71-/ 200 7a34023a18ed
+ok   /news/2026-03-30-l-ef-s-22-residence-midtown-phoenix-adaptive-reuse-clears-tw/ 200 fbc9d86c9a03
+ok   /news/2026-04-02-apexx-ai-ships-full-brand-and-web-package-for-bespoke-barber/ 200 5876afbf4e7b
+ok   /news/2026-05-06-l-ef-submits-bid-for-36-153-square-foot-phoenix-youth-and-ed/ 200 9dfc7a2f9fd5
+ok   /news/2026-06-02-common-ground-authors-proprietary-generative-engine-optimiza/ 200 e45df7e08291
+ok   /news/2026-06-09-kanopi-architecture-completes-first-phoenix-self-certificati/ 200 10d1b8687e26
+ok   /news/2026-06-29-common-ground-takes-golf-docuseries-drive-for-the-dream-to-m/ 200 2111da4f646d
+ok   /news/2026-07-01-common-ground-contracted-to-build-kinetic-ml-a-lead-intellig/ 200 065b028898b5
+ok   /news/2026-07-06-common-ground-s-diligence-data-room-fleet-passes-ten-deploym/ 200 1c86278b9042
+ok   /news/2026-07-07-l-ef-locks-residential-construction-contract-on-signed-cd-le/ 200 36e19758eea8
+ok   /news/2026-07-08-common-ground-ships-cascade-ir-investor-materials-that-refre/ 200 5758724c4fa3
+ok   /nick-scavio/ 200 d00bc4f5dd07
+ok   /plunge-studio/ 200 28a833da497a
+ok   /prince-capital/ 200 46d553d6ebd7
+ok   /record/ 200 64182f80283b
+ok   /results-based-advisory/ 200 6edc2a3f8723
+ok   /robert-prochnow/ 200 e2d830be1b28
+ok   /robots.txt 200 479caa713984
+ok   /romulus-entertainment/ 200 9c34a2b3a0b6
+ok   /sitemap.xml 200 015e40b8e761
+ok   /stories/ 200 1995d387c53a
+ok   /stories/a-fifteen-by-forty-foot-mural-that-turned-into-a-four-year-relationshi/ 200 796d13a624b8
+ok   /stories/a-gate-that-will-not-let-an-unsourced-claim-out-the-door/ 200 7b7557125e04
+ok   /stories/a-good-answer-to-scope-that-quietly-grew/ 200 d497b8d545b8
+ok   /stories/a-little-better-each-day/ 200 6bc855713d62
+ok   /stories/a-record-in-ninety-days/ 200 c317831dcebe
+ok   /stories/a-sealed-wall-not-a-sheet-of-plastic/ 200 9383a0231965
+ok   /stories/a-vote-is-an-opinion-a-review-is-an-analysis/ 200 5fd9262049f3
+ok   /stories/answer-the-money-question-on-the-first-call/ 200 adf8446d2249
+ok   /stories/assume-the-buyer-has-a-model-open/ 200 a550cc4932e8
+ok   /stories/banning-round-numbers-from-the-bid/ 200 558d84563fd2
+ok   /stories/betting-the-schedule-on-one-architects-authority/ 200 810a5779dfb3
+ok   /stories/branding-as-a-business-model-at-tellus/ 200 35a6c5c9af36
+ok   /stories/bringing-a-dead-restaurant-back-from-scratch-then-finding-the-one-pers/ 200 3aee65077a07
+ok   /stories/bringing-design-in-house-to-own-the-schedule-not-to-sell-design/ 200 10dad6cb6501
+ok   /stories/building-a-scoreboard-to-solve-a-people-problem/ 200 bd0277e58b4b
+ok   /stories/building-it-in-house-instead-of-paying-for-it-twice/ 200 9e50fa9eac9a
+ok   /stories/building-it-instead-of-pitching-it/ 200 447a4594515a
+ok   /stories/building-it-ourselves-so-we-could-try-to-break-it/ 200 a390e1674c1f
+ok   /stories/building-the-bench-instead-of-doing-it-alone/ 200 fcb6bc70326d
+ok   /stories/building-the-estimating-algorithm-a-decade-before-ai-could-do-it/ 200 1259dbd56c35
+ok   /stories/building-the-pricing-model-instead-of-trusting-the-gut/ 200 ea2b550c2aab
+ok   /stories/building-the-product-he-needed-at-a-loss/ 200 1a3ba84fe959
+ok   /stories/catching-his-own-five-times-overcount/ 200 11a09b327cfc
+ok   /stories/choice-beef-and-the-cut-nobody-notices/ 200 b47fcf42b2fa
+ok   /stories/choosing-the-architect-who-draws-over-the-one-who-watches/ 200 b60a44fd6810
+ok   /stories/choosing-which-grinders-to-bet-on/ 200 ad341f003269
+ok   /stories/collecting-the-facts-instead-of-asking-for-them/ 200 aef9d49fdfbe
+ok   /stories/contract-only-the-trades-that-keep-working/ 200 67a148b3f399
+ok   /stories/correcting-your-own-bad-news-the-same-day-you-find-out-it-was-wrong/ 200 ce68b373cebb
+ok   /stories/correcting-your-own-number-out-loud/ 200 1e9e994cc244
+ok   /stories/cut-the-hole-before-the-plan-is-approved/ 200 e1b9eaa82bb6
+ok   /stories/cutting-the-cheap-number-even-though-it-sounded-good/ 200 e35afae08789
+ok   /stories/cutting-the-fleet-down-to-what-actually-earns-its-keep/ 200 19db6f808c9a
+ok   /stories/deciding-to-broker-his-own-buildings-sale/ 200 0b328e21e6cd
+ok   /stories/design-the-outreach-for-the-adult-who-refers/ 200 f46a4c33c53a
+ok   /stories/every-reporters-call-is-a-backlink/ 200 332c8756d579
+ok   /stories/everyone-called-it-collections-it-was-maintenance/ 200 79e5f5969123
+ok   /stories/four-apps-in-one-day-built-where-people-could-watch/ 200 4d15a077bd9d
+ok   /stories/graduated-trust-after-a-real-mistake/ 200 b374b201b535
+ok   /stories/greensburg-what-went-wrong/ 200 f26c3647b2c3
+ok   /stories/hearing-the-bigger-business-hiding-behind-the-pitch/ 200 2f0d575e73a3
+ok   /stories/holding-the-bid-back-to-control-how-it-lands/ 200 39ef960e2901
+ok   /stories/i-already-paid-for-these-mistakes-you-dont-have-to/ 200 380b205db79c
+ok   /stories/i-sent-the-bid-flawed-on-purpose/ 200 b2bc2d1eed4f
+ok   /stories/i-was-the-client/ 200 a8d7307bf7f9
+ok   /stories/is-that-the-problem-or-the-solution/ 200 e91bc73d56db
+ok   /stories/keeping-an-nba-teams-building-open-while-we-rebuilt-it/ 200 3ec12a8891df
+ok   /stories/keeping-the-prompts-inside-the-walls/ 200 49a8094f8cbf
+ok   /stories/let-the-client-argue-with-a-live-model/ 200 986fdf01feb0
+ok   /stories/let-the-partner-with-the-track-record-answer-for-himself/ 200 34d2a6ecedd0
+ok   /stories/make-the-check-repeatable-before-the-content/ 200 4493dea9cf7e
+ok   /stories/mapping-the-process-before-automating-it-for-a-client-seven-states-wid/ 200 56a02f60a6fe
+ok   /stories/moving-the-crm-twice-in-three-weeks/ 200 0427bb13d964
+ok   /stories/naming-the-credibility-gap-out-loud/ 200 9a3d31ccea45
+ok   /stories/naming-the-gap-instead-of-hiding-it/ 200 6e1660b0f34c
+ok   /stories/narrowing-the-bid-on-purpose-then-catching-your-own-math-error/ 200 abbb7fdceafb
+ok   /stories/nine-months-of-cold-calls-for-a-town-with-no-budget/ 200 74aa987f630b
+ok   /stories/no-savings-number-before-the-baseline/ 200 903f840a2f9b
+ok   /stories/nobody-was-really-buying-green/ 200 18399e7cb449
+ok   /stories/nothing-ships-on-one-pass/ 200 9084960f9977
+ok   /stories/nothing-until-you-win/ 200 6ebefac88ffc
+ok   /stories/origin-axt-axe-haus/ 200 847a10a33baf
+ok   /stories/origin-greensleeves-steakhouse/ 200 c850e220bea0
+ok   /stories/origin-h-e-e-a-l-santa-barbara/ 200 c4f635a6f649
+ok   /stories/origin-l-ef-development/ 200 23799dc69459
+ok   /stories/origin-los-angeles-county-museum-of-art-lacma/ 200 aea57f8b32a1
+ok   /stories/origin-save-the-world-air-inc/ 200 aeddbc98dcc4
+ok   /stories/origin-sublime-medical/ 200 e7ec47ddcf41
+ok   /stories/our-own-record-does-not-get-to-be-shy-about-our-own-work/ 200 6ba94fe8a29b
+ok   /stories/passing-on-a-bid-that-penciled-to-save-the-attention-for-home-turf/ 200 e05f211ddcd1
+ok   /stories/permitting-a-category-that-did-not-exist-yet/ 200 932c5ccd0e73
+ok   /stories/phasing-a-build-so-an-nba-team-never-had-to-stop-training/ 200 165bcd24b06e
+ok   /stories/pivoting-the-format-when-the-money-said-something-different/ 200 c595127d930d
+ok   /stories/pricing-the-tradeoff-of-being-fast-with-his-eyes-open/ 200 066712c916e8
+ok   /stories/reading-the-competitors-bid-before-writing-your-own/ 200 a4c7bfe1c58c
+ok   /stories/reading-the-fine-print-on-a-deferred-payment-that-never-actually-ended/ 200 51411e45c309
+ok   /stories/rebuilding-a-brilliant-founders-pitch-around-the-buyer-instead-of-the/ 200 ea38e76363a8
+ok   /stories/rebuilding-a-tower-off-the-wrong-buildings-blueprints/ 200 02222323c366
+ok   /stories/refusing-to-sell-a-negotiating-budget-as-an-engineered-certainty/ 200 be52b78b66d0
+ok   /stories/running-a-build-in-a-state-where-he-wasnt-licensed-trade-direct-with-n/ 200 a6e32ad30b64
+ok   /stories/running-the-comps-before-answering-the-cell-tower-offer/ 200 b2e1d96920df
+ok   /stories/running-the-deal-review-before-the-investor-does/ 200 a5bde6711d63
+ok   /stories/selling-the-easement-keeping-the-building/ 200 024980a833d0
+ok   /stories/selling-the-safe-product-now-gating-the-risky-one-behind-his-own-build/ 200 518cebd90090
+ok   /stories/sending-a-bid-you-cant-sign-yet/ 200 d9175b793e0d
+ok   /stories/sending-an-unverified-bid-to-a-competitor-and-owning-the-mistake-inste/ 200 85a3f4eeaf3b
+ok   /stories/six-cents-a-click/ 200 43e5feeb14c3
+ok   /stories/sixty-days-to-the-car-show/ 200 8d47f4b6572f
+ok   /stories/sound-pods-first-soundproofing-when-they-asked/ 200 81dc736115af
+ok   /stories/starting-with-the-golfer-nobody-else-would-sign/ 200 9732292d4c80
+ok   /stories/style-is-countable-measuring-my-own-voice-before-letting-agents-use-it/ 200 47c11a8934ad
+ok   /stories/taking-over-a-shuttered-1892-landmark-and-bringing-back-the-people-who/ 200 ebe5a3156b5e
+ok   /stories/taking-tellus-design-at-a-loss-to-control-the-timeline/ 200 a0e5b7f90043
+ok   /stories/teaching-the-system-to-catch-its-own-mistake/ 200 7ad0184441e6
+ok   /stories/telling-a-friend-his-dream-house-cost-six-to-twelve-million-more-than/ 200 064051f6a270
+ok   /stories/telling-prospects-the-email-was-written-by-an-ai/ 200 5a742b394201
+ok   /stories/testing-the-engine-against-an-expert-before-trusting-its-scores/ 200 52c913fb4acd
+ok   /stories/the-2-a-m-tell/ 200 1fc78fd80959
+ok   /stories/the-bug-he-built-the-gate-for/ 200 2a3e19a55ec7
+ok   /stories/the-change-order-that-was-not-a-change/ 200 47bdae57f809
+ok   /stories/the-contract-i-grew-up-inside/ 200 1e11bc5d2226
+ok   /stories/the-domain-was-burned-and-nobody-had-said-it-out-loud/ 200 6ac3b29dd30f
+ok   /stories/the-formula-that-was-quietly-underpricing-framing-by-six-and-a-half-ti/ 200 0d634ee2ac19
+ok   /stories/the-fourteen-day-rule/ 200 48c8ca6a6f8f
+ok   /stories/the-greensburg-rebuild/ 200 c817c0875d3d
+ok   /stories/the-job-posting-that-caught-us/ 200 2ec56eada1f1
+ok   /stories/the-keyhole/ 200 48f91711954a
+ok   /stories/the-long-way-around-the-guest/ 200 b1d630b0390e
+ok   /stories/the-machine-i-thought-was-idle-was-the-one-on-fire/ 200 463b5c99ab27
+ok   /stories/the-macro-numbers-go/ 200 652db453683a
+ok   /stories/the-markup-stack-that-broke-in-may/ 200 2ae9e8aacabf
+ok   /stories/the-mural-we-painted-without-asking/ 200 ebf98a114484
+ok   /stories/the-nine-and-a-half-foot-error-the-agents-caught-themselves/ 200 a062b8dde1dc
+ok   /stories/the-nine-month-method/ 200 9b22bb654a20
+ok   /stories/the-overnight-blitz-that-corrupted-its-own-proof/ 200 cc80b23917b4
+ok   /stories/the-pipeline-was-lying-to-us/ 200 11e71b9a0c36
+ok   /stories/the-speed-camera-at-the-stoplight/ 200 2b0913837f05
+ok   /stories/the-steakhouses-parent-company-became-common-ground/ 200 23a0dfb1d350
+ok   /stories/the-vp-who-asked-can-we-buy-this-from-you/ 200 e1eea185b959
+ok   /stories/the-wrong-building/ 200 57ba13570f8f
+ok   /stories/trust-the-trend-not-the-point/ 200 adc4ef88954c
+ok   /stories/trusting-a-model-because-it-looked-finished/ 200 7337abaf03f0
+ok   /stories/turning-a-free-trial-into-skin-in-the-game/ 200 043e8a04e018
+ok   /stories/turning-three-days-of-trade-show-questions-into-search-authority/ 200 0c3858e7c802
+ok   /stories/two-brands-two-speeds/ 200 48c3f15317bd
+ok   /stories/two-hours-to-fix-the-first-client-invoice/ 200 f338d4514325
+ok   /stories/two-versions-of-the-same-bid/ 200 5870c09fb948
+ok   /stories/two-words-and-four-months-of-notice/ 200 06deb0689a6a
+ok   /stories/vertically-integrating-so-nobody-could-point-fingers-but-him/ 200 640e0e0ee253
+ok   /stories/walking-away-from-a-deal-that-kept-changing-its-own-numbers/ 200 640ae60af26e
+ok   /stories/we-are-not-a-free-salesperson/ 200 64ea31a54397
+ok   /stories/what-2008-actually-taught-me/ 200 3e4d30db3cb8
+ok   /stories/whose-number-is-it-really/ 200 c33c664258c0
+ok   /stories/winning-a-fire-code-appeal-by-refusing-to-touch-the-building/ 200 5978aafb370b
+ok   /stories/you-see-a-good-practitioner-in-retention-not-reviews/ 200 429be26e2707
+ok   /stories/zero-red-lines-never-our-own-stamp/ 200 e42df9e58bd9
+ok   /style.css 200 bc0e238a9bdd
+ok   /tellus-design-build/ 200 1da16d59e8fb
+ok   /work/ 200 4ec5da1827b4
+ok   /work/acg-pendleton-mowabb/ 200 79f7e82efa4d
+ok   /work/ae-preconstruction-partner-questions/ 200 a228f8644460
+ok   /work/ae-preconstruction-partner/ 200 4e3e13784742
+ok   /work/aegis-lens/ 200 028226572211
+ok   /work/air-max-day-by-you/ 200 e1ceb4c0e192
+ok   /work/air-visi-pro-iii/ 200 795cfe7d2af6
+ok   /work/alice-mushrooms-questions/ 200 07236c5ede55
+ok   /work/alice-mushrooms/ 200 d2027a34d1a6
+ok   /work/all-star-2011-los-angeles-distribution-plan/ 200 01282226c462
+ok   /work/amplify-basketball-and-basketball-by-nike/ 200 67047ac51143
+ok   /work/asian-american-heritage-month-open-house/ 200 b4d6ba4a63ca
+ok   /work/athlete-focus-groups-2014-2015/ 200 022739ba8919
+ok   /work/axt-axe-haus-questions/ 200 7c487133f0c3
+ok   /work/axt-axe-haus/ 200 12701e951747
+ok   /work/aycre-brand-and-narrative/ 200 1deb972d097f
+ok   /work/aycre-capital-fund-questions/ 200 c1a040e36560
+ok   /work/aycre-capital-fund/ 200 8f5e623c29dc
+ok   /work/b2b-saas-go-to-market-build/ 200 97e8adca1667
+ok   /work/barbershop-client-questions/ 200 f70a848830ae
+ok   /work/barbershop-client/ 200 70a0166c1269
+ok   /work/born-mercurial/ 200 8e89ee208e0c
+ok   /work/brand-standards-for-six-brands/ 200 69755f084abc
+ok   /work/bridgepoint-air-questions/ 200 49ed0b84a4f2
+ok   /work/bridgepoint-air/ 200 dafe3f641a75
+ok   /work/brokerage-agent-team/ 200 c6d1383eba89
+ok   /work/canyon-corporate-questions/ 200 98e6dc12ffca
+ok   /work/canyon-corporate/ 200 234207de8fd3
+ok   /work/carroll-shelby-gardena-questions/ 200 8734a1c7916d
+ok   /work/carroll-shelby-gardena/ 200 6fdb954a899a
+ok   /work/cascade-ir/ 200 6e4862c9dc34
+ok   /work/cdw/ 200 b0af76b20cc0
+ok   /work/city-of-athletes-nike-sportswear/ 200 da3c05b5848e
+ok   /work/city-specialty-assortment-rollout/ 200 a942d9237bb8
+ok   /work/commonground-ventures-site/ 200 27b4373807b3
+ok   /work/conquer-the-core/ 200 e54984679033
+ok   /work/content-system/ 200 89974d288f69
+ok   /work/contractor-gorilla-questions/ 200 11b94203a815
+ok   /work/contractor-gorilla/ 200 03866cd58e6d
+ok   /work/create-the-future-account-by-account/ 200 d838d4d878b1
+ok   /work/crm-migration-questions/ 200 8412a4e68afc
+ok   /work/crm-migration/ 200 7df0d005a5c1
+ok   /work/detroit-sporting-goods/ 200 cb0dae0fcce4
+ok   /work/drive-for-the-dream-brand/ 200 0c624cf498e9
+ok   /work/drive-for-the-dream-questions/ 200 99388fd19c09
+ok   /work/drive-for-the-dream/ 200 fe8ad5abb0b4
+ok   /work/dunhams-football-cleat-share/ 200 bc48c6d4a619
+ok   /work/electronic-ordering-mc-sports-dunhams/ 200 d772c2774cf7
+ok   /work/email-operations-learning-loop/ 200 43145a5263df
+ok   /work/empower-her-hollywood-south-la/ 200 3ba3b1b02f15
+ok   /work/epic-react-by-run-crews/ 200 4f5a6b528111
+ok   /work/fall-2019-line-plan-framework/ 200 baf660efec7b
+ok   /work/financial-advisory-search-build/ 200 6766fffdddaf
+ok   /work/finish-line-door-segmentation/ 200 3823aae94e85
+ok   /work/finish-line-lexington-store/ 200 847f1a16cb7c
+ok   /work/fiscal-2013-share-margin-fewer-styles/ 200 cbb59b2baf1c
+ok   /work/fiscal-2014-growth-with-flat-inventory/ 200 0a19ed6acd0d
+ok   /work/fiscal-2015-plan-beaten-every-season/ 200 99e0b96a724b
+ok   /work/fiscal-2019-collaboration-pipeline/ 200 26601be00af1
+ok   /work/fluidmapper-brand-and-site/ 200 7df2b57c08c4
+ok   /work/fluidmapper-datasets-gate/ 200 64347cf0a13e
+ok   /work/fluidmapper-questions/ 200 29e7ce3d0a5a
+ok   /work/fluidmapper/ 200 e893a374bbd8
+ok   /work/football-planning-tool/ 200 fca210ab5a46
+ok   /work/four-apps-in-a-day/ 200 bebf4a012a20
+ok   /work/foyer-hall/ 200 cafad9927f8c
+ok   /work/fundable-founders-playbook-and-score/ 200 c4cd86f076fc
+ok   /work/ghana-community/ 200 fadee7e5a298
+ok   /work/global-broadcast-and-geography-calendar/ 200 9ddec70f2bb5
+ok   /work/governed-agent-platform/ 200 d43bc238c036
+ok   /work/grant-match-ai/ 200 bb34b0faa910
+ok   /work/greensburg-kansas-questions/ 200 0e319edd8d28
+ok   /work/greensburg-kansas/ 200 c9b2e3cf31e8
+ok   /work/greensleeves-steakhouse-questions/ 200 9032268ecec1
+ok   /work/greensleeves-steakhouse/ 200 0027ba7ba772
+ok   /work/ground-truth-peptides/ 200 fa66c2f193ec
+ok   /work/habitat-for-humanity-questions/ 200 aff05d5ade49
+ok   /work/habitat-for-humanity/ 200 84fc8a2f3516
+ok   /work/health-vault/ 200 3e1ffe8b25b5
+ok   /work/heeal-santa-barbara/ 200 81dbd9852c93
+ok   /work/hibbett-sports-door-clusters/ 200 c96e4c4121ee
+ok   /work/hightide-capital/ 200 b12de8ea0997
+ok   /work/hightide-desk-tools/ 200 c958c250c360
+ok   /work/hot-bag-and-quick-facts-mailers/ 200 b6477a5055e7
+ok   /work/hyatt-studios-georgetown-questions/ 200 85798f58b401
+ok   /work/hyatt-studios-georgetown/ 200 7e51f6ff5402
+ok   /work/iconic-mall-positioning-deck/ 200 ce4069177637
+ok   /work/ink-games-questions/ 200 78f2118b553d
+ok   /work/ink-games/ 200 704b4dbe0906
+ok   /work/jackie-allison-website/ 200 1232b011de96
+ok   /work/jason-scott-buy-plan/ 200 d7fd287a0215
+ok   /work/jason-scott-luxury-apparel-questions/ 200 daf67b5b1c36
+ok   /work/jason-scott-luxury-apparel/ 200 d709073a1260
+ok   /work/jasper-brands-golf-polo-line/ 200 b077cc29a30b
+ok   /work/joga-bonito-futsal-michigan/ 200 0d70fee8829f
+ok   /work/kanopi-estimating-engine-questions/ 200 70fa57a771e5
+ok   /work/kanopi-estimating-engine/ 200 1c8ad4c90347
+ok   /work/kill-zone-mid-price-footwear/ 200 1cac4b1aa9c1
+ok   /work/kinetic-ml-pitch-deck/ 200 5093a9c24c65
+ok   /work/la-clippers-practice-facility-questions/ 200 28e5f3f04611
+ok   /work/la-clippers-practice-facility/ 200 3434aec4f33b
+ok   /work/lacma-sculpture-questions/ 200 25b5ad52e749
+ok   /work/lacma-sculpture/ 200 8331465d6232
+ok   /work/lebron-james-welcome-los-angeles/ 200 db7004123eed
+ok   /work/lebron-x-launch-holiday-2012/ 200 fb191cfb5b3c
+ok   /work/legal-team-medical-record-review/ 200 9d29df7d97ab
+ok   /work/lief-development-company-brand-and-sites/ 200 b00e71ff572e
+ok   /work/lief-midtown-301-osborn-questions/ 200 1d74a5606b0e
+ok   /work/lief-midtown-301-osborn/ 200 a5e4c88e750f
+ok   /work/lief-midtown-brand-system/ 200 13a2de51b41d
+ok   /work/lief-midtown-plan-set-review/ 200 887e73bb1f78
+ok   /work/lief-midtown-residence-pages-and-search-readiness/ 200 98a62c567b1a
+ok   /work/lief-midtown-website-rebuild-and-launch/ 200 f9b81cce151f
+ok   /work/lief-osborn-investor-deck-narrative/ 200 a7f91ac64c73
+ok   /work/lief-osborn-rollout-plan-v2/ 200 bb747cc52d90
+ok   /work/lief-selections-program-and-look-book/ 200 614d15393db8
+ok   /work/lief-two-brand-visual-system/ 200 74a360540df2
+ok   /work/lifted-trucks-mission-control/ 200 32a3d8ff9d1a
+ok   /work/lip-loi-creative-questions/ 200 30a6fd90c60f
+ok   /work/lip-loi-creative/ 200 1650ac951806
+ok   /work/lip-loi-studio-work-questions/ 200 8fe78f8d521d
+ok   /work/lip-loi-studio-work/ 200 8b563e12808a
+ok   /work/los-angeles-first-tour/ 200 8472f76b846c
+ok   /work/los-angeles-launch-calendar/ 200 bda8cb3dda3c
+ok   /work/los-angeles-running-market-travel/ 200 e41d601db7c8
+ok   /work/luke-kwon-brand-system/ 200 ad68e0001a88
+ok   /work/margin-tools-and-price-ladder/ 200 d6f3c0466a55
+ok   /work/market-travel/ 200 562c684d08e7
+ok   /work/master-visual-line-plan-template/ 200 5e2b58be5f56
+ok   /work/mc-sports-shared-stock-to-sales-plan/ 200 6f8cc0e7da78
+ok   /work/mc-sports-team-basketball-program/ 200 f9f1ecc6309d
+ok   /work/medical-device-us-entry-questions/ 200 125468d83b89
+ok   /work/medical-device-us-entry/ 200 9eab9dc4c157
+ok   /work/medline-baptist-hospital-system/ 200 9ccd587f8b88
+ok   /work/membership-and-customization-line-plan-integration/ 200 9cbf9b787746
+ok   /work/midwest-boutiques/ 200 2d7c154bfcd3
+ok   /work/modular-fabrication-center/ 200 cf86c68f3d0c
+ok   /work/multifamily-204-units/ 200 4ac13b5b3557
+ok   /work/n7-wings-of-america-focus-group/ 200 da97c15cda6a
+ok   /work/nba-by-air-force-1/ 200 8b3d62e2f282
+ok   /work/nba-hyperlocal-and-all-the-stars-of-la/ 200 4914348ac74b
+ok   /work/negotiated-apology-project-brand-guidelines/ 200 b122eefe19c1
+ok   /work/net-collectors-society-march-madness/ 200 77555e041146
+ok   /work/new-boutique-doors-phenom-pogo-haberdash/ 200 1e6abf4a69bb
+ok   /work/new-york-running-market-travel/ 200 2d71e820732f
+ok   /work/next-urban-gear-account-plans/ 200 df482c3c8c49
+ok   /work/nike-basketball-north-america/ 200 68df3280399f
+ok   /work/nike-by-you-merchandising-organization/ 200 1f7eea6ae6fb
+ok   /work/nike-by-you-merchandising-plan-fiscal-2019-2021/ 200 b930b919bf9b
+ok   /work/nike-by-you-pricing-framework/ 200 a1004d8a7197
+ok   /work/nike-by-you-rebrand/ 200 962f3d1e4025
+ok   /work/nike-factory-store-basketball-program/ 200 4d6ab0392304
+ok   /work/nike-marketplace-merchandising/ 200 660cf67caf9c
+ok   /work/nike-mens-running-north-america/ 200 7ab38e07081d
+ok   /work/nike-plus-member-shop-launch/ 200 b7aca5166064
+ok   /work/nike-sportswear-la-strategy-fy21-23/ 200 7c2729a38384
+ok   /work/nike-sportswear-los-angeles/ 200 a78fbf51c25f
+ok   /work/no-caller-id-voice-and-design-language/ 200 adbb4522ebf2
+ok   /work/oakley-wm-phoenix-open/ 200 e92e0f187f8e
+ok   /work/online-education-expert-program/ 200 9cc7eda3a4ea
+ok   /work/pc-analytics/ 200 7d3222daed9c
+ok   /work/pe-backed-medical-group-questions/ 200 a0c5cb48fd73
+ok   /work/pe-backed-medical-group/ 200 051dc3c98460
+ok   /work/pendleton-winter-packs-material-buy/ 200 a4d01f9346a4
+ok   /work/principal-sites/ 200 a5fbcfb6451b
+ok   /work/property-management-launch-questions/ 200 831d4bb6a126
+ok   /work/property-management-launch/ 200 2f9498b99447
+ok   /work/ritz-carlton-laguna-beach-questions/ 200 10cfb2a0dbc1
+ok   /work/ritz-carlton-laguna-beach/ 200 ef88bbe98dc7
+ok   /work/running-channel-briefs/ 200 64c8c45aaf0a
+ok   /work/running-pricing-architecture-kill-zone/ 200 c27738040c45
+ok   /work/santa-monica-house-questions/ 200 110584b03857
+ok   /work/santa-monica-house/ 200 c1305d212d96
+ok   /work/save-the-world-air-questions/ 200 6c77346f3701
+ok   /work/save-the-world-air/ 200 9d66ae2d42fe
+ok   /work/search-and-ai-readiness/ 200 7577c7ffe9db
+ok   /work/sell-through-expectations-by-launch-tier/ 200 3c93de702f91
+ok   /work/serve-the-underserved-watts-east-los/ 200 794f19165e62
+ok   /work/shelby-american-las-vegas-questions/ 200 3dd4bbb8c484
+ok   /work/shelby-american-las-vegas/ 200 c1f03796df5e
+ok   /work/shiekh-three-year-plan-and-assortment/ 200 e310031042b3
+ok   /work/shoe-palace-capacity-and-clusters/ 200 910bd871120e
+ok   /work/signature-2-0/ 200 06a847b8a646
+ok   /work/signature-launch-calendar/ 200 ea49968a61e2
+ok   /work/signature-playbook-and-moments-line-plan/ 200 c298823d52ef
+ok   /work/silver-mountain-ranches/ 200 89d5612daf70
+ok   /work/six-points-chicago/ 200 7c96ea86e699
+ok   /work/slipstream-scoring-engine/ 200 b6ce0e664ddc
+ok   /work/soft-story-retrofit-questions/ 200 7a9c0e2ff688
+ok   /work/soft-story-retrofit/ 200 a224da3f4202
+ok   /work/sporting-goods-strategy-and-dallas-trip/ 200 a09a3719ac11
+ok   /work/spring-2018-gap-closing/ 200 778c562820de
+ok   /work/sqairz-pickleball-brand-and-product-scope/ 200 1290453d1026
+ok   /work/stranger-things-scavenger-hunt/ 200 24f381623da1
+ok   /work/strategic-plan-workshop-february-2019/ 200 7c5502d8833e
+ok   /work/sublime-medical/ 200 6f1181a04751
+ok   /work/surrogacy-consulting-startup/ 200 e91b95b12455
+ok   /work/the-fine-game-plan-website-and-brand/ 200 b4a2f869ec64
+ok   /work/the-pitch-for-los-angeles-june-2018/ 200 030cb7258b7b
+ok   /work/the-triangle-grand-avenue/ 200 6242f97c8872
+ok   /work/three-client-site-builds/ 200 9f40e60afc5a
+ok   /work/three-year-line-plan/ 200 03f7602b8d5a
+ok   /work/top-destinations-and-trade-zones/ 200 c5bc9b828476
+ok   /work/trade-services-buyside-diligence/ 200 b9e5d6f0e180
+ok   /work/undefeated-uactp-and-kobe-protro/ 200 ea5982e48498
+ok   /work/vapormax-north-america-launch/ 200 84dc8085bec7
+ok   /work/village-san-juan-questions/ 200 91f848721308
+ok   /work/village-san-juan/ 200 7da0bbae44c1
+ok   /work/vincent-hancock-brand-system/ 200 1b02c84ca933
+ok   /work/what-the-la-air-force-1/ 200 a4ebf532160b
+ok   /work/work-and-seat-map/ 200 2f27df7cd946
+ok   /work/wss-three-year-plan/ 200 9aa5b94b4474
+ok   /work/xtrata-sabs-consulting-seat-questions/ 200 cb14da86e1d5
+ok   /work/xtrata-sabs-consulting-seat/ 200 32c21497823d
+ok   /work/zoom-fly-vaporfly-launch-plan/ 200 078f51fa454a
+ok   /work/zoom-soldier-x/ 200 95f51b02c636
+ok   /xtrata/ 200 4bf76585702a
+ok   /zen-aegis/ 200 73bd1c50eed4
+DIFF /index.html {'content-type': ('text/plain', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /alex-prince {'status': (200, 307), 'location': ('', '/alex-prince/'), 'sha1': ('6e75e43aa48a', '-'), 'content-type': ('text/html', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /alex-prince/index.html {'location': ('/alex-prince', '/alex-prince/'), 'content-type': ('text/plain', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /alex-prince.html {'location': ('/alex-prince', '/alex-prince/'), 'content-type': ('text/plain', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /work {'status': (200, 307), 'location': ('', '/work/'), 'sha1': ('4ec5da1827b4', '-'), 'content-type': ('text/html', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /work/index.html {'location': ('/work', '/work/'), 'content-type': ('text/plain', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /work.html {'location': ('/work', '/work/'), 'content-type': ('text/plain', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /stories {'status': (200, 307), 'location': ('', '/stories/'), 'sha1': ('1995d387c53a', '-'), 'content-type': ('text/html', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /stories/index.html {'location': ('/stories', '/stories/'), 'content-type': ('text/plain', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /stories.html {'location': ('/stories', '/stories/'), 'content-type': ('text/plain', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /news {'status': (200, 307), 'location': ('', '/news/'), 'sha1': ('70b97aabb862', '-'), 'content-type': ('text/html', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /news/index.html {'location': ('/news', '/news/'), 'content-type': ('text/plain', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /news.html {'location': ('/news', '/news/'), 'content-type': ('text/plain', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /record {'status': (200, 307), 'location': ('', '/record/'), 'sha1': ('64182f80283b', '-'), 'content-type': ('text/html', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /record/index.html {'location': ('/record', '/record/'), 'content-type': ('text/plain', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /record.html {'location': ('/record', '/record/'), 'content-type': ('text/plain', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /zen-aegis {'status': (200, 307), 'location': ('', '/zen-aegis/'), 'sha1': ('73bd1c50eed4', '-'), 'content-type': ('text/html', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /zen-aegis/index.html {'location': ('/zen-aegis', '/zen-aegis/'), 'content-type': ('text/plain', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /zen-aegis.html {'location': ('/zen-aegis', '/zen-aegis/'), 'content-type': ('text/plain', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /xtrata {'status': (200, 307), 'location': ('', '/xtrata/'), 'sha1': ('4bf76585702a', '-'), 'content-type': ('text/html', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /xtrata/index.html {'location': ('/xtrata', '/xtrata/'), 'content-type': ('text/plain', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /xtrata.html {'location': ('/xtrata', '/xtrata/'), 'content-type': ('text/plain', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /stories/origin-los-angeles-county-museum-of-art-lacma {'status': (200, 307), 'location': ('', '/stories/origin-los-angeles-county-museum-of-art-lacma/'), 'sha1': ('aea57f8b32a1', '-'), 'content-type': ('text/html', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /stories/origin-los-angeles-county-museum-of-art-lacma/index.html {'location': ('/stories/origin-los-angeles-county-museum-of-art-lacma', '/stories/origin-los-angeles-county-museum-of-art-lacma/'), 'content-type': ('text/plain', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /stories/origin-los-angeles-county-museum-of-art-lacma.html {'location': ('/stories/origin-los-angeles-county-museum-of-art-lacma', '/stories/origin-los-angeles-county-museum-of-art-lacma/'), 'content-type': ('text/plain', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /work/zoom-fly-vaporfly-launch-plan {'status': (200, 307), 'location': ('', '/work/zoom-fly-vaporfly-launch-plan/'), 'sha1': ('078f51fa454a', '-'), 'content-type': ('text/html', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /work/zoom-fly-vaporfly-launch-plan/index.html {'location': ('/work/zoom-fly-vaporfly-launch-plan', '/work/zoom-fly-vaporfly-launch-plan/'), 'content-type': ('text/plain', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /work/zoom-fly-vaporfly-launch-plan.html {'location': ('/work/zoom-fly-vaporfly-launch-plan', '/work/zoom-fly-vaporfly-launch-plan/'), 'content-type': ('text/plain', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /work/zoom-soldier-x {'status': (200, 307), 'location': ('', '/work/zoom-soldier-x/'), 'sha1': ('95f51b02c636', '-'), 'content-type': ('text/html', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /work/zoom-soldier-x/index.html {'location': ('/work/zoom-soldier-x', '/work/zoom-soldier-x/'), 'content-type': ('text/plain', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /work/zoom-soldier-x.html {'location': ('/work/zoom-soldier-x', '/work/zoom-soldier-x/'), 'content-type': ('text/plain', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+ok   HEAD / 200 da39a3ee5e6b
+ok   HEAD /alex-prince/ 200 da39a3ee5e6b
+ok   HEAD /robots.txt 200 da39a3ee5e6b
+DIFF /assets/og-image.html {'content-type': ('text/plain', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /assets/og-image/ {'status': (200, 307), 'location': ('', '/assets/og-image'), 'sha1': ('0c8fb0a8d657', '-'), 'content-type': ('text/html', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /hightide-capital {'content-type': ('text/plain', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /hightide-capital/ {'content-type': ('text/plain', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /hightide-capital/anything {'content-type': ('text/plain', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /robby-prochnow {'content-type': ('text/plain', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /robby-prochnow/x {'content-type': ('text/plain', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /work/builder-scaled {'content-type': ('text/plain', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /work/builder-scaled/ {'content-type': ('text/plain', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /work/builder-scaled/deep/x {'content-type': ('text/plain', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /work/builder-scaled-questions {'content-type': ('text/plain', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /work/builder-scaled-questions/ {'content-type': ('text/plain', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /work/builder-scaled-questions/x {'content-type': ('text/plain', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /_redirects {'content-type': ('text/plain', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /SITE.md {'content-type': ('text/plain', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /vercel.json {'content-type': ('text/plain', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /.git/config {'content-type': ('text/plain', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /nonexistent {'content-type': ('text/plain', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /nonexistent/ {'content-type': ('text/plain', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /work/does-not-exist/ {'content-type': ('text/plain', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /404.html {'location': ('/404', '/404/'), 'content-type': ('text/plain', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+ok   /alex-prince/?x=1 200 6e75e43aa48a
+DIFF /alex-prince?x=1 {'status': (200, 307), 'location': ('', '/alex-prince/?x=1'), 'sha1': ('6e75e43aa48a', '-'), 'content-type': ('text/html', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+ok   /work/?utm=a 200 4ec5da1827b4
+DIFF //alex-prince {'status': (308, 307), 'location': ('/alex-prince', '/alex-prince/'), 'content-type': ('text/plain', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+410 of 464 paths identical
