@@ -37,8 +37,8 @@
 - [A five-star barbershop](https://wiki.commonground.ventures/work/barbershop-client/): Website, a phone line of its own and booking into Square for a five-star barbershop, then planning for the owner's barber school franchise.
 - [A&E Pre-Construction Partner](https://wiki.commonground.ventures/work/ae-preconstruction-partner/): Operating Partner to a national A&E pre-construction firm: a construction channel, 14 licensed architects and engineers sourced, and over $120 million in projects brought to bid.
 - [Fluidmapper](https://wiki.commonground.ventures/work/fluidmapper/): How Fluidmapper measures three-dimensional flow inside opaque industrial vessels with radioactive particle tracking and AI reconstruction: the science, its history, the alternatives, four buyer groups and the limits.
-- [Ground Truth Peptides](https://wiki.commonground.ventures/work/ground-truth-peptides/): A free, independent, evidence-graded reference for 42 research peptides built because honest information did not exist; sells nothing, takes no vendor money, and does not change a grade when the news changes.
 - [Ground Control](https://wiki.commonground.ventures/work/health-vault/): A private health command center built because every consumer app optimizes for the platform that runs it; labs, imaging, genetics, training and protocols in one system the owner controls, hardened through five security rounds over 391 commits.
+- [Ground Truth Peptides](https://wiki.commonground.ventures/work/ground-truth-peptides/): A free, independent, evidence-graded reference for 42 research peptides built because honest information did not exist; sells nothing, takes no vendor money, and does not change a grade when the news changes.
 - [Jackie Allison, Newborn Care Specialist](https://wiki.commonground.ventures/work/jackie-allison-website/): A site and a cited, unambiguous search identity for an independent Newborn Care Specialist, live on her own domain three days after the ask.
 - [Kanopi](https://wiki.commonground.ventures/work/kanopi-estimating-engine/): LÏEF's estimating engine, in place with eight builders and developers and over $600 million bid in 2026, publishing only the accuracy it earns blind.
 - [Lip Loi Creative](https://wiki.commonground.ventures/work/lip-loi-creative/): Common Ground's fractional CRO seat at Lip Loi Creative, a brand studio and Common Ground venture: fix it before you fund it, then bring the work in.
@@ -254,7 +254,7 @@
 - [Medline: contract adoption and a pain management plan across 18 hospitals](https://wiki.commonground.ventures/work/medline-baptist-hospital-system/): Before Nike, Khounlavong sold medical supplies to an 18-facility hospital system from Memphis, and produced two separate results: $20M through contract adoption and about 11% growth through a pain management plan.
 - [The Finish Line: a store grown from $3M to $5M](https://wiki.commonground.ventures/work/finish-line-lexington-store/): Khounlavong started at The Finish Line at 16, became an assistant manager in Lexington, and helped grow annual store volume from $3M to $5M.
 
-## Record of wins (232 rows)
+## Record of wins (237 rows)
 - [Record](https://wiki.commonground.ventures/record/): outcomes by company and year, each with date and public source
 
 ## Stories (136)
