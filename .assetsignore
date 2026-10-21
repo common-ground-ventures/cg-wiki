@@ -1,0 +1,12 @@
+# Repo files that must not be served as site content
+.git
+.github
+.gitignore
+.assetsignore
+.vercelignore
+.wrangler
+node_modules
+SITE.md
+vercel.json
+wrangler.jsonc
+receipts
