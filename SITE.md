@@ -19,7 +19,7 @@ The 2026-10-18 build (wins count 237, list order) went live 2026-10-20 via PR. L
 Parity against live: `python3 tools/http_parity.py https://wiki.commonground.ventures http://127.0.0.1:8791 receipts/parity-paths.txt` (tool lives in the OPERATIONS cg-migration folder on Jesse's machines). Latest result: receipts/parity-2026-10-19-live-vs-local.txt.
 
 ## Review rules
-- Infrastructure changes (wrangler.jsonc, _redirects, _headers, .assetsignore, vercel.json, build and deploy settings, DNS) stay open until Robbie (robbyproc87) reviews.
+- Infrastructure changes (wrangler.jsonc, _redirects, _headers, .assetsignore, vercel.json, build and deploy settings, DNS) stay open until Robby (robbyproc87) reviews.
 - Copy changes (page text, new pages) merge directly.
 - Brand files (style.css, the visual engines, the footer credit) wait for Jimmy's code-owner sign-off.
 - No direct pushes and no force pushes to main. Everything goes through a pull request.
