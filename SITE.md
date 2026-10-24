@@ -18,6 +18,15 @@ The 2026-10-18 build (wins count 237, list order) went live 2026-10-20 via PR. L
 `npx wrangler@4.147.0 dev --port 8791 --persist-to ../wrangler-state` then http://localhost:8791. Keep --persist-to outside the repo: the repo root is the assets folder, and wrangler state inside it makes the dev server reload in a loop.
 Parity against live: `python3 tools/http_parity.py https://wiki.commonground.ventures http://127.0.0.1:8791 receipts/parity-paths.txt` (tool lives in the OPERATIONS cg-migration folder on Jesse's machines). Latest result: receipts/parity-2026-10-19-live-vs-local.txt.
 
+## Accepted parity exceptions (wiki.commonground.ventures only)
+
+These are the only differences allowed between the Cloudflare-served wiki and the old Vercel copy. Both rulings are Robbie's. They apply to this hostname only, not to any other CG site.
+
+1. Redirect shape (Robbie, 10/20): trailing-slash 307s and the extra hops on legacy index.html aliases, accepted for beta. Cleanup is a follow-up, no new Worker. 54 of 464 paths in the cutover receipt.
+2. Cloudflare Web Analytics beacon (Robbie, 10/21): the zone injects one beacon script tag into HTML responses. Kept for the traffic and performance numbers; byte-identical HTML is not required here.
+
+How parity is judged: every parity run keeps two receipts, the raw comparison and a normalized one with only the beacon script tag removed before hashing (tools/pinned_parity.py). The normalized run must show exactly the accepted redirect set and nothing else. Any other difference is a real one. First pair: receipts/parity-2026-10-21-cutover-raw.txt and receipts/parity-2026-10-21-cutover-beacon-stripped.txt.
+
 ## Review rules
 - Infrastructure changes (wrangler.jsonc, _redirects, _headers, .assetsignore, vercel.json, build and deploy settings, DNS) stay open until Robbie (robbyproc87) reviews.
 - Copy changes (page text, new pages) merge directly.

@@ -1,0 +1,465 @@
+DIFF / {'sha1': ('a027dc1a3478', 'a30a4cec0f0c')}
+DIFF /alex-prince/ {'sha1': ('6e75e43aa48a', 'c19a1d9afe68')}
+DIFF /apexx-ai/ {'sha1': ('ea9bc600d194', '2ada95f51a3a')}
+ok   /assets/cg-logo-obsidian.png 200 8d2f5e5917a3
+ok   /assets/cg-logo-vapor.png 200 3e0d2c55e6ef
+DIFF /assets/og-image {'sha1': ('b685dcbe495e', '6fc24dfe3113')}
+ok   /assets/og-image.jpg 200 d9102204809f
+ok   /assets/og-image.png 200 45c0e77af9e4
+ok   /assets/speckle.png 200 b68361f93a72
+DIFF /bridgepoint-aviation/ {'sha1': ('63fc71781677', '70182d29ce44')}
+DIFF /chronicle-news/ {'sha1': ('bb1dea27708e', 'f7160b30d6ab')}
+DIFF /common-ground/ {'sha1': ('1cfb4155d532', '887e7333051e')}
+DIFF /data-rooms/ {'sha1': ('03fa0fc59f57', '1ea852f17c38')}
+ok   /dossiers/silver-mountain-ranches/Silver-Mountain-Ranches-Common-Ground-project-dossier.pdf 200 4e1504c77668
+ok   /dossiers/silver-mountain-ranches/Silver-Mountain-Ranches-Common-Ground-two-page-summary.pdf 200 d4baa529707b
+DIFF /drive-for-the-dream/ {'sha1': ('98c2c06a7039', 'beba43c53841')}
+DIFF /fluidmapper/ {'sha1': ('6199c6cb93ec', '237d995348ff')}
+DIFF /jasper-properties/ {'sha1': ('95f486f886b4', '09252e4b11b2')}
+DIFF /jesse-fowler/ {'sha1': ('b11e84264703', '4f0ea1c96514')}
+DIFF /jimmy-khounlavong/ {'sha1': ('ef4706139415', '125ef21b703b')}
+DIFF /kinetic-ml/ {'sha1': ('1095d2963868', '70ed0821e9be')}
+DIFF /kinwork/ {'sha1': ('ed0364e67b83', '81aa68cbe166')}
+DIFF /lief-development/ {'sha1': ('4e0f86fa8299', '562f2bb9aee8')}
+DIFF /lip-loi-creative/ {'sha1': ('777aa806ae2d', '744f5f357301')}
+ok   /llms.txt 200 c6964ada7d2c
+DIFF /news/ {'sha1': ('70b97aabb862', '28c6e13bd25f')}
+DIFF /news/2026-01-13-common-ground-contracted-to-build-proprietary-construction-e/ {'sha1': ('798fa6d81ad6', 'd481e77877e1')}
+DIFF /news/2026-01-27-common-ground-launches-apexx-ai-an-automation-advisory-for-1/ {'sha1': ('b70182d15501', '04f7e2947ede')}
+DIFF /news/2026-02-19-kanopi-estimating-engine-passes-36-000-lines-of-code-and-71-/ {'sha1': ('7a34023a18ed', '3fe5f4b87dce')}
+DIFF /news/2026-03-30-l-ef-s-22-residence-midtown-phoenix-adaptive-reuse-clears-tw/ {'sha1': ('fbc9d86c9a03', 'd1405385343d')}
+DIFF /news/2026-04-02-apexx-ai-ships-full-brand-and-web-package-for-bespoke-barber/ {'sha1': ('5876afbf4e7b', 'fc287defd2c6')}
+DIFF /news/2026-05-06-l-ef-submits-bid-for-36-153-square-foot-phoenix-youth-and-ed/ {'sha1': ('9dfc7a2f9fd5', '80db7a3a0353')}
+DIFF /news/2026-06-02-common-ground-authors-proprietary-generative-engine-optimiza/ {'sha1': ('e45df7e08291', 'd14213d43b2c')}
+DIFF /news/2026-06-09-kanopi-architecture-completes-first-phoenix-self-certificati/ {'sha1': ('10d1b8687e26', 'd783041af431')}
+DIFF /news/2026-06-29-common-ground-takes-golf-docuseries-drive-for-the-dream-to-m/ {'sha1': ('2111da4f646d', 'b545c811582f')}
+DIFF /news/2026-07-01-common-ground-contracted-to-build-kinetic-ml-a-lead-intellig/ {'sha1': ('065b028898b5', 'adf4873638f8')}
+DIFF /news/2026-07-06-common-ground-s-diligence-data-room-fleet-passes-ten-deploym/ {'sha1': ('1c86278b9042', 'bbc7bf0939d9')}
+DIFF /news/2026-07-07-l-ef-locks-residential-construction-contract-on-signed-cd-le/ {'sha1': ('36e19758eea8', '7642cde63226')}
+DIFF /news/2026-07-08-common-ground-ships-cascade-ir-investor-materials-that-refre/ {'sha1': ('5758724c4fa3', '7fc5aedb0d15')}
+DIFF /nick-scavio/ {'sha1': ('d00bc4f5dd07', '45cffca69b17')}
+DIFF /plunge-studio/ {'sha1': ('28a833da497a', '52bdd8c90b4e')}
+DIFF /prince-capital/ {'sha1': ('46d553d6ebd7', '20fcb0bd3fe9')}
+DIFF /record/ {'sha1': ('64182f80283b', 'e0689acd8c9f')}
+DIFF /results-based-advisory/ {'sha1': ('6edc2a3f8723', '92545e968859')}
+DIFF /robert-prochnow/ {'sha1': ('e2d830be1b28', 'b7287cbea663')}
+ok   /robots.txt 200 479caa713984
+DIFF /romulus-entertainment/ {'sha1': ('9c34a2b3a0b6', '9173f1071e98')}
+ok   /sitemap.xml 200 015e40b8e761
+DIFF /stories/ {'sha1': ('1995d387c53a', '57f173a3321e')}
+DIFF /stories/a-fifteen-by-forty-foot-mural-that-turned-into-a-four-year-relationshi/ {'sha1': ('796d13a624b8', '643d7cea1bc4')}
+DIFF /stories/a-gate-that-will-not-let-an-unsourced-claim-out-the-door/ {'sha1': ('7b7557125e04', 'a64d333f0b85')}
+DIFF /stories/a-good-answer-to-scope-that-quietly-grew/ {'sha1': ('d497b8d545b8', '57590c726828')}
+DIFF /stories/a-little-better-each-day/ {'sha1': ('6bc855713d62', 'd1a5e6c41b42')}
+DIFF /stories/a-record-in-ninety-days/ {'sha1': ('c317831dcebe', '4d0054eca085')}
+DIFF /stories/a-sealed-wall-not-a-sheet-of-plastic/ {'sha1': ('9383a0231965', '9803cf3e9d12')}
+DIFF /stories/a-vote-is-an-opinion-a-review-is-an-analysis/ {'sha1': ('5fd9262049f3', '179423cca72e')}
+DIFF /stories/answer-the-money-question-on-the-first-call/ {'sha1': ('adf8446d2249', 'ff34f634d511')}
+DIFF /stories/assume-the-buyer-has-a-model-open/ {'sha1': ('a550cc4932e8', '628b0adb73f2')}
+DIFF /stories/banning-round-numbers-from-the-bid/ {'sha1': ('558d84563fd2', 'e9850bdd8ec0')}
+DIFF /stories/betting-the-schedule-on-one-architects-authority/ {'sha1': ('810a5779dfb3', '4e3b3141206a')}
+DIFF /stories/branding-as-a-business-model-at-tellus/ {'sha1': ('35a6c5c9af36', '8f77e0879099')}
+DIFF /stories/bringing-a-dead-restaurant-back-from-scratch-then-finding-the-one-pers/ {'sha1': ('3aee65077a07', '373c150ca7b8')}
+DIFF /stories/bringing-design-in-house-to-own-the-schedule-not-to-sell-design/ {'sha1': ('10dad6cb6501', 'a846f52feaf2')}
+DIFF /stories/building-a-scoreboard-to-solve-a-people-problem/ {'sha1': ('bd0277e58b4b', '66b326705691')}
+DIFF /stories/building-it-in-house-instead-of-paying-for-it-twice/ {'sha1': ('9e50fa9eac9a', 'aa0559142547')}
+DIFF /stories/building-it-instead-of-pitching-it/ {'sha1': ('447a4594515a', 'a3a039a33e51')}
+DIFF /stories/building-it-ourselves-so-we-could-try-to-break-it/ {'sha1': ('a390e1674c1f', '06154e3a65f3')}
+DIFF /stories/building-the-bench-instead-of-doing-it-alone/ {'sha1': ('fcb6bc70326d', '405ec705de14')}
+DIFF /stories/building-the-estimating-algorithm-a-decade-before-ai-could-do-it/ {'sha1': ('1259dbd56c35', 'a5cd15f24e98')}
+DIFF /stories/building-the-pricing-model-instead-of-trusting-the-gut/ {'sha1': ('ea2b550c2aab', '4417fa015fcc')}
+DIFF /stories/building-the-product-he-needed-at-a-loss/ {'sha1': ('1a3ba84fe959', '085cdc9aecef')}
+DIFF /stories/catching-his-own-five-times-overcount/ {'sha1': ('11a09b327cfc', 'd0e6c06d770c')}
+DIFF /stories/choice-beef-and-the-cut-nobody-notices/ {'sha1': ('b47fcf42b2fa', 'c07332580bf9')}
+DIFF /stories/choosing-the-architect-who-draws-over-the-one-who-watches/ {'sha1': ('b60a44fd6810', 'fd1d6a8f387f')}
+DIFF /stories/choosing-which-grinders-to-bet-on/ {'sha1': ('ad341f003269', '6c67282f0b21')}
+DIFF /stories/collecting-the-facts-instead-of-asking-for-them/ {'sha1': ('aef9d49fdfbe', 'f01a8063cfb5')}
+DIFF /stories/contract-only-the-trades-that-keep-working/ {'sha1': ('67a148b3f399', '721e9ad31dde')}
+DIFF /stories/correcting-your-own-bad-news-the-same-day-you-find-out-it-was-wrong/ {'sha1': ('ce68b373cebb', '739114be4d60')}
+DIFF /stories/correcting-your-own-number-out-loud/ {'sha1': ('1e9e994cc244', 'd0ee3d072de6')}
+DIFF /stories/cut-the-hole-before-the-plan-is-approved/ {'sha1': ('e1b9eaa82bb6', 'dd681232c7c8')}
+DIFF /stories/cutting-the-cheap-number-even-though-it-sounded-good/ {'sha1': ('e35afae08789', '2e33f75c9ca3')}
+DIFF /stories/cutting-the-fleet-down-to-what-actually-earns-its-keep/ {'sha1': ('19db6f808c9a', '27f3e31e5ab5')}
+DIFF /stories/deciding-to-broker-his-own-buildings-sale/ {'sha1': ('0b328e21e6cd', '5c1b3db07feb')}
+DIFF /stories/design-the-outreach-for-the-adult-who-refers/ {'sha1': ('f46a4c33c53a', 'a022b1cefdf1')}
+DIFF /stories/every-reporters-call-is-a-backlink/ {'sha1': ('332c8756d579', '3ecc1e46ab47')}
+DIFF /stories/everyone-called-it-collections-it-was-maintenance/ {'sha1': ('79e5f5969123', 'df33e4a5634a')}
+DIFF /stories/four-apps-in-one-day-built-where-people-could-watch/ {'sha1': ('4d15a077bd9d', 'fc0e7d8cb73c')}
+DIFF /stories/graduated-trust-after-a-real-mistake/ {'sha1': ('b374b201b535', 'ee5a92123af5')}
+DIFF /stories/greensburg-what-went-wrong/ {'sha1': ('f26c3647b2c3', 'af3519feb197')}
+DIFF /stories/hearing-the-bigger-business-hiding-behind-the-pitch/ {'sha1': ('2f0d575e73a3', '98605006b905')}
+DIFF /stories/holding-the-bid-back-to-control-how-it-lands/ {'sha1': ('39ef960e2901', '1b2a0712ec18')}
+DIFF /stories/i-already-paid-for-these-mistakes-you-dont-have-to/ {'sha1': ('380b205db79c', '74360fbd1c20')}
+DIFF /stories/i-sent-the-bid-flawed-on-purpose/ {'sha1': ('b2bc2d1eed4f', 'b9f63b061099')}
+DIFF /stories/i-was-the-client/ {'sha1': ('a8d7307bf7f9', '20b85c508215')}
+DIFF /stories/is-that-the-problem-or-the-solution/ {'sha1': ('e91bc73d56db', 'c76f14901250')}
+DIFF /stories/keeping-an-nba-teams-building-open-while-we-rebuilt-it/ {'sha1': ('3ec12a8891df', 'dfc6413b4af7')}
+DIFF /stories/keeping-the-prompts-inside-the-walls/ {'sha1': ('49a8094f8cbf', '5fe915c6c678')}
+DIFF /stories/let-the-client-argue-with-a-live-model/ {'sha1': ('986fdf01feb0', '541982b7eeec')}
+DIFF /stories/let-the-partner-with-the-track-record-answer-for-himself/ {'sha1': ('34d2a6ecedd0', '9e8eef0e331a')}
+DIFF /stories/make-the-check-repeatable-before-the-content/ {'sha1': ('4493dea9cf7e', 'e288f0833afe')}
+DIFF /stories/mapping-the-process-before-automating-it-for-a-client-seven-states-wid/ {'sha1': ('56a02f60a6fe', '10baa4ecacf7')}
+DIFF /stories/moving-the-crm-twice-in-three-weeks/ {'sha1': ('0427bb13d964', 'e12ef676c4e2')}
+DIFF /stories/naming-the-credibility-gap-out-loud/ {'sha1': ('9a3d31ccea45', 'fcc61d505cfb')}
+DIFF /stories/naming-the-gap-instead-of-hiding-it/ {'sha1': ('6e1660b0f34c', 'd6e20e7efa63')}
+DIFF /stories/narrowing-the-bid-on-purpose-then-catching-your-own-math-error/ {'sha1': ('abbb7fdceafb', 'eb8f5790d968')}
+DIFF /stories/nine-months-of-cold-calls-for-a-town-with-no-budget/ {'sha1': ('74aa987f630b', '1f3b1df78ac2')}
+DIFF /stories/no-savings-number-before-the-baseline/ {'sha1': ('903f840a2f9b', 'e0fe03c83f37')}
+DIFF /stories/nobody-was-really-buying-green/ {'sha1': ('18399e7cb449', '0ffa7af49060')}
+DIFF /stories/nothing-ships-on-one-pass/ {'sha1': ('9084960f9977', '341411a695c5')}
+DIFF /stories/nothing-until-you-win/ {'sha1': ('6ebefac88ffc', 'fcad6cf7d06b')}
+DIFF /stories/origin-axt-axe-haus/ {'sha1': ('847a10a33baf', '054ee052744f')}
+DIFF /stories/origin-greensleeves-steakhouse/ {'sha1': ('c850e220bea0', '9b5442cb8506')}
+DIFF /stories/origin-h-e-e-a-l-santa-barbara/ {'sha1': ('c4f635a6f649', 'd91a63ed590b')}
+DIFF /stories/origin-l-ef-development/ {'sha1': ('23799dc69459', '5eef14013ff6')}
+DIFF /stories/origin-los-angeles-county-museum-of-art-lacma/ {'sha1': ('aea57f8b32a1', '568d5018e869')}
+DIFF /stories/origin-save-the-world-air-inc/ {'sha1': ('aeddbc98dcc4', 'ed86bfea13b4')}
+DIFF /stories/origin-sublime-medical/ {'sha1': ('e7ec47ddcf41', 'bcbdb01e1892')}
+DIFF /stories/our-own-record-does-not-get-to-be-shy-about-our-own-work/ {'sha1': ('6ba94fe8a29b', '1a730e7c4817')}
+DIFF /stories/passing-on-a-bid-that-penciled-to-save-the-attention-for-home-turf/ {'sha1': ('e05f211ddcd1', '0d3974ccc219')}
+DIFF /stories/permitting-a-category-that-did-not-exist-yet/ {'sha1': ('932c5ccd0e73', 'bbba80784a80')}
+DIFF /stories/phasing-a-build-so-an-nba-team-never-had-to-stop-training/ {'sha1': ('165bcd24b06e', 'b2630ce12d13')}
+DIFF /stories/pivoting-the-format-when-the-money-said-something-different/ {'sha1': ('c595127d930d', '496629b365c0')}
+DIFF /stories/pricing-the-tradeoff-of-being-fast-with-his-eyes-open/ {'sha1': ('066712c916e8', '8a04459ca1bc')}
+DIFF /stories/reading-the-competitors-bid-before-writing-your-own/ {'sha1': ('a4c7bfe1c58c', 'f99953370d06')}
+DIFF /stories/reading-the-fine-print-on-a-deferred-payment-that-never-actually-ended/ {'sha1': ('51411e45c309', 'c87569000828')}
+DIFF /stories/rebuilding-a-brilliant-founders-pitch-around-the-buyer-instead-of-the/ {'sha1': ('ea38e76363a8', 'a0b643f47f2c')}
+DIFF /stories/rebuilding-a-tower-off-the-wrong-buildings-blueprints/ {'sha1': ('02222323c366', '406c845af2b2')}
+DIFF /stories/refusing-to-sell-a-negotiating-budget-as-an-engineered-certainty/ {'sha1': ('be52b78b66d0', '5443bf69b6cd')}
+DIFF /stories/running-a-build-in-a-state-where-he-wasnt-licensed-trade-direct-with-n/ {'sha1': ('a6e32ad30b64', '7fb10eb6b8b2')}
+DIFF /stories/running-the-comps-before-answering-the-cell-tower-offer/ {'sha1': ('b2e1d96920df', 'd6a6bdea38b6')}
+DIFF /stories/running-the-deal-review-before-the-investor-does/ {'sha1': ('a5bde6711d63', '535dd0c8eaf0')}
+DIFF /stories/selling-the-easement-keeping-the-building/ {'sha1': ('024980a833d0', '8c298154ed0c')}
+DIFF /stories/selling-the-safe-product-now-gating-the-risky-one-behind-his-own-build/ {'sha1': ('518cebd90090', '441e7699e1c0')}
+DIFF /stories/sending-a-bid-you-cant-sign-yet/ {'sha1': ('d9175b793e0d', 'c86371aaf61d')}
+DIFF /stories/sending-an-unverified-bid-to-a-competitor-and-owning-the-mistake-inste/ {'sha1': ('85a3f4eeaf3b', '33c9acee7c61')}
+DIFF /stories/six-cents-a-click/ {'sha1': ('43e5feeb14c3', '9bd1d9b8b7b7')}
+DIFF /stories/sixty-days-to-the-car-show/ {'sha1': ('8d47f4b6572f', '19ecfbe22d50')}
+DIFF /stories/sound-pods-first-soundproofing-when-they-asked/ {'sha1': ('81dc736115af', '89f8f27e651f')}
+DIFF /stories/starting-with-the-golfer-nobody-else-would-sign/ {'sha1': ('9732292d4c80', '702b7bc027ca')}
+DIFF /stories/style-is-countable-measuring-my-own-voice-before-letting-agents-use-it/ {'sha1': ('47c11a8934ad', '900bb5d86107')}
+DIFF /stories/taking-over-a-shuttered-1892-landmark-and-bringing-back-the-people-who/ {'sha1': ('ebe5a3156b5e', '438a8de667e7')}
+DIFF /stories/taking-tellus-design-at-a-loss-to-control-the-timeline/ {'sha1': ('a0e5b7f90043', '5c03e1add253')}
+DIFF /stories/teaching-the-system-to-catch-its-own-mistake/ {'sha1': ('7ad0184441e6', 'afd4e50be445')}
+DIFF /stories/telling-a-friend-his-dream-house-cost-six-to-twelve-million-more-than/ {'sha1': ('064051f6a270', 'de1218064a1a')}
+DIFF /stories/telling-prospects-the-email-was-written-by-an-ai/ {'sha1': ('5a742b394201', '583bde52ad1f')}
+DIFF /stories/testing-the-engine-against-an-expert-before-trusting-its-scores/ {'sha1': ('52c913fb4acd', '3d787c8ea84c')}
+DIFF /stories/the-2-a-m-tell/ {'sha1': ('1fc78fd80959', '1125e7fc8a7e')}
+DIFF /stories/the-bug-he-built-the-gate-for/ {'sha1': ('2a3e19a55ec7', '8541fd90d410')}
+DIFF /stories/the-change-order-that-was-not-a-change/ {'sha1': ('47bdae57f809', 'e9aba69fc701')}
+DIFF /stories/the-contract-i-grew-up-inside/ {'sha1': ('1e11bc5d2226', '640f262765e2')}
+DIFF /stories/the-domain-was-burned-and-nobody-had-said-it-out-loud/ {'sha1': ('6ac3b29dd30f', '9daff69d9b3c')}
+DIFF /stories/the-formula-that-was-quietly-underpricing-framing-by-six-and-a-half-ti/ {'sha1': ('0d634ee2ac19', 'e9b2c21e7d84')}
+DIFF /stories/the-fourteen-day-rule/ {'sha1': ('48c8ca6a6f8f', '7813234b3d4c')}
+DIFF /stories/the-greensburg-rebuild/ {'sha1': ('c817c0875d3d', '71ba20580fda')}
+DIFF /stories/the-job-posting-that-caught-us/ {'sha1': ('2ec56eada1f1', '31a99ccb0d05')}
+DIFF /stories/the-keyhole/ {'sha1': ('48f91711954a', '7e464b982dae')}
+DIFF /stories/the-long-way-around-the-guest/ {'sha1': ('b1d630b0390e', '6646d400e295')}
+DIFF /stories/the-machine-i-thought-was-idle-was-the-one-on-fire/ {'sha1': ('463b5c99ab27', '03f76c338512')}
+DIFF /stories/the-macro-numbers-go/ {'sha1': ('652db453683a', 'ae7b9aa3c27f')}
+DIFF /stories/the-markup-stack-that-broke-in-may/ {'sha1': ('2ae9e8aacabf', '36bc60af18c9')}
+DIFF /stories/the-mural-we-painted-without-asking/ {'sha1': ('ebf98a114484', '60a8e95ea85c')}
+DIFF /stories/the-nine-and-a-half-foot-error-the-agents-caught-themselves/ {'sha1': ('a062b8dde1dc', '2d63af343740')}
+DIFF /stories/the-nine-month-method/ {'sha1': ('9b22bb654a20', 'ff6536bed067')}
+DIFF /stories/the-overnight-blitz-that-corrupted-its-own-proof/ {'sha1': ('cc80b23917b4', '93e6f5126308')}
+DIFF /stories/the-pipeline-was-lying-to-us/ {'sha1': ('11e71b9a0c36', 'ad83429264a0')}
+DIFF /stories/the-speed-camera-at-the-stoplight/ {'sha1': ('2b0913837f05', 'b20419e34472')}
+DIFF /stories/the-steakhouses-parent-company-became-common-ground/ {'sha1': ('23a0dfb1d350', 'e5df7adb6447')}
+DIFF /stories/the-vp-who-asked-can-we-buy-this-from-you/ {'sha1': ('e1eea185b959', '5211ba70295a')}
+DIFF /stories/the-wrong-building/ {'sha1': ('57ba13570f8f', 'ebc13e3b6b4d')}
+DIFF /stories/trust-the-trend-not-the-point/ {'sha1': ('adc4ef88954c', 'b9d01fb09184')}
+DIFF /stories/trusting-a-model-because-it-looked-finished/ {'sha1': ('7337abaf03f0', 'ae0b49f78354')}
+DIFF /stories/turning-a-free-trial-into-skin-in-the-game/ {'sha1': ('043e8a04e018', 'f53774f1f22c')}
+DIFF /stories/turning-three-days-of-trade-show-questions-into-search-authority/ {'sha1': ('0c3858e7c802', '2f5f06c34a44')}
+DIFF /stories/two-brands-two-speeds/ {'sha1': ('48c3f15317bd', '193b9e60fbd7')}
+DIFF /stories/two-hours-to-fix-the-first-client-invoice/ {'sha1': ('f338d4514325', '1f3b31a1c17d')}
+DIFF /stories/two-versions-of-the-same-bid/ {'sha1': ('5870c09fb948', 'c9a5818d9f26')}
+DIFF /stories/two-words-and-four-months-of-notice/ {'sha1': ('06deb0689a6a', '628ad5d8284e')}
+DIFF /stories/vertically-integrating-so-nobody-could-point-fingers-but-him/ {'sha1': ('640e0e0ee253', '2a383b6ccb0f')}
+DIFF /stories/walking-away-from-a-deal-that-kept-changing-its-own-numbers/ {'sha1': ('640ae60af26e', '8325a6ba9f5b')}
+DIFF /stories/we-are-not-a-free-salesperson/ {'sha1': ('64ea31a54397', '6b248069e207')}
+DIFF /stories/what-2008-actually-taught-me/ {'sha1': ('3e4d30db3cb8', 'f3a9ca4b9fba')}
+DIFF /stories/whose-number-is-it-really/ {'sha1': ('c33c664258c0', '023dee0bd6c8')}
+DIFF /stories/winning-a-fire-code-appeal-by-refusing-to-touch-the-building/ {'sha1': ('5978aafb370b', '290f5d655545')}
+DIFF /stories/you-see-a-good-practitioner-in-retention-not-reviews/ {'sha1': ('429be26e2707', 'afa3764ab557')}
+DIFF /stories/zero-red-lines-never-our-own-stamp/ {'sha1': ('e42df9e58bd9', 'd42381198291')}
+ok   /style.css 200 bc0e238a9bdd
+DIFF /tellus-design-build/ {'sha1': ('1da16d59e8fb', '795c5ad117d3')}
+DIFF /work/ {'sha1': ('6afc5232c0b1', '3b4253dee58d')}
+DIFF /work/acg-pendleton-mowabb/ {'sha1': ('79f7e82efa4d', '4607aabfa8aa')}
+DIFF /work/ae-preconstruction-partner-questions/ {'sha1': ('a228f8644460', 'e350af2747e5')}
+DIFF /work/ae-preconstruction-partner/ {'sha1': ('4e3e13784742', 'f7571e2a9720')}
+DIFF /work/aegis-lens/ {'sha1': ('028226572211', 'dac52e013aa5')}
+DIFF /work/air-max-day-by-you/ {'sha1': ('e1ceb4c0e192', '03d832b1b9d3')}
+DIFF /work/air-visi-pro-iii/ {'sha1': ('795cfe7d2af6', '0ceb4a835e8a')}
+DIFF /work/alice-mushrooms-questions/ {'sha1': ('07236c5ede55', '283f995ab8fd')}
+DIFF /work/alice-mushrooms/ {'sha1': ('d2027a34d1a6', '628129ae71cb')}
+DIFF /work/all-star-2011-los-angeles-distribution-plan/ {'sha1': ('01282226c462', '39ce1ca4e500')}
+DIFF /work/amplify-basketball-and-basketball-by-nike/ {'sha1': ('67047ac51143', '3b4433587066')}
+DIFF /work/asian-american-heritage-month-open-house/ {'sha1': ('b4d6ba4a63ca', '90dc3f75c3b6')}
+DIFF /work/athlete-focus-groups-2014-2015/ {'sha1': ('022739ba8919', 'ec79c57b0138')}
+DIFF /work/axt-axe-haus-questions/ {'sha1': ('7c487133f0c3', '4811050fbd00')}
+DIFF /work/axt-axe-haus/ {'sha1': ('12701e951747', 'fb953e090a35')}
+DIFF /work/aycre-brand-and-narrative/ {'sha1': ('1deb972d097f', '6a5d1bea0103')}
+DIFF /work/aycre-capital-fund-questions/ {'sha1': ('c1a040e36560', '524cc5e7eb87')}
+DIFF /work/aycre-capital-fund/ {'sha1': ('8f5e623c29dc', 'd90d4e349653')}
+DIFF /work/b2b-saas-go-to-market-build/ {'sha1': ('97e8adca1667', '68409d0d5c3f')}
+DIFF /work/barbershop-client-questions/ {'sha1': ('f70a848830ae', '31169ae7d7ec')}
+DIFF /work/barbershop-client/ {'sha1': ('70a0166c1269', '8c4428a3a7af')}
+DIFF /work/born-mercurial/ {'sha1': ('8e89ee208e0c', '94b21b41adf7')}
+DIFF /work/brand-standards-for-six-brands/ {'sha1': ('69755f084abc', 'ef349287b7a6')}
+DIFF /work/bridgepoint-air-questions/ {'sha1': ('49ed0b84a4f2', 'f0e2c59dedea')}
+DIFF /work/bridgepoint-air/ {'sha1': ('dafe3f641a75', '958e70000e14')}
+DIFF /work/brokerage-agent-team/ {'sha1': ('c6d1383eba89', '1bdec5cd6f17')}
+DIFF /work/canyon-corporate-questions/ {'sha1': ('98e6dc12ffca', 'd73d94a4b98b')}
+DIFF /work/canyon-corporate/ {'sha1': ('234207de8fd3', 'c09454fb6ca8')}
+DIFF /work/carroll-shelby-gardena-questions/ {'sha1': ('8734a1c7916d', 'e32d489363af')}
+DIFF /work/carroll-shelby-gardena/ {'sha1': ('6fdb954a899a', '98c02bfa8381')}
+DIFF /work/cascade-ir/ {'sha1': ('6e4862c9dc34', 'b4f53d884b49')}
+DIFF /work/cdw/ {'sha1': ('b0af76b20cc0', '8137f09b383e')}
+DIFF /work/city-of-athletes-nike-sportswear/ {'sha1': ('da3c05b5848e', '75104a2924cb')}
+DIFF /work/city-specialty-assortment-rollout/ {'sha1': ('a942d9237bb8', 'beb87d769a68')}
+DIFF /work/commonground-ventures-site/ {'sha1': ('27b4373807b3', '520c4539f291')}
+DIFF /work/conquer-the-core/ {'sha1': ('e54984679033', 'a6a7aaace439')}
+DIFF /work/content-system/ {'sha1': ('89974d288f69', '60d60f764a1d')}
+DIFF /work/contractor-gorilla-questions/ {'sha1': ('11b94203a815', '1dc6fb987a95')}
+DIFF /work/contractor-gorilla/ {'sha1': ('03866cd58e6d', '1c807c2b5f29')}
+DIFF /work/create-the-future-account-by-account/ {'sha1': ('d838d4d878b1', '1731b8748225')}
+DIFF /work/crm-migration-questions/ {'sha1': ('8412a4e68afc', 'f060847088bd')}
+DIFF /work/crm-migration/ {'sha1': ('7df0d005a5c1', '693ad090f056')}
+DIFF /work/detroit-sporting-goods/ {'sha1': ('cb0dae0fcce4', '029d2ad857c9')}
+DIFF /work/drive-for-the-dream-brand/ {'sha1': ('0c624cf498e9', '1131ba53551a')}
+DIFF /work/drive-for-the-dream-questions/ {'sha1': ('99388fd19c09', '3742e89c4779')}
+DIFF /work/drive-for-the-dream/ {'sha1': ('fe8ad5abb0b4', '3ab218cbe238')}
+DIFF /work/dunhams-football-cleat-share/ {'sha1': ('bc48c6d4a619', '9322979aaa20')}
+DIFF /work/electronic-ordering-mc-sports-dunhams/ {'sha1': ('d772c2774cf7', 'c18886791ace')}
+DIFF /work/email-operations-learning-loop/ {'sha1': ('43145a5263df', '1a00040df781')}
+DIFF /work/empower-her-hollywood-south-la/ {'sha1': ('3ba3b1b02f15', '46c8564bb17f')}
+DIFF /work/epic-react-by-run-crews/ {'sha1': ('4f5a6b528111', '3a2e8a64a1f7')}
+DIFF /work/fall-2019-line-plan-framework/ {'sha1': ('baf660efec7b', '95f64d1c6a7a')}
+DIFF /work/financial-advisory-search-build/ {'sha1': ('6766fffdddaf', 'cc6ca5d09f97')}
+DIFF /work/finish-line-door-segmentation/ {'sha1': ('3823aae94e85', '273d222c555f')}
+DIFF /work/finish-line-lexington-store/ {'sha1': ('847f1a16cb7c', '4c0b93417bbc')}
+DIFF /work/fiscal-2013-share-margin-fewer-styles/ {'sha1': ('cbb59b2baf1c', 'fd70b0f4e428')}
+DIFF /work/fiscal-2014-growth-with-flat-inventory/ {'sha1': ('0a19ed6acd0d', '298a011d9848')}
+DIFF /work/fiscal-2015-plan-beaten-every-season/ {'sha1': ('99e0b96a724b', '0db2d57f0375')}
+DIFF /work/fiscal-2019-collaboration-pipeline/ {'sha1': ('26601be00af1', '72f78a7d6452')}
+DIFF /work/fluidmapper-brand-and-site/ {'sha1': ('7df2b57c08c4', '2ac763a97172')}
+DIFF /work/fluidmapper-datasets-gate/ {'sha1': ('64347cf0a13e', '9b4fa9564666')}
+DIFF /work/fluidmapper-questions/ {'sha1': ('29e7ce3d0a5a', 'dfdd2e07614d')}
+DIFF /work/fluidmapper/ {'sha1': ('e893a374bbd8', '297d1e3f5f55')}
+DIFF /work/football-planning-tool/ {'sha1': ('fca210ab5a46', 'f677ccce9e57')}
+DIFF /work/four-apps-in-a-day/ {'sha1': ('bebf4a012a20', 'd518023aa6b3')}
+DIFF /work/foyer-hall/ {'sha1': ('cafad9927f8c', '9a6be3853eb3')}
+DIFF /work/fundable-founders-playbook-and-score/ {'sha1': ('c4cd86f076fc', 'b5ca01c2648e')}
+DIFF /work/ghana-community/ {'sha1': ('fadee7e5a298', '2d54af940b34')}
+DIFF /work/global-broadcast-and-geography-calendar/ {'sha1': ('9ddec70f2bb5', '19d2562dd743')}
+DIFF /work/governed-agent-platform/ {'sha1': ('d43bc238c036', 'e11c9d0f132e')}
+DIFF /work/grant-match-ai/ {'sha1': ('bb34b0faa910', '129856db867c')}
+DIFF /work/greensburg-kansas-questions/ {'sha1': ('0e319edd8d28', 'ce3bb58e778a')}
+DIFF /work/greensburg-kansas/ {'sha1': ('c9b2e3cf31e8', 'bb31a5bbc97b')}
+DIFF /work/greensleeves-steakhouse-questions/ {'sha1': ('9032268ecec1', '2cf6b1786e28')}
+DIFF /work/greensleeves-steakhouse/ {'sha1': ('0027ba7ba772', '7dce29e5d1c4')}
+DIFF /work/ground-truth-peptides/ {'sha1': ('fa66c2f193ec', 'a76db1e0ad8e')}
+DIFF /work/habitat-for-humanity-questions/ {'sha1': ('aff05d5ade49', '368984921f74')}
+DIFF /work/habitat-for-humanity/ {'sha1': ('84fc8a2f3516', '8e88d9971e02')}
+DIFF /work/health-vault/ {'sha1': ('3e1ffe8b25b5', 'f650335d4570')}
+DIFF /work/heeal-santa-barbara/ {'sha1': ('81dbd9852c93', 'aa45d515a41c')}
+DIFF /work/hibbett-sports-door-clusters/ {'sha1': ('c96e4c4121ee', '44044d534267')}
+DIFF /work/hightide-capital/ {'sha1': ('b12de8ea0997', 'e28bf9e64083')}
+DIFF /work/hightide-desk-tools/ {'sha1': ('c958c250c360', '30c040bc3ba8')}
+DIFF /work/hot-bag-and-quick-facts-mailers/ {'sha1': ('b6477a5055e7', 'b04946c44b2b')}
+DIFF /work/hyatt-studios-georgetown-questions/ {'sha1': ('85798f58b401', 'ba5014777c80')}
+DIFF /work/hyatt-studios-georgetown/ {'sha1': ('7e51f6ff5402', 'ce1de158e122')}
+DIFF /work/iconic-mall-positioning-deck/ {'sha1': ('ce4069177637', 'a5d1812e18d3')}
+DIFF /work/ink-games-questions/ {'sha1': ('78f2118b553d', '437b6e6264ae')}
+DIFF /work/ink-games/ {'sha1': ('704b4dbe0906', '96be7e4f0c27')}
+DIFF /work/jackie-allison-website/ {'sha1': ('1232b011de96', 'd9301d6fcdc5')}
+DIFF /work/jason-scott-buy-plan/ {'sha1': ('d7fd287a0215', 'f3fb1fc0e91f')}
+DIFF /work/jason-scott-luxury-apparel-questions/ {'sha1': ('daf67b5b1c36', '0a85092af12c')}
+DIFF /work/jason-scott-luxury-apparel/ {'sha1': ('d709073a1260', '110227d12d6c')}
+DIFF /work/jasper-brands-golf-polo-line/ {'sha1': ('b077cc29a30b', 'e0cd6bdf7749')}
+DIFF /work/joga-bonito-futsal-michigan/ {'sha1': ('0d70fee8829f', '21905aef2454')}
+DIFF /work/kanopi-estimating-engine-questions/ {'sha1': ('70fa57a771e5', 'be07bba5a059')}
+DIFF /work/kanopi-estimating-engine/ {'sha1': ('1c8ad4c90347', '84234da18eb6')}
+DIFF /work/kill-zone-mid-price-footwear/ {'sha1': ('1cac4b1aa9c1', '062f6d56fcab')}
+DIFF /work/kinetic-ml-pitch-deck/ {'sha1': ('5093a9c24c65', '0b2c9d42128c')}
+DIFF /work/la-clippers-practice-facility-questions/ {'sha1': ('28e5f3f04611', '5feb340bdf39')}
+DIFF /work/la-clippers-practice-facility/ {'sha1': ('3434aec4f33b', '7270c24d2fa0')}
+DIFF /work/lacma-sculpture-questions/ {'sha1': ('25b5ad52e749', '8c3bbbf7201f')}
+DIFF /work/lacma-sculpture/ {'sha1': ('8331465d6232', '0a157dcf3563')}
+DIFF /work/lebron-james-welcome-los-angeles/ {'sha1': ('db7004123eed', 'c89be8ff8f6c')}
+DIFF /work/lebron-x-launch-holiday-2012/ {'sha1': ('fb191cfb5b3c', '29c8808b25c5')}
+DIFF /work/legal-team-medical-record-review/ {'sha1': ('9d29df7d97ab', '8a2a68b9e80c')}
+DIFF /work/lief-development-company-brand-and-sites/ {'sha1': ('b00e71ff572e', 'a81f30cbc94e')}
+DIFF /work/lief-midtown-301-osborn-questions/ {'sha1': ('1d74a5606b0e', '7264699a3aba')}
+DIFF /work/lief-midtown-301-osborn/ {'sha1': ('a5e4c88e750f', '14682ada888f')}
+DIFF /work/lief-midtown-brand-system/ {'sha1': ('13a2de51b41d', '6ef30f870574')}
+DIFF /work/lief-midtown-plan-set-review/ {'sha1': ('887e73bb1f78', 'a8df623313e3')}
+DIFF /work/lief-midtown-residence-pages-and-search-readiness/ {'sha1': ('98a62c567b1a', '41feaf5e2ecb')}
+DIFF /work/lief-midtown-website-rebuild-and-launch/ {'sha1': ('f9b81cce151f', '22586958404b')}
+DIFF /work/lief-osborn-investor-deck-narrative/ {'sha1': ('a7f91ac64c73', '71b71ba78b6c')}
+DIFF /work/lief-osborn-rollout-plan-v2/ {'sha1': ('bb747cc52d90', '1c13558481c2')}
+DIFF /work/lief-selections-program-and-look-book/ {'sha1': ('614d15393db8', '6d5b48a0e12f')}
+DIFF /work/lief-two-brand-visual-system/ {'sha1': ('74a360540df2', '0ed7994a9688')}
+DIFF /work/lifted-trucks-mission-control/ {'sha1': ('32a3d8ff9d1a', '075f83adf624')}
+DIFF /work/lip-loi-creative-questions/ {'sha1': ('30a6fd90c60f', '5b1de93ce819')}
+DIFF /work/lip-loi-creative/ {'sha1': ('1650ac951806', '701de2a6c758')}
+DIFF /work/lip-loi-studio-work-questions/ {'sha1': ('8fe78f8d521d', '0e94af33ca48')}
+DIFF /work/lip-loi-studio-work/ {'sha1': ('8b563e12808a', '81205644d05c')}
+DIFF /work/los-angeles-first-tour/ {'sha1': ('8472f76b846c', '6e8b5eb64073')}
+DIFF /work/los-angeles-launch-calendar/ {'sha1': ('bda8cb3dda3c', '98ae2cf4272c')}
+DIFF /work/los-angeles-running-market-travel/ {'sha1': ('e41d601db7c8', 'd0b40191634c')}
+DIFF /work/luke-kwon-brand-system/ {'sha1': ('ad68e0001a88', 'b9209ecee460')}
+DIFF /work/margin-tools-and-price-ladder/ {'sha1': ('d6f3c0466a55', 'd5ab1b1ab659')}
+DIFF /work/market-travel/ {'sha1': ('562c684d08e7', '2b6aa5cd520e')}
+DIFF /work/master-visual-line-plan-template/ {'sha1': ('5e2b58be5f56', '594b09c48f6f')}
+DIFF /work/mc-sports-shared-stock-to-sales-plan/ {'sha1': ('6f8cc0e7da78', '3b8dc64eebd1')}
+DIFF /work/mc-sports-team-basketball-program/ {'sha1': ('f9f1ecc6309d', '084c3429ed06')}
+DIFF /work/medical-device-us-entry-questions/ {'sha1': ('125468d83b89', 'e6aaa9e46332')}
+DIFF /work/medical-device-us-entry/ {'sha1': ('9eab9dc4c157', '7f58e9a24fb2')}
+DIFF /work/medline-baptist-hospital-system/ {'sha1': ('9ccd587f8b88', '384ecf69c990')}
+DIFF /work/membership-and-customization-line-plan-integration/ {'sha1': ('9cbf9b787746', '5bc13a86b7bf')}
+DIFF /work/midwest-boutiques/ {'sha1': ('2d7c154bfcd3', '4013ae4e9fec')}
+DIFF /work/modular-fabrication-center/ {'sha1': ('cf86c68f3d0c', '8e4a77663529')}
+DIFF /work/multifamily-204-units/ {'sha1': ('4ac13b5b3557', 'd1617c5fae2d')}
+DIFF /work/n7-wings-of-america-focus-group/ {'sha1': ('da97c15cda6a', 'd35b6fa56cbc')}
+DIFF /work/nba-by-air-force-1/ {'sha1': ('8b3d62e2f282', '48bd271dd10c')}
+DIFF /work/nba-hyperlocal-and-all-the-stars-of-la/ {'sha1': ('4914348ac74b', 'cf1a9661f181')}
+DIFF /work/negotiated-apology-project-brand-guidelines/ {'sha1': ('b122eefe19c1', 'b97d4488f860')}
+DIFF /work/net-collectors-society-march-madness/ {'sha1': ('77555e041146', 'a8347039c2b3')}
+DIFF /work/new-boutique-doors-phenom-pogo-haberdash/ {'sha1': ('1e6abf4a69bb', '5098fb0973cd')}
+DIFF /work/new-york-running-market-travel/ {'sha1': ('2d71e820732f', 'c39f9cd9c291')}
+DIFF /work/next-urban-gear-account-plans/ {'sha1': ('df482c3c8c49', '5453aabe30cf')}
+DIFF /work/nike-basketball-north-america/ {'sha1': ('68df3280399f', '2ff79629557a')}
+DIFF /work/nike-by-you-merchandising-organization/ {'sha1': ('1f7eea6ae6fb', 'a284b2011ca7')}
+DIFF /work/nike-by-you-merchandising-plan-fiscal-2019-2021/ {'sha1': ('b930b919bf9b', 'd66b7fc607b9')}
+DIFF /work/nike-by-you-pricing-framework/ {'sha1': ('a1004d8a7197', '469e1de1c7ed')}
+DIFF /work/nike-by-you-rebrand/ {'sha1': ('962f3d1e4025', '1cfca9ec3f35')}
+DIFF /work/nike-factory-store-basketball-program/ {'sha1': ('4d6ab0392304', '68cf0bacb94f')}
+DIFF /work/nike-marketplace-merchandising/ {'sha1': ('660cf67caf9c', '8263c7e20ba8')}
+DIFF /work/nike-mens-running-north-america/ {'sha1': ('7ab38e07081d', '057d20cf0b4c')}
+DIFF /work/nike-plus-member-shop-launch/ {'sha1': ('b7aca5166064', '3908c9bf5480')}
+DIFF /work/nike-sportswear-la-strategy-fy21-23/ {'sha1': ('7c2729a38384', '19d4f77c2023')}
+DIFF /work/nike-sportswear-los-angeles/ {'sha1': ('a78fbf51c25f', '2d5899c84be0')}
+DIFF /work/no-caller-id-voice-and-design-language/ {'sha1': ('adbb4522ebf2', '45fdb9f2f449')}
+DIFF /work/oakley-wm-phoenix-open/ {'sha1': ('e92e0f187f8e', 'a8772c48e6ae')}
+DIFF /work/online-education-expert-program/ {'sha1': ('9cc7eda3a4ea', '30ad36b3c319')}
+DIFF /work/pc-analytics/ {'sha1': ('7d3222daed9c', '90de81942bce')}
+DIFF /work/pe-backed-medical-group-questions/ {'sha1': ('a0c5cb48fd73', '7270c81a0443')}
+DIFF /work/pe-backed-medical-group/ {'sha1': ('051dc3c98460', '5ef017acaae0')}
+DIFF /work/pendleton-winter-packs-material-buy/ {'sha1': ('a4d01f9346a4', '7ab9d674c29e')}
+DIFF /work/principal-sites/ {'sha1': ('a5fbcfb6451b', '8cf881106e2c')}
+DIFF /work/property-management-launch-questions/ {'sha1': ('831d4bb6a126', '1e9218be6377')}
+DIFF /work/property-management-launch/ {'sha1': ('2f9498b99447', '9eda8bf6d4d8')}
+DIFF /work/ritz-carlton-laguna-beach-questions/ {'sha1': ('10cfb2a0dbc1', '601016be3556')}
+DIFF /work/ritz-carlton-laguna-beach/ {'sha1': ('ef88bbe98dc7', '144b7e0b05e1')}
+DIFF /work/running-channel-briefs/ {'sha1': ('64c8c45aaf0a', 'df88a96cb3d3')}
+DIFF /work/running-pricing-architecture-kill-zone/ {'sha1': ('c27738040c45', '98373ef6e4d4')}
+DIFF /work/santa-monica-house-questions/ {'sha1': ('110584b03857', '0a7edd146a0b')}
+DIFF /work/santa-monica-house/ {'sha1': ('c1305d212d96', '21b2a849ef3c')}
+DIFF /work/save-the-world-air-questions/ {'sha1': ('6c77346f3701', 'c375e958d85b')}
+DIFF /work/save-the-world-air/ {'sha1': ('9d66ae2d42fe', 'f28467529885')}
+DIFF /work/search-and-ai-readiness/ {'sha1': ('7577c7ffe9db', '20a809daa971')}
+DIFF /work/sell-through-expectations-by-launch-tier/ {'sha1': ('3c93de702f91', '1d7b4945e6c8')}
+DIFF /work/serve-the-underserved-watts-east-los/ {'sha1': ('794f19165e62', '66db78068cd9')}
+DIFF /work/shelby-american-las-vegas-questions/ {'sha1': ('3dd4bbb8c484', '8e2a082ad6e9')}
+DIFF /work/shelby-american-las-vegas/ {'sha1': ('c1f03796df5e', '947e362d090d')}
+DIFF /work/shiekh-three-year-plan-and-assortment/ {'sha1': ('e310031042b3', 'c2f1f4f9eb0d')}
+DIFF /work/shoe-palace-capacity-and-clusters/ {'sha1': ('910bd871120e', 'a5b6ca142d81')}
+DIFF /work/signature-2-0/ {'sha1': ('06a847b8a646', 'bccd981ce110')}
+DIFF /work/signature-launch-calendar/ {'sha1': ('ea49968a61e2', 'e27506d2fc0d')}
+DIFF /work/signature-playbook-and-moments-line-plan/ {'sha1': ('c298823d52ef', '1ddf50633290')}
+DIFF /work/silver-mountain-ranches/ {'sha1': ('89d5612daf70', '3ab4b53ad2a3')}
+DIFF /work/six-points-chicago/ {'sha1': ('7c96ea86e699', 'f50ab43ef5dd')}
+DIFF /work/slipstream-scoring-engine/ {'sha1': ('b6ce0e664ddc', 'd1e4d157b9df')}
+DIFF /work/soft-story-retrofit-questions/ {'sha1': ('7a9c0e2ff688', '22178fe11df8')}
+DIFF /work/soft-story-retrofit/ {'sha1': ('a224da3f4202', '52d4ee94a797')}
+DIFF /work/sporting-goods-strategy-and-dallas-trip/ {'sha1': ('a09a3719ac11', '8b1c55da06f4')}
+DIFF /work/spring-2018-gap-closing/ {'sha1': ('778c562820de', '1626b9be0975')}
+DIFF /work/sqairz-pickleball-brand-and-product-scope/ {'sha1': ('1290453d1026', 'd737bb664839')}
+DIFF /work/stranger-things-scavenger-hunt/ {'sha1': ('24f381623da1', '52cab0c8035b')}
+DIFF /work/strategic-plan-workshop-february-2019/ {'sha1': ('7c5502d8833e', 'b3b1b1231f40')}
+DIFF /work/sublime-medical/ {'sha1': ('6f1181a04751', 'cc970ddc9468')}
+DIFF /work/surrogacy-consulting-startup/ {'sha1': ('e91b95b12455', '029244344b3b')}
+DIFF /work/the-fine-game-plan-website-and-brand/ {'sha1': ('b4a2f869ec64', '77ec0fa9d6fc')}
+DIFF /work/the-pitch-for-los-angeles-june-2018/ {'sha1': ('030cb7258b7b', '13f8bccf00b3')}
+DIFF /work/the-triangle-grand-avenue/ {'sha1': ('6242f97c8872', 'c267a305ff62')}
+DIFF /work/three-client-site-builds/ {'sha1': ('9f40e60afc5a', 'f3384b4c124b')}
+DIFF /work/three-year-line-plan/ {'sha1': ('03f7602b8d5a', 'ee9df95753b3')}
+DIFF /work/top-destinations-and-trade-zones/ {'sha1': ('c5bc9b828476', 'f7e8e47c10f4')}
+DIFF /work/trade-services-buyside-diligence/ {'sha1': ('b9e5d6f0e180', 'c79dec596874')}
+DIFF /work/undefeated-uactp-and-kobe-protro/ {'sha1': ('ea5982e48498', '768ef0190d3d')}
+DIFF /work/vapormax-north-america-launch/ {'sha1': ('84dc8085bec7', 'ed47b41307ca')}
+DIFF /work/village-san-juan-questions/ {'sha1': ('91f848721308', 'e34f9feb4280')}
+DIFF /work/village-san-juan/ {'sha1': ('7da0bbae44c1', '28d1eace123c')}
+DIFF /work/vincent-hancock-brand-system/ {'sha1': ('1b02c84ca933', '68edd031d64a')}
+DIFF /work/what-the-la-air-force-1/ {'sha1': ('a4ebf532160b', '4ce47fa7a01d')}
+DIFF /work/work-and-seat-map/ {'sha1': ('2f27df7cd946', '7055a5a63eed')}
+DIFF /work/wss-three-year-plan/ {'sha1': ('9aa5b94b4474', 'faa87aa335db')}
+DIFF /work/xtrata-sabs-consulting-seat-questions/ {'sha1': ('cb14da86e1d5', 'd5f152defef6')}
+DIFF /work/xtrata-sabs-consulting-seat/ {'sha1': ('32c21497823d', '2e745e62a48c')}
+DIFF /work/zoom-fly-vaporfly-launch-plan/ {'sha1': ('078f51fa454a', '2bf2fd184ae2')}
+DIFF /work/zoom-soldier-x/ {'sha1': ('95f51b02c636', 'fbacf21312e1')}
+DIFF /xtrata/ {'sha1': ('4bf76585702a', 'f536d1aec337')}
+DIFF /zen-aegis/ {'sha1': ('73bd1c50eed4', 'af3a2dd7eccf')}
+DIFF /index.html {'location': ('/', '/index/'), 'content-type': ('text/plain', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /alex-prince {'status': (200, 307), 'location': ('', '/alex-prince/'), 'sha1': ('6e75e43aa48a', '-'), 'content-type': ('text/html', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /alex-prince/index.html {'location': ('/alex-prince', '/alex-prince/index/'), 'content-type': ('text/plain', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /alex-prince.html {'location': ('/alex-prince', '/alex-prince/'), 'content-type': ('text/plain', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /work {'status': (200, 307), 'location': ('', '/work/'), 'sha1': ('6afc5232c0b1', '-'), 'content-type': ('text/html', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /work/index.html {'location': ('/work', '/work/index/'), 'content-type': ('text/plain', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /work.html {'location': ('/work', '/work/'), 'content-type': ('text/plain', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /stories {'status': (200, 307), 'location': ('', '/stories/'), 'sha1': ('1995d387c53a', '-'), 'content-type': ('text/html', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /stories/index.html {'location': ('/stories', '/stories/index/'), 'content-type': ('text/plain', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /stories.html {'location': ('/stories', '/stories/'), 'content-type': ('text/plain', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /news {'status': (200, 307), 'location': ('', '/news/'), 'sha1': ('70b97aabb862', '-'), 'content-type': ('text/html', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /news/index.html {'location': ('/news', '/news/index/'), 'content-type': ('text/plain', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /news.html {'location': ('/news', '/news/'), 'content-type': ('text/plain', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /record {'status': (200, 307), 'location': ('', '/record/'), 'sha1': ('64182f80283b', '-'), 'content-type': ('text/html', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /record/index.html {'location': ('/record', '/record/index/'), 'content-type': ('text/plain', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /record.html {'location': ('/record', '/record/'), 'content-type': ('text/plain', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /zen-aegis {'status': (200, 307), 'location': ('', '/zen-aegis/'), 'sha1': ('73bd1c50eed4', '-'), 'content-type': ('text/html', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /zen-aegis/index.html {'location': ('/zen-aegis', '/zen-aegis/index/'), 'content-type': ('text/plain', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /zen-aegis.html {'location': ('/zen-aegis', '/zen-aegis/'), 'content-type': ('text/plain', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /xtrata {'status': (200, 307), 'location': ('', '/xtrata/'), 'sha1': ('4bf76585702a', '-'), 'content-type': ('text/html', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /xtrata/index.html {'location': ('/xtrata', '/xtrata/index/'), 'content-type': ('text/plain', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /xtrata.html {'location': ('/xtrata', '/xtrata/'), 'content-type': ('text/plain', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /stories/origin-los-angeles-county-museum-of-art-lacma {'status': (200, 307), 'location': ('', '/stories/origin-los-angeles-county-museum-of-art-lacma/'), 'sha1': ('aea57f8b32a1', '-'), 'content-type': ('text/html', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /stories/origin-los-angeles-county-museum-of-art-lacma/index.html {'location': ('/stories/origin-los-angeles-county-museum-of-art-lacma', '/stories/origin-los-angeles-county-museum-of-art-lacma/index/'), 'content-type': ('text/plain', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /stories/origin-los-angeles-county-museum-of-art-lacma.html {'location': ('/stories/origin-los-angeles-county-museum-of-art-lacma', '/stories/origin-los-angeles-county-museum-of-art-lacma/'), 'content-type': ('text/plain', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /work/zoom-fly-vaporfly-launch-plan {'status': (200, 307), 'location': ('', '/work/zoom-fly-vaporfly-launch-plan/'), 'sha1': ('078f51fa454a', '-'), 'content-type': ('text/html', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /work/zoom-fly-vaporfly-launch-plan/index.html {'location': ('/work/zoom-fly-vaporfly-launch-plan', '/work/zoom-fly-vaporfly-launch-plan/index/'), 'content-type': ('text/plain', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /work/zoom-fly-vaporfly-launch-plan.html {'location': ('/work/zoom-fly-vaporfly-launch-plan', '/work/zoom-fly-vaporfly-launch-plan/'), 'content-type': ('text/plain', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /work/zoom-soldier-x {'status': (200, 307), 'location': ('', '/work/zoom-soldier-x/'), 'sha1': ('95f51b02c636', '-'), 'content-type': ('text/html', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /work/zoom-soldier-x/index.html {'location': ('/work/zoom-soldier-x', '/work/zoom-soldier-x/index/'), 'content-type': ('text/plain', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /work/zoom-soldier-x.html {'location': ('/work/zoom-soldier-x', '/work/zoom-soldier-x/'), 'content-type': ('text/plain', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+ok   HEAD / 200 da39a3ee5e6b
+ok   HEAD /alex-prince/ 200 da39a3ee5e6b
+ok   HEAD /robots.txt 200 da39a3ee5e6b
+DIFF /assets/og-image.html {'location': ('/assets/og-image', '/assets/og-image/'), 'content-type': ('text/plain', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /assets/og-image/ {'status': (200, 307), 'location': ('', '/assets/og-image'), 'sha1': ('b685dcbe495e', '-'), 'content-type': ('text/html', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /hightide-capital {'content-type': ('text/plain', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /hightide-capital/ {'content-type': ('text/plain', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /hightide-capital/anything {'content-type': ('text/plain', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /robby-prochnow {'content-type': ('text/plain', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /robby-prochnow/x {'content-type': ('text/plain', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /work/builder-scaled {'content-type': ('text/plain', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /work/builder-scaled/ {'content-type': ('text/plain', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /work/builder-scaled/deep/x {'content-type': ('text/plain', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /work/builder-scaled-questions {'content-type': ('text/plain', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /work/builder-scaled-questions/ {'content-type': ('text/plain', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /work/builder-scaled-questions/x {'content-type': ('text/plain', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /_redirects {'content-type': ('text/plain', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /SITE.md {'content-type': ('text/plain', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /vercel.json {'content-type': ('text/plain', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /.git/config {'content-type': ('text/plain', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /nonexistent {'content-type': ('text/plain', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /nonexistent/ {'content-type': ('text/plain', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /work/does-not-exist/ {'content-type': ('text/plain', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /404.html {'location': ('/404', '/404/'), 'content-type': ('text/plain', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /alex-prince/?x=1 {'sha1': ('6e75e43aa48a', 'c19a1d9afe68')}
+DIFF /alex-prince?x=1 {'status': (200, 307), 'location': ('', '/alex-prince/?x=1'), 'sha1': ('6e75e43aa48a', '-'), 'content-type': ('text/html', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+DIFF /work/?utm=a {'sha1': ('6afc5232c0b1', '3b4253dee58d')}
+DIFF //alex-prince {'status': (308, 307), 'location': ('/alex-prince', '/alex-prince/'), 'content-type': ('text/plain', ''), 'cache-control': ('public, max-age=0, must-revalidate', '')}
+14 of 464 paths identical
