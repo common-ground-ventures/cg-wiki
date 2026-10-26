@@ -1,0 +1,1624 @@
+{
+ "jesse-fowler": {
+  "bound": [
+   {
+    "figure": "25 years",
+    "fact": "jesse-fowler.25-years",
+    "rows": [
+     "JF-TEL-43",
+     "JF-TEL-44",
+     "JF-TEL-45"
+    ],
+    "where": "attr"
+   },
+   {
+    "figure": "25 years",
+    "fact": "jesse-fowler.25-years",
+    "rows": [
+     "JF-TEL-43",
+     "JF-TEL-44",
+     "JF-TEL-45"
+    ],
+    "where": "attr"
+   },
+   {
+    "figure": "25 years",
+    "fact": "jesse-fowler.25-years",
+    "rows": [
+     "JF-TEL-43",
+     "JF-TEL-44",
+     "JF-TEL-45"
+    ],
+    "where": "json"
+   },
+   {
+    "figure": "25 years",
+    "fact": "jesse-fowler.25-years",
+    "rows": [
+     "JF-TEL-43",
+     "JF-TEL-44",
+     "JF-TEL-45"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "400 projects",
+    "fact": "jesse-fowler.400-projects",
+    "rows": [
+     "CG-LIEF-01",
+     "JF-TEL-01",
+     "JF-TEL-02"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "$400M",
+    "fact": "jesse-fowler.usd-400m",
+    "rows": [
+     "JF-TEL-02"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "19 years",
+    "fact": "jesse-fowler.19-years",
+    "rows": [
+     "JF-TEL-02",
+     "JF-TEL-03"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "$1B",
+    "fact": "jesse-fowler.usd-1b",
+    "rows": [
+     "JF-TEL-02"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "$22M",
+    "fact": "jesse-fowler.usd-22m",
+    "rows": [
+     "JF-TEL-02",
+     "JF-TEL-05",
+     "JF-TEL-72"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "500 projects",
+    "fact": "jesse-fowler.500-projects",
+    "rows": [
+     "JF-TEL-03"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "42 percent",
+    "fact": "jesse-fowler.42-percent",
+    "rows": [
+     "JF-INV-01"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "$120 million",
+    "fact": "jesse-fowler.usd-120-million",
+    "rows": [
+     "CG-BSC-04"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "$600 million",
+    "fact": "jesse-fowler.usd-600-million",
+    "rows": [
+     "CG-ENT-02",
+     "CG-LIEF-01",
+     "JF-KAN-25"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "$2,041,596",
+    "fact": "jesse-fowler.usd-2-041-596",
+    "rows": [
+     "JF-STR-14"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "$154.70",
+    "fact": "jesse-fowler.usd-154-70",
+    "rows": [
+     "JF-LIEF-35"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "$167.50",
+    "fact": "jesse-fowler.usd-167-50",
+    "rows": [
+     "JF-LIEF-35"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "$48 million",
+    "fact": "jesse-fowler.usd-48-million",
+    "rows": [
+     "JF-STR-21"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "$220 million",
+    "fact": "jesse-fowler.usd-220-million",
+    "rows": [
+     "JF-STR-21"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "$3.85M",
+    "fact": "jesse-fowler.usd-3-85m",
+    "rows": [
+     "JF-LIEF-07"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "22 condominiums",
+    "fact": "jesse-fowler.22-condominiums",
+    "rows": [
+     "JF-LIEF-09"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "$25M",
+    "fact": "jesse-fowler.usd-25m",
+    "rows": [
+     "JF-3TR-07"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "$50M",
+    "fact": "jesse-fowler.usd-50m",
+    "rows": [
+     "JF-3TR-07",
+     "JF-INV-13"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "$30 million",
+    "fact": "jesse-fowler.usd-30-million",
+    "rows": [
+     "JF-LIEF-10",
+     "JF-SST-07",
+     "JF-TEL-06"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "34.7 hours",
+    "fact": "jesse-fowler.34-7-hours",
+    "rows": [
+     "RP-016"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "130 days",
+    "fact": "jesse-fowler.130-days",
+    "rows": [
+     "RP-019"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "$75,000",
+    "fact": "jesse-fowler.usd-75-000",
+    "rows": [
+     "JF-STR-01",
+     "RP-017"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "92.8 percent",
+    "fact": "jesse-fowler.92-8-percent",
+    "rows": [
+     "RP-034"
+    ],
+    "where": "text"
+   }
+  ],
+  "cut": [],
+  "cited": [],
+  "rewritten": [
+   {
+    "from": "over $300M of built work, and did about $480M in business across its 19 years",
+    "to": "more than $400M of built work across its 19 years",
+    "why": "Retired $300M and $480M (cg-facts RET-001, RET-005); JF-TEL-02 carries $400M+ built.",
+    "count": 1
+   },
+   {
+    "from": "Execution & Development principal at Common Ground.",
+    "to": "{{fact:person.jesse-fowler.title.common-ground-ventures}} at Common Ground.",
+    "why": "Retired title (cg-facts RET-013); public title at Common Ground is Operating Partner (Jesse 10/24).",
+    "count": 3
+   },
+   {
+    "from": "he is the Execution &amp; Development principal, the seat",
+    "to": "he is the {{fact:person.jesse-fowler.title.common-ground-ventures}}, the seat",
+    "why": "Retired title (cg-facts RET-013).",
+    "count": 1
+   },
+   {
+    "from": "<th>Role at Common Ground</th><td>Execution &amp; Development</td>",
+    "to": "<th>Role at Common Ground</th><td>{{fact:person.jesse-fowler.title.common-ground-ventures}}</td>",
+    "why": "Retired title (cg-facts RET-013).",
+    "count": 1
+   }
+  ],
+  "unresolved": []
+ },
+ "alex-prince": {
+  "bound": [
+   {
+    "figure": "$2 billion",
+    "fact": "alex-prince.usd-2-billion",
+    "rows": [
+     "AP-007"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "$250M",
+    "fact": "alex-prince.usd-250m",
+    "rows": [
+     "AP-005"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "$150M",
+    "fact": "alex-prince.usd-150m",
+    "rows": [
+     "AP-009"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "$7.5M",
+    "fact": "alex-prince.usd-7-5m",
+    "rows": [
+     "AP-016"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "$7M",
+    "fact": "alex-prince.usd-7m",
+    "rows": [
+     "AP-001"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "$8M",
+    "fact": "alex-prince.usd-8m",
+    "rows": [
+     "AP-001"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "$20M",
+    "fact": "alex-prince.usd-20m",
+    "rows": [
+     "AP-003",
+     "AP-010"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "$87M",
+    "fact": "alex-prince.usd-87m",
+    "rows": [
+     "AP-003"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "335%",
+    "fact": "alex-prince.335-pct",
+    "rows": [
+     "AP-003"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "$250M",
+    "fact": "alex-prince.usd-250m",
+    "rows": [
+     "AP-005"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "$150M",
+    "fact": "alex-prince.usd-150m",
+    "rows": [
+     "AP-009"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "$7.5M",
+    "fact": "alex-prince.usd-7-5m",
+    "rows": [
+     "AP-016"
+    ],
+    "where": "text"
+   }
+  ],
+  "cut": [
+   {
+    "figure": "5,500 followers",
+    "why": "no public row",
+    "where": "text",
+    "sentence": "His LinkedIn, built for allocators, has passed 5,500 followers with individual posts reaching 159,000 and 200,000 impressions; his method is a data-led infographic, a written hook, and the follow-up and commenting that most people skip."
+   }
+  ],
+  "cited": [],
+  "rewritten": [],
+  "unresolved": []
+ },
+ "jimmy-khounlavong": {
+  "bound": [
+   {
+    "figure": "16 years",
+    "fact": "jimmy-khounlavong.16-years",
+    "rows": [
+     "JK-NK-13"
+    ],
+    "where": "attr"
+   },
+   {
+    "figure": "16 years",
+    "fact": "jimmy-khounlavong.16-years",
+    "rows": [
+     "JK-NK-13"
+    ],
+    "where": "attr"
+   },
+   {
+    "figure": "16 years",
+    "fact": "jimmy-khounlavong.16-years",
+    "rows": [
+     "JK-NK-13"
+    ],
+    "where": "json"
+   },
+   {
+    "figure": "27 years",
+    "fact": "jimmy-khounlavong.27-years",
+    "rows": [
+     "JK-NK-13"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "16 years",
+    "fact": "jimmy-khounlavong.16-years",
+    "rows": [
+     "JK-NK-13"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "$125",
+    "fact": "jimmy-khounlavong.usd-125",
+    "rows": [
+     "JK-NK-15"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "$130",
+    "fact": "jimmy-khounlavong.usd-130",
+    "rows": [
+     "JK-NK-15"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "$210",
+    "fact": "jimmy-khounlavong.usd-210",
+    "rows": [
+     "JK-NK-15"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "$500M",
+    "fact": "jimmy-khounlavong.usd-500m",
+    "rows": [
+     "CG-LIEF-01",
+     "JF-TEL-45",
+     "JK-NK-03"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "$1B-plus",
+    "fact": "jimmy-khounlavong.usd-1b-plus",
+    "rows": [
+     "JK-NK-06",
+     "JK-NK-09",
+     "RP-008"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "$1B-plus",
+    "fact": "jimmy-khounlavong.usd-1b-plus",
+    "rows": [
+     "JF-TEL-02",
+     "JK-NK-06",
+     "JK-NK-09"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "$1B+",
+    "fact": "jimmy-khounlavong.usd-1b-plus",
+    "rows": [
+     "JK-NK-06",
+     "JK-NK-09"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "$1B",
+    "fact": "jimmy-khounlavong.usd-1b",
+    "rows": [
+     "JF-TEL-02",
+     "JK-NK-06",
+     "JK-NK-09"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "$125",
+    "fact": "jimmy-khounlavong.usd-125",
+    "rows": [
+     "JK-NK-15"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "$130",
+    "fact": "jimmy-khounlavong.usd-130",
+    "rows": [
+     "JK-NK-15"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "$120",
+    "fact": "jimmy-khounlavong.usd-120",
+    "rows": [
+     "CG-BSC-04"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "100%",
+    "fact": "jimmy-khounlavong.100-pct",
+    "rows": [
+     "JK-NK-18"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "$1.3M",
+    "fact": "jimmy-khounlavong.usd-1-3m",
+    "rows": [
+     "CG-BSP-02"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "$20",
+    "fact": "jimmy-khounlavong.usd-20",
+    "rows": [
+     "JF-3TR-04",
+     "JK-CAR-01"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "$30",
+    "fact": "jimmy-khounlavong.usd-30",
+    "rows": [
+     "JF-LIEF-10",
+     "JK-CAR-01"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "$40",
+    "fact": "jimmy-khounlavong.usd-40",
+    "rows": [
+     "CG-BB-01",
+     "JF-3TR-07"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "100%",
+    "fact": "jimmy-khounlavong.100-pct",
+    "rows": [
+     "JK-NK-18"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "$100",
+    "fact": "jimmy-khounlavong.usd-100",
+    "rows": [
+     "JF-3TR-07"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "$500M",
+    "fact": "jimmy-khounlavong.usd-500m",
+    "rows": [
+     "CG-LIEF-01",
+     "JK-NK-03",
+     "JK-NK-05"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "15%",
+    "fact": "jimmy-khounlavong.15-pct",
+    "rows": [
+     "JK-NK-17"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "30%",
+    "fact": "jimmy-khounlavong.30-pct",
+    "rows": [
+     "JK-NK-07",
+     "JK-NK-17"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "$20M",
+    "fact": "jimmy-khounlavong.usd-20m",
+    "rows": [
+     "AP-003"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "$3M",
+    "fact": "jimmy-khounlavong.usd-3m",
+    "rows": [
+     "CG-NUW-01"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "16 years",
+    "fact": "jimmy-khounlavong.16-years",
+    "rows": [
+     "JK-NK-13"
+    ],
+    "where": "text"
+   }
+  ],
+  "cut": [
+   {
+    "figure": "$322M",
+    "why": "retired",
+    "where": "text",
+    "sentence": "He owned North America Basketball footwear through the LeBron, Kobe, KD and Kyrie era, growing it from $322M to $670M at a 20.1% compound annual rate, past $500M for the first time; built door segmentation and merchandising strategies across a $500M-plus wholesale business, first Finish Line, then city specialty and boutiques, then Hibbett and Shoe Palace; owned a $1B-plus men's running footwear business and ran the North America launch of the VaporMax, while Nike's global team seeded the franchise through The Ten; co-authored the NIKEiD to Nike By You global rebrand mid-flight and grew the platform to $181M, delivering 30% FY18 global revenue growth across Nike By You and the Nike.com and direct integration it powered; and led Nike Sportswear Los Angeles, a $1B-plus lifestyle business, holding Nike's number-one cool-brand position among LA teens."
+   },
+   {
+    "figure": "200 accounts",
+    "why": "no public row",
+    "where": "text",
+    "sentence": "A territory of more than 200 accounts across five states became, within eight months, the lead footwear seat for the largest sporting-goods chains in the Midwest, MC Sports and Dunham's."
+   },
+   {
+    "figure": "$322M",
+    "why": "retired",
+    "where": "text",
+    "sentence": "Basketball footwear grew from $322M to $670M in that era at a 20.1% compound rate, past $500M for the first time, and signature footwear within it grew from $105M in fiscal 2012 to $321M in fiscal 2015."
+   },
+   {
+    "figure": "$181M",
+    "why": "no public row",
+    "where": "text",
+    "sentence": "He grew the platform to $181M, delivering 30% FY18 global revenue growth across Nike By You and the Nike.com and direct integration it powered, and set the strategy for the Nigel Sylvester launch that came after he left."
+   },
+   {
+    "figure": "16%",
+    "why": "no public row",
+    "where": "text",
+    "sentence": "As General Manager of Nike Sportswear Los Angeles he led a {{fact:jimmy-khounlavong.usd-1b-plus}} lifestyle business on a planned 16% compound rate, with lifestyle driving 78% of Nike's footwear growth in the city from fiscal 2018 to 2019, worked with Drake, Travis Scott and LeBron James, including the LeBron welcome, a takeover of LA Live with apparel and footwear drops, activations and banner wraps, delivered Nike's first city-wide online-to-offline scavenger hunt with Netflix and BAIT for Stranger Things, staged across San Diego during Comic-Con on July 20, 2019 as the pre-release, with the official launch at BAIT on Melrose on August 13, 2019, and held Nike's number-one cool-brand position among LA teens."
+   },
+   {
+    "figure": "33 companies",
+    "why": "no public row",
+    "where": "text",
+    "sentence": "Khounlavong set the seat taxonomy for a map of 33 companies on the rebuilt Common Ground site."
+   },
+   {
+    "figure": "$200",
+    "why": "no public row",
+    "where": "text",
+    "sentence": "Held LeBron's accessible tier at {{fact:jimmy-khounlavong.usd-125}} to {{fact:jimmy-khounlavong.usd-130}} under a $200 game shoe, and re-imagined the franchise for its tenth year around his true fans."
+   },
+   {
+    "figure": "$322M",
+    "why": "retired",
+    "where": "text",
+    "sentence": "The business grew from $322M to $670M and passed $500M for the first time."
+   },
+   {
+    "figure": "125 accounts",
+    "why": "no public row",
+    "where": "text",
+    "sentence": "Between Medline and Nike, Khounlavong sold technology for CDW in Chicago, carrying 125 accounts and more than $15M in revenue, up 5% on the prior year."
+   },
+   {
+    "figure": "16%",
+    "why": "no public row",
+    "where": "text",
+    "sentence": "Khounlavong authored the three year, cross-functional growth plan for Nike Sportswear in Los Angeles, on a planned 16% compound annual growth rate."
+   },
+   {
+    "figure": "$216K",
+    "why": "no public row",
+    "where": "text",
+    "sentence": "Khounlavong programmed the customization offer for Air Max Day 2018 across four models and ran it through the Nike+ member shop, for $216K in demand."
+   },
+   {
+    "figure": "$1.7M",
+    "why": "no public row",
+    "where": "text",
+    "sentence": "Khounlavong programmed and launched Born Mercurial, a customization story built on five Mercurial boots from 1998 to 2014, which produced $1.7M in demand, the largest of his must-win projects in fiscal 2018."
+   },
+   {
+    "figure": "$304K",
+    "why": "no public row",
+    "where": "text",
+    "sentence": "Khounlavong launched a customizable Epic React designed with five running crews in five countries, and moved its date twice to match product readiness, for $304K in demand in fiscal 2018."
+   },
+   {
+    "figure": "$558K",
+    "why": "no public row",
+    "where": "text",
+    "sentence": "Khounlavong launched a city pack of NBA Air Force 1s through the Nike+ member shop and merchandised a Los Angeles Air Force 1 built around three neighborhoods, a program that produced $558K in demand in fiscal 2018."
+   },
+   {
+    "figure": "$5.4M",
+    "why": "no public row",
+    "where": "text",
+    "sentence": "Khounlavong modeled, recommended and programmed the product that launched the Nike+ Exclusive Shop in November 2017, then ran its menu month by month, for $5.4M in demand and 7.3M product page visits."
+   },
+   {
+    "figure": "17.8%",
+    "why": "no public row",
+    "where": "text",
+    "sentence": "When the spring 2018 men's running line came back from Nike's global review gate 17.8% under target, Khounlavong itemized every gap and built the product, color and pack requests to close it."
+   },
+   {
+    "figure": "4%",
+    "why": "no public row",
+    "where": "text",
+    "sentence": "Zoom Fly and Vaporfly 4%"
+   },
+   {
+    "figure": "4%",
+    "why": "no public row",
+    "where": "text",
+    "sentence": "Khounlavong developed the energy launch strategy for the Zoom Fly in North America, laying the Zoom Fly and the Vaporfly 4% across NikeLab, the top tier doors and the inline business for fiscal 2018."
+   },
+   {
+    "figure": "9%",
+    "why": "no public row",
+    "where": "text",
+    "sentence": "Khounlavong built a working rhythm with the Nike Factory Store buying team from his first merchandising year, mapped which basketball models would move into factory stores and when, and saw the channel's basketball footwear grow 9% in spring 2015."
+   },
+   {
+    "figure": "31%",
+    "why": "no public row",
+    "where": "text",
+    "sentence": "Khounlavong made the mid price band of performance basketball footwear a stated goal in fiscal 2013 and grew it 31% that year, then kept asking product teams to fill the band as signature prices climbed above it."
+   },
+   {
+    "figure": "17.1%",
+    "why": "no public row",
+    "where": "text",
+    "sentence": "In fiscal 2014 Khounlavong grew North America Basketball footwear revenue 17.1%, raised gross margin 230 basis points, held inventory flat and cut the cancel rate by a third."
+   },
+   {
+    "figure": "67.4%",
+    "why": "no public row",
+    "where": "text",
+    "sentence": "Khounlavong built the West Territory's product distribution plan for the 2011 NBA All-Star Game in Los Angeles, and boutique sell-through averaged 67.4% across nine doors."
+   },
+   {
+    "figure": "45%",
+    "why": "no public row",
+    "where": "text",
+    "sentence": "Khounlavong took Nike's share of football cleats at Dunham's from 45% in July 2006 to 65% by fiscal 2009, and read Under Armour's arrival in the category from the shelf."
+   },
+   {
+    "figure": "11%",
+    "why": "no public row",
+    "where": "text",
+    "sentence": "Before Nike, Khounlavong sold medical supplies to an 18-facility hospital system from Memphis, and produced two separate results: {{fact:jimmy-khounlavong.usd-20m}} through contract adoption and about 11% growth through a pain management plan."
+   },
+   {
+    "figure": "$5M",
+    "why": "no public row",
+    "where": "text",
+    "sentence": "Khounlavong started at The Finish Line at 16, became an assistant manager in Lexington, and helped grow annual store volume from {{fact:jimmy-khounlavong.usd-3m}} to $5M."
+   }
+  ],
+  "cited": [],
+  "rewritten": [
+   {
+    "from": "a $1.2B-plus lifestyle business",
+    "to": "a $1B-plus lifestyle business",
+    "why": "Retired $1.2B (cg-facts RET-002: use $1B+).",
+    "count": 2
+   },
+   {
+    "from": "a $1.2B+ lifestyle business",
+    "to": "a $1B+ lifestyle business",
+    "why": "Retired $1.2B (cg-facts RET-002: use $1B+).",
+    "count": 1
+   }
+  ],
+  "unresolved": []
+ },
+ "nick-scavio": {
+  "bound": [],
+  "cut": [],
+  "cited": [],
+  "rewritten": [],
+  "unresolved": []
+ },
+ "robert-prochnow": {
+  "bound": [
+   {
+    "figure": "12.5 years",
+    "fact": "robbie-prochnow.12-5-years",
+    "rows": [
+     "RP-013"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "12.5 years",
+    "fact": "robbie-prochnow.12-5-years",
+    "rows": [
+     "RP-013"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "$10M-plus",
+    "fact": "robbie-prochnow.usd-10m-plus",
+    "rows": [
+     "CG-APX-01",
+     "RP-002"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "200%",
+    "fact": "robbie-prochnow.200-pct",
+    "rows": [
+     "RP-003"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "40%",
+    "fact": "robbie-prochnow.40-pct",
+    "rows": [
+     "RP-004",
+     "RP-006",
+     "RP-010"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "$1M",
+    "fact": "robbie-prochnow.usd-1m",
+    "rows": [
+     "CG-APX-01",
+     "RP-DAAS-01"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "60%",
+    "fact": "robbie-prochnow.60-pct",
+    "rows": [
+     "RP-005",
+     "RP-008"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "12%",
+    "fact": "robbie-prochnow.12-pct",
+    "rows": [
+     "RP-005"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "$1B",
+    "fact": "robbie-prochnow.usd-1b",
+    "rows": [
+     "RP-008"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "$20M",
+    "fact": "robbie-prochnow.usd-20m",
+    "rows": [
+     "RP-004",
+     "RP-007",
+     "RP-009"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "$100K",
+    "fact": "robbie-prochnow.usd-100k",
+    "rows": [
+     "RP-001"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "10%",
+    "fact": "robbie-prochnow.10-pct",
+    "rows": [
+     "RP-006",
+     "RP-032",
+     "RP-037"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "92.8 percent",
+    "fact": "robbie-prochnow.92-8-percent",
+    "rows": [
+     "RP-034"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "12.5 years",
+    "fact": "robbie-prochnow.12-5-years",
+    "rows": [
+     "RP-013"
+    ],
+    "where": "text"
+   }
+  ],
+  "cut": [
+   {
+    "figure": "500\ncompanies",
+    "why": "no public row",
+    "where": "text",
+    "sentence": "Robby Prochnow spent {{fact:robbie-prochnow.12-5-years}} running technology businesses inside Fortune 500 companies."
+   }
+  ],
+  "cited": [],
+  "rewritten": [],
+  "unresolved": []
+ },
+ "work/lief-midtown-301-osborn": {
+  "bound": [
+   {
+    "figure": "$3.85M",
+    "fact": "301-osborn.usd-3-85m",
+    "rows": [
+     "JF-LIEF-07"
+    ],
+    "where": "attr"
+   },
+   {
+    "figure": "22 condominiums",
+    "fact": "301-osborn.22-condominiums",
+    "rows": [
+     "JF-LIEF-09"
+    ],
+    "where": "attr"
+   },
+   {
+    "figure": "$3.85M",
+    "fact": "301-osborn.usd-3-85m",
+    "rows": [
+     "JF-LIEF-07"
+    ],
+    "where": "attr"
+   },
+   {
+    "figure": "22 condominiums",
+    "fact": "301-osborn.22-condominiums",
+    "rows": [
+     "JF-LIEF-09"
+    ],
+    "where": "attr"
+   },
+   {
+    "figure": "$3.85M",
+    "fact": "301-osborn.usd-3-85m",
+    "rows": [
+     "JF-LIEF-07"
+    ],
+    "where": "json"
+   },
+   {
+    "figure": "22 condominiums",
+    "fact": "301-osborn.22-condominiums",
+    "rows": [
+     "JF-LIEF-09"
+    ],
+    "where": "json"
+   },
+   {
+    "figure": "$3.85M",
+    "fact": "301-osborn.usd-3-85m",
+    "rows": [
+     "JF-LIEF-07"
+    ],
+    "where": "json"
+   },
+   {
+    "figure": "22 condominiums",
+    "fact": "301-osborn.22-condominiums",
+    "rows": [
+     "JF-LIEF-09"
+    ],
+    "where": "json"
+   },
+   {
+    "figure": "$3.85M",
+    "fact": "301-osborn.usd-3-85m",
+    "rows": [
+     "JF-LIEF-07"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "22 condominiums",
+    "fact": "301-osborn.22-condominiums",
+    "rows": [
+     "JF-LIEF-09"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "$3.85M",
+    "fact": "301-osborn.usd-3-85m",
+    "rows": [
+     "JF-LIEF-07"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "2,101 SF",
+    "fact": "301-osborn.2-101-sf",
+    "rows": [
+     "JF-LIEF-07",
+     "JF-LIEF-10"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "12,684 elements",
+    "fact": "301-osborn.12-684-elements",
+    "rows": [
+     "JF-LIEF-14"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "40 percent",
+    "fact": "301-osborn.40-percent",
+    "rows": [
+     "JF-KAN-14",
+     "JF-LIEF-22"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "$300,000",
+    "fact": "301-osborn.usd-300-000",
+    "rows": [
+     "JF-LIEF-12"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "$400,000",
+    "fact": "301-osborn.usd-400-000",
+    "rows": [
+     "JF-LIEF-12"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "2.5 percent",
+    "fact": "301-osborn.2-5-percent",
+    "rows": [
+     "NS-008"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "$300,000",
+    "fact": "301-osborn.usd-300-000",
+    "rows": [
+     "JF-LIEF-12"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "$400,000",
+    "fact": "301-osborn.usd-400-000",
+    "rows": [
+     "JF-LIEF-12",
+     "RP-011"
+    ],
+    "where": "text"
+   }
+  ],
+  "cut": [
+   {
+    "figure": "$12,000",
+    "why": "no public row",
+    "where": "text",
+    "sentence": "Against outside quotes of {{fact:301-osborn.usd-300-000}} to {{fact:301-osborn.usd-400-000}} for the same scope, the in-house direct spend was about $12,000, a differential of roughly $150,000 before the team's own hours."
+   },
+   {
+    "figure": "89 pages",
+    "why": "no public row",
+    "where": "text",
+    "sentence": "Commissioned an independent owner-side code study the day after a July 2026 project meeting found no complete code study had ever been finished: 89 pages, every finding cited to a code section and a sheet, the critical findings handed to the architect pre-cleared."
+   },
+   {
+    "figure": "$150,000",
+    "why": "no public row",
+    "where": "text",
+    "sentence": "An in-house model and review pipeline in place of the outside pre-development scope, roughly $150,000 under the outside quotes, with the stamp kept and nothing that carries liability cut."
+   },
+   {
+    "figure": "89.5 percent",
+    "why": "no public row",
+    "where": "text",
+    "sentence": "The residential floors run at 89.5 percent efficiency, and the projected sellout is $30M+."
+   }
+  ],
+  "cited": [],
+  "rewritten": [],
+  "unresolved": []
+ },
+ "work/fluidmapper": {
+  "bound": [],
+  "cut": [],
+  "cited": [
+   {
+    "figure": "24 hours",
+    "sentence": "Measurement. The tracer moves freely for about 24 hours, with its position recorded every 10 milliseconds. If the geometry is unchanged, new experiments can sta"
+   },
+   {
+    "figure": "24 hours",
+    "sentence": "The published runs lasted 4 to 24 hours [K12]."
+   },
+   {
+    "figure": "5 percent",
+    "sentence": "The site states velocity uncertainty of 2 to 5 percent across the flow field, more than 8 million points for validation and calibration, and a position repeatab"
+   },
+   {
+    "figure": "2 percent",
+    "sentence": "Peak axial velocity in the loops differed by about 2 percent at one radial position away from the impeller."
+   },
+   {
+    "figure": "16 percent",
+    "sentence": "Near the impeller the differences grew: the radial peak was about 16 percent lower in RPT, the axial peak about 29 percent higher, and the tangential peak about"
+   },
+   {
+    "figure": "29 percent",
+    "sentence": "Near the impeller the differences grew: the radial peak was about {{cited:16 percent}} lower in RPT, the axial peak about 29 percent higher, and the tangential "
+   },
+   {
+    "figure": "44 percent",
+    "sentence": "Near the impeller the differences grew: the radial peak was about {{cited:16 percent}} lower in RPT, the axial peak about {{cited:29 percent}} higher, and the t"
+   },
+   {
+    "figure": "400 times",
+    "sentence": "The authors point to rapid acceleration, 90-degree changes of direction and shaft vibration, and they excluded cells the tracer visited fewer than 400 times [K1"
+   },
+   {
+    "figure": "12 hours",
+    "sentence": "The 2025 study adds a practical point: in its laminar test the CFD run took 12 hours on a cluster, while sampling the tank (4 hours) and running the experiment "
+   },
+   {
+    "figure": "4 hours",
+    "sentence": "The 2025 study adds a practical point: in its laminar test the CFD run took {{cited:12 hours}} on a cluster, while sampling the tank (4 hours) and running the e"
+   },
+   {
+    "figure": "10 hours",
+    "sentence": "The 2025 study adds a practical point: in its laminar test the CFD run took {{cited:12 hours}} on a cluster, while sampling the tank ({{cited:4 hours}}) and run"
+   },
+   {
+    "figure": "35 days",
+    "sentence": "One calibration supports up to 28 experiments [S8], and the site cites 33 experiments in 35 days [S12]."
+   },
+   {
+    "figure": "34 days",
+    "sentence": "The site's fifth case study ran 30 configurations in 34 days including calibration, and found different configurations best for mixing, for wall heat transfer p"
+   }
+  ],
+  "rewritten": [],
+  "unresolved": []
+ },
+ "work/ghana-community": {
+  "bound": [
+   {
+    "figure": "1,000 acres",
+    "fact": "ghana.1-000-acres",
+    "rows": [
+     "JF-LIEF-37"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "1,000 acres",
+    "fact": "ghana.1-000-acres",
+    "rows": [
+     "JF-LIEF-37"
+    ],
+    "where": "attr"
+   },
+   {
+    "figure": "1,000 acres",
+    "fact": "ghana.1-000-acres",
+    "rows": [
+     "JF-LIEF-37"
+    ],
+    "where": "attr"
+   },
+   {
+    "figure": "1,000 acres",
+    "fact": "ghana.1-000-acres",
+    "rows": [
+     "JF-LIEF-37"
+    ],
+    "where": "json"
+   },
+   {
+    "figure": "1,000 acres",
+    "fact": "ghana.1-000-acres",
+    "rows": [
+     "JF-LIEF-37"
+    ],
+    "where": "json"
+   },
+   {
+    "figure": "1,000 acres",
+    "fact": "ghana.1-000-acres",
+    "rows": [
+     "JF-LIEF-37"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "1,000 acres",
+    "fact": "ghana.1-000-acres",
+    "rows": [
+     "JF-LIEF-37"
+    ],
+    "where": "text"
+   }
+  ],
+  "cut": [
+   {
+    "figure": "$7,000",
+    "why": "no public row",
+    "where": "text",
+    "sentence": "On the kickoff call the developer's team put local wages at around $7,000 a year for an accountant, while the top homes in Accra sell for up to $3 million."
+   }
+  ],
+  "cited": [],
+  "rewritten": [],
+  "unresolved": []
+ },
+ "drive-for-the-dream": {
+  "bound": [],
+  "cut": [],
+  "cited": [],
+  "rewritten": [],
+  "unresolved": []
+ },
+ "work/greensleeves-steakhouse": {
+  "bound": [
+   {
+    "figure": "$600,000",
+    "fact": "greensleeves.usd-600-000",
+    "rows": [
+     "JF-3TR-01"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "$2.1 million",
+    "fact": "greensleeves.usd-2-1-million",
+    "rows": [
+     "JF-3TR-02"
+    ],
+    "where": "text"
+   }
+  ],
+  "cut": [],
+  "cited": [],
+  "rewritten": [],
+  "unresolved": []
+ },
+ "work/kanopi-estimating-engine": {
+  "bound": [
+   {
+    "figure": "$600 million",
+    "fact": "kanopi.usd-600-million",
+    "rows": [
+     "JF-KAN-25"
+    ],
+    "where": "attr"
+   },
+   {
+    "figure": "$600 million",
+    "fact": "kanopi.usd-600-million",
+    "rows": [
+     "JF-KAN-25"
+    ],
+    "where": "attr"
+   },
+   {
+    "figure": "$600 million",
+    "fact": "kanopi.usd-600-million",
+    "rows": [
+     "JF-KAN-25"
+    ],
+    "where": "json"
+   },
+   {
+    "figure": "$600 million",
+    "fact": "kanopi.usd-600-million",
+    "rows": [
+     "JF-KAN-25"
+    ],
+    "where": "json"
+   },
+   {
+    "figure": "$600 million",
+    "fact": "kanopi.usd-600-million",
+    "rows": [
+     "JF-KAN-25"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "$600 million",
+    "fact": "kanopi.usd-600-million",
+    "rows": [
+     "JF-KAN-25"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "6,919 SF",
+    "fact": "kanopi.6-919-sf",
+    "rows": [
+     "JF-KAN-02",
+     "JF-LIEF-02"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "4.9 percent",
+    "fact": "kanopi.4-9-percent",
+    "rows": [
+     "JF-KAN-18"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "65 percent",
+    "fact": "kanopi.65-percent",
+    "rows": [
+     "JF-KAN-13"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "50 percent",
+    "fact": "kanopi.50-percent",
+    "rows": [
+     "JF-KAN-13"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "18.6 percent",
+    "fact": "kanopi.18-6-percent",
+    "rows": [
+     "JF-KAN-06"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "31.9 percent",
+    "fact": "kanopi.31-9-percent",
+    "rows": [
+     "JF-KAN-06"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "1 percent",
+    "fact": "kanopi.1-percent",
+    "rows": [
+     "JF-KAN-09"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "40 hours",
+    "fact": "kanopi.40-hours",
+    "rows": [
+     "JF-KAN-15"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "36,153 SF",
+    "fact": "kanopi.36-153-sf",
+    "rows": [
+     "JF-KAN-21",
+     "JF-STR-16"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "2.4 percent",
+    "fact": "kanopi.2-4-percent",
+    "rows": [
+     "JF-KAN-21"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "$600 million",
+    "fact": "kanopi.usd-600-million",
+    "rows": [
+     "JF-KAN-25"
+    ],
+    "where": "text"
+   }
+  ],
+  "cut": [
+   {
+    "figure": "48 hours",
+    "why": "no public row",
+    "where": "text",
+    "sentence": "A full quantity takeoff went from about {{fact:kanopi.40-hours}} to about 40 minutes, delivered in 24 to 48 hours with the blind pass and overlay included, at an internal cost under $350."
+   }
+  ],
+  "cited": [],
+  "rewritten": [],
+  "unresolved": []
+ },
+ "tellus-design-build": {
+  "bound": [
+   {
+    "figure": "19 years",
+    "fact": "tellus.19-years",
+    "rows": [
+     "JF-TEL-02",
+     "JF-TEL-03"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "400 projects",
+    "fact": "tellus.400-projects",
+    "rows": [
+     "CG-LIEF-01",
+     "JF-TEL-01",
+     "JF-TEL-02"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "$400M",
+    "fact": "tellus.usd-400m",
+    "rows": [
+     "JF-TEL-02"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "$1B",
+    "fact": "tellus.usd-1b",
+    "rows": [
+     "JF-TEL-02"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "$22M",
+    "fact": "tellus.usd-22m",
+    "rows": [
+     "JF-TEL-02",
+     "JF-TEL-05",
+     "JF-TEL-72"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "$30 million",
+    "fact": "tellus.usd-30-million",
+    "rows": [
+     "JF-TEL-06",
+     "JF-TEL-75"
+    ],
+    "where": "text"
+   }
+  ],
+  "cut": [
+   {
+    "figure": "40 projects",
+    "why": "no public row",
+    "where": "text",
+    "sentence": "The firm kept architecture, estimating and construction under one roof, with a team of more than 60 in the field and about 15 in the office, and ran about 40 projects at once at its peak."
+   }
+  ],
+  "cited": [],
+  "rewritten": [
+   {
+    "from": "over $300M of built work, and did about $480M in business across",
+    "to": "more than $400M of built work across",
+    "why": "Retired $300M and $480M (cg-facts RET-001, RET-005); JF-TEL-02 carries $400M+ built.",
+    "count": 1
+   }
+  ],
+  "unresolved": []
+ },
+ "work/the-triangle-grand-avenue": {
+  "bound": [],
+  "cut": [],
+  "cited": [],
+  "rewritten": [],
+  "unresolved": []
+ },
+ "xtrata": {
+  "bound": [
+   {
+    "figure": "$600 million",
+    "fact": "xtrata.usd-600-million",
+    "rows": [
+     "JF-KAN-25"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "$2,041,596",
+    "fact": "xtrata.usd-2-041-596",
+    "rows": [
+     "JF-STR-14"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "$48 million",
+    "fact": "xtrata.usd-48-million",
+    "rows": [
+     "JF-STR-21"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "$220 million",
+    "fact": "xtrata.usd-220-million",
+    "rows": [
+     "JF-STR-21"
+    ],
+    "where": "text"
+   }
+  ],
+  "cut": [
+   {
+    "figure": "0%",
+    "why": "no public row",
+    "where": "text",
+    "sentence": "Published performance figures for the system include a 0% flame spread rating, resistance to 250 mph hurricane and tornado winds, insulation values of R-75 to R-100, a Sound Transmission Class of 52, and 100% recyclable materials, with average cost savings of 15 to 20% and comparable gains in build speed."
+   }
+  ],
+  "cited": [],
+  "rewritten": [],
+  "unresolved": []
+ },
+ "zen-aegis": {
+  "bound": [
+   {
+    "figure": "34.7 hours",
+    "fact": "zen-aegis.34-7-hours",
+    "rows": [
+     "RP-016"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "130 days",
+    "fact": "zen-aegis.130-days",
+    "rows": [
+     "RP-019"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "$75,000",
+    "fact": "zen-aegis.usd-75-000",
+    "rows": [
+     "RP-017"
+    ],
+    "where": "text"
+   },
+   {
+    "figure": "92.8 percent",
+    "fact": "zen-aegis.92-8-percent",
+    "rows": [
+     "RP-034"
+    ],
+    "where": "text"
+   }
+  ],
+  "cut": [],
+  "cited": [],
+  "rewritten": [],
+  "unresolved": []
+ },
+ "work/alice-mushrooms": {
+  "bound": [],
+  "cut": [],
+  "cited": [],
+  "rewritten": [],
+  "unresolved": []
+ }
+}

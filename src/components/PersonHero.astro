@@ -1,0 +1,21 @@
+---
+// A person's page header, entirely from cg-facts: name, public title at
+// Common Ground, function line and short bio. Nobody types a title here.
+import { personFact } from '../lib/facts';
+
+interface Props { slug: string }
+const { slug } = Astro.props;
+const where = `person page ${slug}`;
+const name = personFact(slug, 'name', where);
+const title = personFact(slug, 'title.common-ground-ventures', where);
+const fn = personFact(slug, 'function', where);
+const bio = personFact(slug, 'bio_short', where);
+// "Principal, Capital and Investment" already names its function line.
+const plain = (s: string) => s.toLowerCase().replace(/&/g, 'and').replace(/\s+/g, ' ');
+const cat = plain(title).includes(plain(fn)) ? title : `${title} \u00b7 ${fn}`;
+---
+<section class="page-header"><div class="wrap">
+  <h1>{name}</h1>
+  <p class="cat">{cat}</p>
+  <p>{bio}</p>
+</div></section>

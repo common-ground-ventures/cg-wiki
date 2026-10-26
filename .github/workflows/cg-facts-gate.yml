@@ -11,5 +11,7 @@ jobs:
   gate:
     uses: common-ground-ventures/cg-publish-gate/.github/workflows/gate.yml@v1
     with:
-      site-dir: .
+      site-dir: dist
+      build-command: npm ci && npm run build
+      node-version: "24"
     secrets: inherit

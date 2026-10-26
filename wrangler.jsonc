@@ -4,8 +4,12 @@
   "workers_dev": true,
   "preview_urls": true,
   "previews": {},
+  // Astro builds the site into dist/ before every deploy and preview upload.
+  "build": {
+    "command": "npm ci && npm run build"
+  },
   "assets": {
-    "directory": ".",
+    "directory": "./dist",
     "html_handling": "auto-trailing-slash",
     "not_found_handling": "none"
   }

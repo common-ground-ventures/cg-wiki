@@ -23,3 +23,12 @@ Parity against live: `python3 tools/http_parity.py https://wiki.commonground.ven
 - Copy changes (page text, new pages) merge directly.
 - Brand files (style.css, the visual engines, the footer credit) wait for Jimmy's code-owner sign-off.
 - No direct pushes and no force pushes to main. Everything goes through a pull request.
+
+## Astro pilot (branch astro-pilot, preview only)
+- Astro builds the site into dist/. Every file in public/ is copied through unchanged; the 16 pilot pages (src/content/wiki/PILOT) are rendered from src/content/wiki/*.json.
+- Each pilot entry is the page as written with every figure replaced by a `{{fact:ID}}` token. src/lib/facts.ts binds tokens from src/data/cg-facts/registry.json and fails the build on an unknown id or on a figure typed into the page. Person page headers (name, public title, function, short bio) come only from cg-facts.
+- src/data/cg-facts/ is written by the cg-facts publish step (a PR from tools/publish_export.sh in cg-facts), never by hand. It holds only the facts of subjects this wiki prints.
+- wrangler.jsonc runs `npm ci && npm run build` before every deploy and preview upload, and serves ./dist. Node 24 (.node-version).
+- Proofs: `bash tools/pilot_plants.sh` (missing id, typed figure, typed count, wiped partner) and `python3 tools/pilot_parity.py --ref <main checkout> --new dist --live https://wiki.commonground.ventures`.
+- tools/migrate_pilot.py made the entries from the live pages once; receipts/pilot-migration-2026-10-26.json lists every figure bound, cited or cut.
+- Nothing here goes to the live domain without Jesse's typed go.
