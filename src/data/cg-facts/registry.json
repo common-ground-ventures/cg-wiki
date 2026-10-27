@@ -207,8 +207,6 @@
   },
   "jesse-fowler.400-projects": {
     "rows": [
-      "CG-LIEF-01",
-      "JF-TEL-01",
       "JF-TEL-02"
     ],
     "subject": "jesse-fowler",
@@ -315,8 +313,6 @@
   },
   "jesse-fowler.usd-30-million": {
     "rows": [
-      "JF-LIEF-10",
-      "JF-SST-07",
       "JF-TEL-06"
     ],
     "subject": "jesse-fowler",
@@ -350,8 +346,6 @@
   },
   "jesse-fowler.usd-600-million": {
     "rows": [
-      "CG-ENT-02",
-      "CG-LIEF-01",
       "JF-KAN-25"
     ],
     "subject": "jesse-fowler",
@@ -360,7 +354,6 @@
   },
   "jesse-fowler.usd-75-000": {
     "rows": [
-      "JF-STR-01",
       "RP-017"
     ],
     "subject": "jesse-fowler",
@@ -450,9 +443,7 @@
   },
   "jimmy-khounlavong.usd-1b": {
     "rows": [
-      "JF-TEL-02",
-      "JK-NK-06",
-      "JK-NK-09"
+      "JK-NK-06"
     ],
     "subject": "jimmy-khounlavong",
     "surface": "RECORD",
@@ -873,9 +864,7 @@
   },
   "robbie-prochnow.10-pct": {
     "rows": [
-      "RP-006",
-      "RP-032",
-      "RP-037"
+      "RP-032"
     ],
     "subject": "robbie-prochnow",
     "surface": "RECORD",
@@ -942,7 +931,6 @@
   },
   "robbie-prochnow.usd-10m-plus": {
     "rows": [
-      "CG-APX-01",
       "RP-002"
     ],
     "subject": "robbie-prochnow",
@@ -959,7 +947,6 @@
   },
   "robbie-prochnow.usd-1m": {
     "rows": [
-      "CG-APX-01",
       "RP-DAAS-01"
     ],
     "subject": "robbie-prochnow",
@@ -968,8 +955,6 @@
   },
   "robbie-prochnow.usd-20m": {
     "rows": [
-      "RP-004",
-      "RP-007",
       "RP-009"
     ],
     "subject": "robbie-prochnow",
@@ -987,8 +972,6 @@
   },
   "tellus.400-projects": {
     "rows": [
-      "CG-LIEF-01",
-      "JF-TEL-01",
       "JF-TEL-02"
     ],
     "subject": "tellus",
