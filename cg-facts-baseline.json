@@ -1,0 +1,1170 @@
+{
+  "note": "Known findings on the day the gate was wired. Each entry is debt to fix, not a permission. Shrink it; never grow it without review.",
+  "export_commit": "7f969682a3f76ec867dc108d7fc2582f4bae9a19",
+  "findings": [
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|jesse-fowler/index.html|$480M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|jimmy-khounlavong/index.html|$1.2B",
+      "count": 2
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|jimmy-khounlavong/index.html|$1.2B+",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|jimmy-khounlavong/index.html|$1.7M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|jimmy-khounlavong/index.html|$105M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|jimmy-khounlavong/index.html|$15M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|jimmy-khounlavong/index.html|$181M",
+      "count": 2
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|jimmy-khounlavong/index.html|$321M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|jimmy-khounlavong/index.html|$322M",
+      "count": 3
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|jimmy-khounlavong/index.html|$5.4M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|jimmy-khounlavong/index.html|$5M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|jimmy-khounlavong/index.html|$670M",
+      "count": 3
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|llms.txt|$1.2B+",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|llms.txt|$1.7M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|llms.txt|$15M",
+      "count": 2
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|llms.txt|$322M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|llms.txt|$5.4M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|llms.txt|$5M",
+      "count": 2
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|llms.txt|$60.2M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|llms.txt|$66.0M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|llms.txt|$670M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|record/index.html|$1.2B",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|record/index.html|$1.8M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|record/index.html|$18.75M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|record/index.html|$2.64M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|record/index.html|$285M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|record/index.html|$3.74M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|record/index.html|$40M+",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|record/index.html|$4M+",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|record/index.html|$9.5M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|record/index.html|$9.6M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|record/index.html|$912M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|record/index.html|$9M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|stories/phasing-a-build-so-an-nba-team-never-had-to-stop-training/index.html|$1.2 million",
+      "count": 2
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|tellus-design-build/index.html|$480M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/air-visi-pro-iii/index.html|$13.5M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/air-visi-pro-iii/index.html|$2.43M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/air-visi-pro-iii/index.html|$4.7M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/amplify-basketball-and-basketball-by-nike/index.html|$150.1M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/asian-american-heritage-month-open-house/index.html|$397 billion",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/asian-american-heritage-month-open-house/index.html|$579 billion",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/barbershop-client/index.html|$1,044,000",
+      "count": 2
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/born-mercurial/index.html|$1.7M",
+      "count": 6
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/canyon-corporate/index.html|$2,191,773",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/cdw/index.html|$15M",
+      "count": 13
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/city-of-athletes-nike-sportswear/index.html|$1.5B",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/city-specialty-assortment-rollout/index.html|$224M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/city-specialty-assortment-rollout/index.html|$277M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/city-specialty-assortment-rollout/index.html|$54M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/city-specialty-assortment-rollout/index.html|$751M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/conquer-the-core/index.html|$105M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/conquer-the-core/index.html|$117M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/conquer-the-core/index.html|$133M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/conquer-the-core/index.html|$17M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/conquer-the-core/index.html|$321M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/conquer-the-core/index.html|$48.7M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/conquer-the-core/index.html|$54.3M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/conquer-the-core/index.html|$5M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/conquer-the-core/index.html|$7.8M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/detroit-sporting-goods/index.html|$13.7M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/dunhams-football-cleat-share/index.html|$2.7M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/fall-2019-line-plan-framework/index.html|$2.3M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/fall-2019-line-plan-framework/index.html|$38.4M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/fall-2019-line-plan-framework/index.html|$4.5M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/fall-2019-line-plan-framework/index.html|$45.2M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/finish-line-lexington-store/index.html|$3.2M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/finish-line-lexington-store/index.html|$5M",
+      "count": 12
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/fiscal-2013-share-margin-fewer-styles/index.html|$102M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/fiscal-2013-share-margin-fewer-styles/index.html|$103M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/fiscal-2013-share-margin-fewer-styles/index.html|$131M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/fiscal-2013-share-margin-fewer-styles/index.html|$132M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/fiscal-2013-share-margin-fewer-styles/index.html|$137M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/fiscal-2013-share-margin-fewer-styles/index.html|$139M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/fiscal-2013-share-margin-fewer-styles/index.html|$422M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/fiscal-2013-share-margin-fewer-styles/index.html|$68M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/fiscal-2013-share-margin-fewer-styles/index.html|$79M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/fiscal-2013-share-margin-fewer-styles/index.html|$86M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/fiscal-2014-growth-with-flat-inventory/index.html|$13.7M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/fiscal-2014-growth-with-flat-inventory/index.html|$25.8M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/fiscal-2014-growth-with-flat-inventory/index.html|$37M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/fiscal-2014-growth-with-flat-inventory/index.html|$43M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/fiscal-2014-growth-with-flat-inventory/index.html|$457M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/fiscal-2014-growth-with-flat-inventory/index.html|$486M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/fiscal-2014-growth-with-flat-inventory/index.html|$78M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/fiscal-2015-plan-beaten-every-season/index.html|$10.1M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/fiscal-2015-plan-beaten-every-season/index.html|$111.1M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/fiscal-2015-plan-beaten-every-season/index.html|$118.3M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/fiscal-2015-plan-beaten-every-season/index.html|$132.6M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/fiscal-2015-plan-beaten-every-season/index.html|$141.2M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/fiscal-2015-plan-beaten-every-season/index.html|$177.0M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/fiscal-2015-plan-beaten-every-season/index.html|$182M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/fiscal-2015-plan-beaten-every-season/index.html|$187.1M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/fiscal-2015-plan-beaten-every-season/index.html|$189.4M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/fiscal-2015-plan-beaten-every-season/index.html|$196M",
+      "count": 2
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/fiscal-2015-plan-beaten-every-season/index.html|$197.1M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/fiscal-2015-plan-beaten-every-season/index.html|$204M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/fiscal-2015-plan-beaten-every-season/index.html|$33.6M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/fiscal-2015-plan-beaten-every-season/index.html|$610.1M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/fiscal-2015-plan-beaten-every-season/index.html|$643.7M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/fiscal-2015-plan-beaten-every-season/index.html|$7.2M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/fiscal-2015-plan-beaten-every-season/index.html|$7.7M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/fiscal-2015-plan-beaten-every-season/index.html|$8.6M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/global-broadcast-and-geography-calendar/index.html|$17.9M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/global-broadcast-and-geography-calendar/index.html|$2.8M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/global-broadcast-and-geography-calendar/index.html|$3.8M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/global-broadcast-and-geography-calendar/index.html|$49.5M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/hibbett-sports-door-clusters/index.html|$156M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/hibbett-sports-door-clusters/index.html|$394M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/hibbett-sports-door-clusters/index.html|$550M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/hightide-capital/index.html|$5,000,000,",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/iconic-mall-positioning-deck/index.html|$120B",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/index.html|$1.2B+",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/index.html|$1.7M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/index.html|$15M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/index.html|$322M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/index.html|$5.4M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/index.html|$5M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/index.html|$670M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/jasper-brands-golf-polo-line/index.html|$2.48B",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/jasper-brands-golf-polo-line/index.html|$4.13B",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/kill-zone-mid-price-footwear/index.html|$129M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/kill-zone-mid-price-footwear/index.html|$12M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/kill-zone-mid-price-footwear/index.html|$13.7M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/kill-zone-mid-price-footwear/index.html|$144M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/kill-zone-mid-price-footwear/index.html|$3.6M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/kill-zone-mid-price-footwear/index.html|$5M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/la-clippers-practice-facility/index.html|$1.2 million",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/lebron-x-launch-holiday-2012/index.html|$1.6M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/lebron-x-launch-holiday-2012/index.html|$14.6M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/lebron-x-launch-holiday-2012/index.html|$17.4M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/lebron-x-launch-holiday-2012/index.html|$19.0M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/lebron-x-launch-holiday-2012/index.html|$2.5M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/lebron-x-launch-holiday-2012/index.html|$4.4M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/lief-midtown-brand-system/index.html|$1.88M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/lief-midtown-residence-pages-and-search-readiness/index.html|$1,877,864",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/los-angeles-launch-calendar/index.html|$1.2B",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/margin-tools-and-price-ladder/index.html|$128.8M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/margin-tools-and-price-ladder/index.html|$154.6M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/medical-device-us-entry/index.html|$2 million",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/medline-baptist-hospital-system/index.html|$2.0M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/nba-by-air-force-1/index.html|$4.1M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/net-collectors-society-march-madness/index.html|$10.6M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/net-collectors-society-march-madness/index.html|$10.7M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/net-collectors-society-march-madness/index.html|$15.1M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/net-collectors-society-march-madness/index.html|$2M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/net-collectors-society-march-madness/index.html|$4.5M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/net-collectors-society-march-madness/index.html|$9.2M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/nike-basketball-north-america/index.html|$322M",
+      "count": 6
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/nike-basketball-north-america/index.html|$348M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/nike-basketball-north-america/index.html|$37M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/nike-basketball-north-america/index.html|$381.8M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/nike-basketball-north-america/index.html|$610.1M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/nike-basketball-north-america/index.html|$643.7M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/nike-basketball-north-america/index.html|$670M",
+      "count": 6
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/nike-basketball-north-america/index.html|$78M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/nike-by-you-merchandising-organization/index.html|$181M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/nike-by-you-merchandising-organization/index.html|$2M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/nike-by-you-rebrand/index.html|$1.1M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/nike-by-you-rebrand/index.html|$1.7M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/nike-by-you-rebrand/index.html|$181M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/nike-by-you-rebrand/index.html|$2.5M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/nike-by-you-rebrand/index.html|$2M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/nike-by-you-rebrand/index.html|$5.4M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/nike-factory-store-basketball-program/index.html|$1.35M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/nike-factory-store-basketball-program/index.html|$1.45M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/nike-factory-store-basketball-program/index.html|$15.17M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/nike-factory-store-basketball-program/index.html|$16.52M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/nike-factory-store-basketball-program/index.html|$6.7M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/nike-factory-store-basketball-program/index.html|$8.7M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/nike-factory-store-basketball-program/index.html|$9.0M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/nike-mens-running-north-america/index.html|$60.2M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/nike-mens-running-north-america/index.html|$66.0M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/nike-plus-member-shop-launch/index.html|$4.5M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/nike-plus-member-shop-launch/index.html|$4.7M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/nike-plus-member-shop-launch/index.html|$5.4M",
+      "count": 7
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/nike-sportswear-la-strategy-fy21-23/index.html|$1.5B",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/nike-sportswear-la-strategy-fy21-23/index.html|$142.9M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/nike-sportswear-la-strategy-fy21-23/index.html|$183M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/nike-sportswear-la-strategy-fy21-23/index.html|$232.6M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/nike-sportswear-la-strategy-fy21-23/index.html|$233M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/nike-sportswear-la-strategy-fy21-23/index.html|$416M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/nike-sportswear-los-angeles/index.html|$1.2B+",
+      "count": 5
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/nike-sportswear-los-angeles/index.html|$183M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/pendleton-winter-packs-material-buy/index.html|$2.5M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/pendleton-winter-packs-material-buy/index.html|$2M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/running-channel-briefs/index.html|$3.5M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/running-pricing-architecture-kill-zone/index.html|$2.8B",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/running-pricing-architecture-kill-zone/index.html|$3.1B",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/running-pricing-architecture-kill-zone/index.html|$60M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/shelby-american-las-vegas/index.html|$14 million",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/shiekh-three-year-plan-and-assortment/index.html|$19.2M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/shiekh-three-year-plan-and-assortment/index.html|$19.4M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/shiekh-three-year-plan-and-assortment/index.html|$20.7M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/shiekh-three-year-plan-and-assortment/index.html|$24.3M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/shiekh-three-year-plan-and-assortment/index.html|$4.1M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/soft-story-retrofit/index.html|$1.3 billion",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/sporting-goods-strategy-and-dallas-trip/index.html|$165M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/sporting-goods-strategy-and-dallas-trip/index.html|$20.4M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/sporting-goods-strategy-and-dallas-trip/index.html|$62M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/sporting-goods-strategy-and-dallas-trip/index.html|$75M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/sporting-goods-strategy-and-dallas-trip/index.html|$95M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/spring-2018-gap-closing/index.html|$10.8M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/spring-2018-gap-closing/index.html|$14.4M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/spring-2018-gap-closing/index.html|$19.7M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/spring-2018-gap-closing/index.html|$201.3M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/spring-2018-gap-closing/index.html|$225.2M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/spring-2018-gap-closing/index.html|$23.9M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/spring-2018-gap-closing/index.html|$244.9M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/spring-2018-gap-closing/index.html|$261.5M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/spring-2018-gap-closing/index.html|$4.0M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/spring-2018-gap-closing/index.html|$40.5M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/spring-2018-gap-closing/index.html|$43.6M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/spring-2018-gap-closing/index.html|$60.2M",
+      "count": 7
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/spring-2018-gap-closing/index.html|$66.0M",
+      "count": 7
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/spring-2018-gap-closing/index.html|$8.2M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/spring-2018-gap-closing/index.html|$8.3M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/spring-2018-gap-closing/index.html|$8.6M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/spring-2018-gap-closing/index.html|$9.5M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/the-pitch-for-los-angeles-june-2018/index.html|$1.1B",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/the-pitch-for-los-angeles-june-2018/index.html|$1.3B",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/the-pitch-for-los-angeles-june-2018/index.html|$1.5B",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/three-year-line-plan/index.html|$555M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/three-year-line-plan/index.html|$580M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/three-year-line-plan/index.html|$705M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/vapormax-north-america-launch/index.html|$10.1M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/vapormax-north-america-launch/index.html|$17.2M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/wss-three-year-plan/index.html|$22.5M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/wss-three-year-plan/index.html|$22.7M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/wss-three-year-plan/index.html|$24.0M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/wss-three-year-plan/index.html|$24.4M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/wss-three-year-plan/index.html|$26.9M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/wss-three-year-plan/index.html|$29.7M",
+      "count": 1
+    },
+    {
+      "fingerprint": "FIGURE-UNAPPROVED|work/wss-three-year-plan/index.html|$7.1M",
+      "count": 1
+    },
+    {
+      "fingerprint": "NAME-RETIRED-AEGIS-LENS|jesse-fowler/index.html|Aegis Lens",
+      "count": 3
+    },
+    {
+      "fingerprint": "NAME-RETIRED-AEGIS-LENS|kinwork/index.html|Aegis Lens",
+      "count": 2
+    },
+    {
+      "fingerprint": "NAME-RETIRED-AEGIS-LENS|llms.txt|Aegis Lens",
+      "count": 2
+    },
+    {
+      "fingerprint": "NAME-RETIRED-AEGIS-LENS|record/index.html|Aegis Lens",
+      "count": 1
+    },
+    {
+      "fingerprint": "NAME-RETIRED-AEGIS-LENS|robert-prochnow/index.html|Aegis Lens",
+      "count": 3
+    },
+    {
+      "fingerprint": "NAME-RETIRED-AEGIS-LENS|stories/collecting-the-facts-instead-of-asking-for-them/index.html|Aegis Lens",
+      "count": 4
+    },
+    {
+      "fingerprint": "NAME-RETIRED-AEGIS-LENS|work/aegis-lens/index.html|Aegis Lens",
+      "count": 13
+    },
+    {
+      "fingerprint": "NAME-RETIRED-AEGIS-LENS|work/index.html|Aegis Lens",
+      "count": 3
+    },
+    {
+      "fingerprint": "NAME-RETIRED-AEGIS-LENS|zen-aegis/index.html|Aegis Lens",
+      "count": 5
+    },
+    {
+      "fingerprint": "NAME-RETIRED-FOYER-HALL|jesse-fowler/index.html|Foyer Hall",
+      "count": 4
+    },
+    {
+      "fingerprint": "NAME-RETIRED-FOYER-HALL|kinwork/index.html|Foyer Hall",
+      "count": 2
+    },
+    {
+      "fingerprint": "NAME-RETIRED-FOYER-HALL|llms.txt|Foyer Hall",
+      "count": 3
+    },
+    {
+      "fingerprint": "NAME-RETIRED-FOYER-HALL|record/index.html|Foyer Hall",
+      "count": 3
+    },
+    {
+      "fingerprint": "NAME-RETIRED-FOYER-HALL|robert-prochnow/index.html|Foyer Hall",
+      "count": 3
+    },
+    {
+      "fingerprint": "NAME-RETIRED-FOYER-HALL|stories/index.html|Foyer Hall",
+      "count": 1
+    },
+    {
+      "fingerprint": "NAME-RETIRED-FOYER-HALL|stories/two-hours-to-fix-the-first-client-invoice/index.html|Foyer Hall",
+      "count": 9
+    },
+    {
+      "fingerprint": "NAME-RETIRED-FOYER-HALL|work/foyer-hall/index.html|Foyer Hall",
+      "count": 15
+    },
+    {
+      "fingerprint": "NAME-RETIRED-FOYER-HALL|work/index.html|Foyer Hall",
+      "count": 3
+    },
+    {
+      "fingerprint": "NAME-RETIRED-FOYER-HALL|zen-aegis/index.html|Foyer Hall",
+      "count": 7
+    },
+    {
+      "fingerprint": "NAME-RETIRED-KINWORK|common-ground/index.html|Kinwork",
+      "count": 1
+    },
+    {
+      "fingerprint": "NAME-RETIRED-KINWORK|data-rooms/index.html|Kinwork",
+      "count": 1
+    },
+    {
+      "fingerprint": "NAME-RETIRED-KINWORK|index.html|Kinwork",
+      "count": 1
+    },
+    {
+      "fingerprint": "NAME-RETIRED-KINWORK|jesse-fowler/index.html|Kinwork",
+      "count": 1
+    },
+    {
+      "fingerprint": "NAME-RETIRED-KINWORK|kinwork/index.html|Kinwork",
+      "count": 11
+    },
+    {
+      "fingerprint": "NAME-RETIRED-KINWORK|llms.txt|Kinwork",
+      "count": 1
+    },
+    {
+      "fingerprint": "NAME-RETIRED-KINWORK|work/brand-standards-for-six-brands/index.html|Kinwork",
+      "count": 1
+    },
+    {
+      "fingerprint": "NAME-RETIRED-KINWORK|work/search-and-ai-readiness/index.html|Kinwork",
+      "count": 1
+    },
+    {
+      "fingerprint": "NAME-RETIRED-KINWORK|work/work-and-seat-map/index.html|Kinwork",
+      "count": 1
+    },
+    {
+      "fingerprint": "NAME-RETIRED-KINWORK|zen-aegis/index.html|Kinwork",
+      "count": 1
+    },
+    {
+      "fingerprint": "NAME-RETIRED-SLIPSTREAM|jesse-fowler/index.html|Slipstream",
+      "count": 3
+    },
+    {
+      "fingerprint": "NAME-RETIRED-SLIPSTREAM|kinwork/index.html|Slipstream",
+      "count": 3
+    },
+    {
+      "fingerprint": "NAME-RETIRED-SLIPSTREAM|llms.txt|Slipstream",
+      "count": 2
+    },
+    {
+      "fingerprint": "NAME-RETIRED-SLIPSTREAM|record/index.html|Slipstream",
+      "count": 1
+    },
+    {
+      "fingerprint": "NAME-RETIRED-SLIPSTREAM|robert-prochnow/index.html|Slipstream",
+      "count": 3
+    },
+    {
+      "fingerprint": "NAME-RETIRED-SLIPSTREAM|stories/testing-the-engine-against-an-expert-before-trusting-its-scores/index.html|Slipstream",
+      "count": 2
+    },
+    {
+      "fingerprint": "NAME-RETIRED-SLIPSTREAM|work/index.html|Slipstream",
+      "count": 3
+    },
+    {
+      "fingerprint": "NAME-RETIRED-SLIPSTREAM|work/search-and-ai-readiness/index.html|Slipstream",
+      "count": 1
+    },
+    {
+      "fingerprint": "NAME-RETIRED-SLIPSTREAM|work/slipstream-scoring-engine/index.html|Slipstream",
+      "count": 13
+    },
+    {
+      "fingerprint": "NAME-RETIRED-SLIPSTREAM|zen-aegis/index.html|Slipstream",
+      "count": 6
+    },
+    {
+      "fingerprint": "RET-002|jimmy-khounlavong/index.html|$1.2B",
+      "count": 3
+    },
+    {
+      "fingerprint": "RET-002|llms.txt|$1.2B",
+      "count": 1
+    },
+    {
+      "fingerprint": "RET-002|record/index.html|$1.2B",
+      "count": 1
+    },
+    {
+      "fingerprint": "RET-002|work/index.html|$1.2B",
+      "count": 1
+    },
+    {
+      "fingerprint": "RET-002|work/los-angeles-launch-calendar/index.html|$1.2B",
+      "count": 1
+    },
+    {
+      "fingerprint": "RET-002|work/nike-sportswear-los-angeles/index.html|$1.2B",
+      "count": 5
+    },
+    {
+      "fingerprint": "RET-003|jimmy-khounlavong/index.html|$322M",
+      "count": 3
+    },
+    {
+      "fingerprint": "RET-003|llms.txt|$322M",
+      "count": 1
+    },
+    {
+      "fingerprint": "RET-003|work/index.html|$322M",
+      "count": 1
+    },
+    {
+      "fingerprint": "RET-003|work/nike-basketball-north-america/index.html|$322M",
+      "count": 6
+    },
+    {
+      "fingerprint": "RET-004|jimmy-khounlavong/index.html|$670M",
+      "count": 3
+    },
+    {
+      "fingerprint": "RET-004|llms.txt|$670M",
+      "count": 1
+    },
+    {
+      "fingerprint": "RET-004|work/index.html|$670M",
+      "count": 1
+    },
+    {
+      "fingerprint": "RET-004|work/nike-basketball-north-america/index.html|$670M",
+      "count": 6
+    },
+    {
+      "fingerprint": "RET-005|jesse-fowler/index.html|$480M",
+      "count": 1
+    },
+    {
+      "fingerprint": "RET-005|tellus-design-build/index.html|$480M",
+      "count": 1
+    },
+    {
+      "fingerprint": "RET-006|llms.txt|100+ years",
+      "count": 1
+    },
+    {
+      "fingerprint": "RET-006|stories/cutting-the-cheap-number-even-though-it-sounded-good/index.html|100+ years",
+      "count": 6
+    },
+    {
+      "fingerprint": "RET-006|stories/index.html|100+ years",
+      "count": 1
+    }
+  ]
+}
