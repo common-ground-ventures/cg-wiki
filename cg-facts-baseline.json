@@ -1,63 +1,7 @@
 {
   "note": "Known findings on the day the gate was wired. Each entry is debt to fix, not a permission. Shrink it; never grow it without review.",
-  "export_commit": "d3a823d29a4d213d012ddbf278e47c19772b98f7",
+  "export_commit": "7f969682a3f76ec867dc108d7fc2582f4bae9a19",
   "findings": [
-    {
-      "fingerprint": "FIGURE-UNAPPROVED|jesse-fowler/index.html|$300M",
-      "count": 1
-    },
-    {
-      "fingerprint": "FIGURE-UNAPPROVED|jesse-fowler/index.html|$480M",
-      "count": 1
-    },
-    {
-      "fingerprint": "FIGURE-UNAPPROVED|jimmy-khounlavong/index.html|$1.2B",
-      "count": 2
-    },
-    {
-      "fingerprint": "FIGURE-UNAPPROVED|jimmy-khounlavong/index.html|$1.2B+",
-      "count": 1
-    },
-    {
-      "fingerprint": "FIGURE-UNAPPROVED|jimmy-khounlavong/index.html|$1.7M",
-      "count": 1
-    },
-    {
-      "fingerprint": "FIGURE-UNAPPROVED|jimmy-khounlavong/index.html|$105M",
-      "count": 1
-    },
-    {
-      "fingerprint": "FIGURE-UNAPPROVED|jimmy-khounlavong/index.html|$15M",
-      "count": 1
-    },
-    {
-      "fingerprint": "FIGURE-UNAPPROVED|jimmy-khounlavong/index.html|$181M",
-      "count": 2
-    },
-    {
-      "fingerprint": "FIGURE-UNAPPROVED|jimmy-khounlavong/index.html|$321M",
-      "count": 1
-    },
-    {
-      "fingerprint": "FIGURE-UNAPPROVED|jimmy-khounlavong/index.html|$322M",
-      "count": 3
-    },
-    {
-      "fingerprint": "FIGURE-UNAPPROVED|jimmy-khounlavong/index.html|$5.4M",
-      "count": 1
-    },
-    {
-      "fingerprint": "FIGURE-UNAPPROVED|jimmy-khounlavong/index.html|$5M",
-      "count": 1
-    },
-    {
-      "fingerprint": "FIGURE-UNAPPROVED|jimmy-khounlavong/index.html|$670M",
-      "count": 3
-    },
-    {
-      "fingerprint": "FIGURE-UNAPPROVED|lief-development/index.html|$300M",
-      "count": 1
-    },
     {
       "fingerprint": "FIGURE-UNAPPROVED|llms.txt|$1.2B+",
       "count": 1
@@ -92,10 +36,6 @@
     },
     {
       "fingerprint": "FIGURE-UNAPPROVED|llms.txt|$670M",
-      "count": 1
-    },
-    {
-      "fingerprint": "FIGURE-UNAPPROVED|news/2026-01-13-common-ground-contracted-to-build-proprietary-construction-e/index.html|$300M+",
       "count": 1
     },
     {
@@ -149,14 +89,6 @@
     {
       "fingerprint": "FIGURE-UNAPPROVED|stories/phasing-a-build-so-an-nba-team-never-had-to-stop-training/index.html|$1.2 million",
       "count": 2
-    },
-    {
-      "fingerprint": "FIGURE-UNAPPROVED|tellus-design-build/index.html|$300M",
-      "count": 1
-    },
-    {
-      "fingerprint": "FIGURE-UNAPPROVED|tellus-design-build/index.html|$480M",
-      "count": 1
     },
     {
       "fingerprint": "FIGURE-UNAPPROVED|work/air-visi-pro-iii/index.html|$13.5M",
@@ -1107,42 +1039,6 @@
       "count": 6
     },
     {
-      "fingerprint": "NEVER-ALEX-PRINCE-CFO|index.html|CFO",
-      "count": 1
-    },
-    {
-      "fingerprint": "NEVER-ALEX-PRINCE-CFO|prince-capital/index.html|CFO",
-      "count": 1
-    },
-    {
-      "fingerprint": "NEVER-ROBBIE-PROCHNOW-FRACTIONAL-CTO|work/pe-backed-medical-group-questions/index.html|Fractional CTO",
-      "count": 1
-    },
-    {
-      "fingerprint": "NEVER-ROBBIE-PROCHNOW-FRACTIONAL-CTO|work/pe-backed-medical-group/index.html|Fractional CTO",
-      "count": 1
-    },
-    {
-      "fingerprint": "RET-001|jesse-fowler/index.html|$300M",
-      "count": 1
-    },
-    {
-      "fingerprint": "RET-001|lief-development/index.html|$300M",
-      "count": 1
-    },
-    {
-      "fingerprint": "RET-001|news/2026-01-13-common-ground-contracted-to-build-proprietary-construction-e/index.html|$300M",
-      "count": 1
-    },
-    {
-      "fingerprint": "RET-001|tellus-design-build/index.html|$300M",
-      "count": 1
-    },
-    {
-      "fingerprint": "RET-002|jimmy-khounlavong/index.html|$1.2B",
-      "count": 3
-    },
-    {
       "fingerprint": "RET-002|llms.txt|$1.2B",
       "count": 1
     },
@@ -1163,10 +1059,6 @@
       "count": 5
     },
     {
-      "fingerprint": "RET-003|jimmy-khounlavong/index.html|$322M",
-      "count": 3
-    },
-    {
       "fingerprint": "RET-003|llms.txt|$322M",
       "count": 1
     },
@@ -1177,10 +1069,6 @@
     {
       "fingerprint": "RET-003|work/nike-basketball-north-america/index.html|$322M",
       "count": 6
-    },
-    {
-      "fingerprint": "RET-004|jimmy-khounlavong/index.html|$670M",
-      "count": 3
     },
     {
       "fingerprint": "RET-004|llms.txt|$670M",
@@ -1195,14 +1083,6 @@
       "count": 6
     },
     {
-      "fingerprint": "RET-005|jesse-fowler/index.html|$480M",
-      "count": 1
-    },
-    {
-      "fingerprint": "RET-005|tellus-design-build/index.html|$480M",
-      "count": 1
-    },
-    {
       "fingerprint": "RET-006|llms.txt|100+ years",
       "count": 1
     },
@@ -1215,27 +1095,7 @@
       "count": 1
     },
     {
-      "fingerprint": "RET-013|jesse-fowler/index.html|Execution & Development principal",
-      "count": 5
-    },
-    {
-      "fingerprint": "RET-013|jesse-fowler/index.html|Principal \u00b7 Execution & Development",
-      "count": 1
-    },
-    {
       "fingerprint": "RET-013|jesse-fowler/index.html|Principal, Execution and Development",
-      "count": 1
-    },
-    {
-      "fingerprint": "RET-013|lief-development/index.html|Execution & Development principal",
-      "count": 1
-    },
-    {
-      "fingerprint": "RET-014|index.html|CFO",
-      "count": 1
-    },
-    {
-      "fingerprint": "RET-014|prince-capital/index.html|CFO",
       "count": 1
     }
   ]
