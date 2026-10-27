@@ -1,0 +1,24 @@
+Pass-through files: 391 byte-identical, 0 different
+
+Fact-bound pilot pages (reference vs Astro):
+  page                                           words  sentences kept     links  headings title meta jsonld
+  /jesse-fowler/                            3405>3394     111/116        74/74        same same  DIFF DIFF
+  /alex-prince/                             1177>1137      45/48         11/11        same same  same same
+  /jimmy-khounlavong/                       5791>4892     134/176       125/125       same same  same same
+  /nick-scavio/                              124>119        5/7           6/6         same same  same same
+  /robert-prochnow/                         1705>1687      59/62         34/34        same same  same same
+  /work/lief-midtown-301-osborn/            1506>1392      44/48         28/28        same same  same same
+  /work/fluidmapper/                        4755>4755     357/357        17/17        same same  same same
+  /work/ghana-community/                    1137>1107      33/34         10/10        same same  same same
+  /drive-for-the-dream/                      198>198        8/8          10/10        same same  same same
+  /work/greensleeves-steakhouse/             934>934       32/32         22/22        same same  same same
+  /work/kanopi-estimating-engine/           1580>1548      50/51         23/23        same same  same same
+  /tellus-design-build/                      631>590       18/20         21/21        same same  same same
+  /work/the-triangle-grand-avenue/           793>793       27/27         12/12        same same  same same
+  /xtrata/                                   330>280       11/12         12/12        same same  same same
+  /zen-aegis/                               1612>1612      63/63         32/32        same same  same same
+  /work/alice-mushrooms/                     697>697       25/25         10/10        same same  same same
+  TOTAL sentences kept 1022/1086 (94%), words 26375 > 25135
+
+Reference vs live https://wiki.commonground.ventures (Cloudflare analytics beacon stripped):
+  16/16 pilot pages: the reference equals what the live wiki serves today

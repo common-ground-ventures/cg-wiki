@@ -1,0 +1,17 @@
+name: cg-facts gate
+
+# Scans the published files against cg-facts before they can go live.
+# See https://github.com/common-ground-ventures/cg-publish-gate
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  gate:
+    uses: common-ground-ventures/cg-publish-gate/.github/workflows/gate.yml@v1
+    with:
+      site-dir: dist
+      build-command: npm ci && npm run build
+      node-version: "24"
+    secrets: inherit

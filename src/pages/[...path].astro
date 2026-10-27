@@ -1,0 +1,21 @@
+---
+import { getCollection } from 'astro:content';
+import WikiPage from '../layouts/WikiPage.astro';
+import { has } from '../lib/facts';
+
+export async function getStaticPaths() {
+  const pages = await getCollection('wiki');
+  return pages
+    .filter((p) => {
+      // A person wiped from cg-facts has no name in the export: the page is
+      // not built, and any other page citing their facts fails the build.
+      if (p.data.kind !== 'person' || has(`person.${p.data.subject}.name`)) return true;
+      console.warn(`cg-facts: /${p.data.path}/ not built, ${p.data.subject} is not in the export`);
+      return false;
+    })
+    .map((p) => ({ params: { path: p.data.path }, props: { page: p.data } }));
+}
+
+const { page } = Astro.props;
+---
+<WikiPage page={page} />

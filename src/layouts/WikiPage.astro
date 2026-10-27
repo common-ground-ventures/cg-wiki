@@ -1,0 +1,29 @@
+---
+import { bind, lint } from '../lib/facts';
+import PersonHero from '../components/PersonHero.astro';
+import SiteFooter from '../components/SiteFooter.astro';
+
+interface Props {
+  page: { path: string; kind: 'person' | 'project'; subject: string; head: string; body: string };
+}
+const { page } = Astro.props;
+const where = `/${page.path}/`;
+
+lint(page.head, where);
+lint(page.body, where);
+const head = bind(page.head, where);
+const body = bind(page.body, where);
+const [beforeHero, afterHero] = page.kind === 'person' ? body.split('<!--person-hero-->') : [body, ''];
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<Fragment set:html={head} />
+</head>
+<body class="cg-theme">
+<Fragment set:html={beforeHero} />
+{page.kind === 'person' && <PersonHero slug={page.subject} />}
+<Fragment set:html={afterHero} />
+<SiteFooter />
+</body>
+</html>
