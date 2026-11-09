@@ -413,5 +413,7 @@
     "wrangler.jsonc": "062758e43909ac48510203cd27e550a9b872f80654365d5760a01a5b7e32c733",
     "xtrata/index.html": "6f0b47d3f722aa4d5e9df48adbba3f7be73e528253e1d8f97ab65347f2530f6a",
     "zen-aegis/index.html": "d99184ab2de1fe7a5454872e6dd3d5283a4fd19a7b51b7f7fbbf9faa1a3dc49e"
-  }
+  },
+  "source_commit": "d5dce584b4c72df048fd3bee3ed767bddfe79938",
+  "source_repo": "common-ground-ventures/wiki-source"
 }
