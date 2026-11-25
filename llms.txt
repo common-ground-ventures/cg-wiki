@@ -1,10 +1,10 @@
 # Common Ground Wiki
 
-> Reference pages for Common Ground (also Common Ground Ventures), a principal-led group based in Phoenix, Arizona that builds, funds, operates, automates with AI and protects companies from the inside. Principals: Jesse Fowler, Alex Prince, Jimmy Khounlavong, Robby Prochnow, Nick Scavio. Every page here is created by Common Ground. Structured data on each page uses the organization id https://www.commonground.ventures/#org.
+> Reference pages for Common Ground (also Common Ground Ventures), a venture operating firm based in Phoenix, Arizona. A venture operating firm brings the people, processes, or capital a company is missing, and works inside the business to build it from zero or move it past a stall. Principals: Jesse Fowler, Alex Prince, Jimmy Khounlavong, Robby Prochnow, Nick Scavio. Every page here is created by Common Ground. Structured data on each page uses the organization id https://www.commonground.ventures/#org.
 
 ## About
 - [Common Ground](https://wiki.commonground.ventures/common-ground/): the group, its five principals and its ventures
-- [Results-Based Advisory](https://wiki.commonground.ventures/results-based-advisory/): how the group prices work, fee tied to a metric
+- [How We Work](https://wiki.commonground.ventures/how-we-work/): what a venture operating firm is, the two modes (build and scale), how the work runs and what it includes, from building companies to websites, Beacon, audits and specific products
 - [Kinwork](https://wiki.commonground.ventures/kinwork/): the group's client tools (draft)
 - [Data Rooms](https://wiki.commonground.ventures/data-rooms/): one data room per Common Ground project, indexed at https://datarooms.commonground.ventures/
 
